@@ -1,5 +1,4 @@
 // app/about-me/page.js
-
 "use client";
 
 import Link from "next/link";
@@ -10,12 +9,8 @@ export default function AboutMe() {
       <div className="container mx-auto px-6 py-12 max-w-4xl">
         {/* Header */}
         <header className="text-center">
-          <h1 className="text-5xl font-bold mb-4 animate-fade-in">
-            About Me
-          </h1>
-          <p className="text-gray-400 text-lg">
-            A glimpse into who I am and what drives me.
-          </p>
+          <h1 className="text-5xl font-bold mb-4 animate-fade-in">About Me</h1>
+          <p className="text-gray-400 text-lg">A glimpse into who I am and what drives me.</p>
         </header>
 
         {/* Introduction Section */}
@@ -39,9 +34,7 @@ export default function AboutMe() {
 
         {/* Skills Section */}
         <section className="mt-16">
-          <h2 className="text-3xl font-semibold text-blue-400 text-center mb-6">
-            My Core Skills
-          </h2>
+          <h2 className="text-3xl font-semibold text-blue-400 text-center mb-6">My Core Skills</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {[
               { skill: "JavaScript", icon: "🟨" },
@@ -64,9 +57,7 @@ export default function AboutMe() {
 
         {/* Interests Section */}
         <section className="mt-16">
-          <h2 className="text-3xl font-semibold text-blue-400 text-center mb-6">
-            What I Love
-          </h2>
+          <h2 className="text-3xl font-semibold text-blue-400 text-center mb-6">What I Love</h2>
           <p className="text-gray-300 text-center max-w-2xl mx-auto">
             Beyond coding, I enjoy exploring new technologies, playing video games, 
             hiking the breathtaking trails of Colorado, and indulging in my passion for photography. 
@@ -76,10 +67,11 @@ export default function AboutMe() {
 
         {/* Call to Action */}
         <footer className="mt-16 text-center">
-          <Link href="/">
-            <a className="inline-block bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all">
-              Back to Home
-            </a>
+          <Link
+            href="/"
+            className="inline-block bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all"
+          >
+            Back to Home
           </Link>
         </footer>
       </div>

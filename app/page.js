@@ -21,18 +21,17 @@ export default function HomePage() {
       </header>
 
       {/* Portfolio Button */}
-      <Link href="/portfolio">
-        <button
-          className={`mt-8 px-8 py-3 text-lg font-semibold border-2 rounded-lg transition-all ${
-            portfolioHovered
-              ? "bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 border-transparent text-white"
-              : "bg-transparent border-gray-700 text-gray-400 hover:text-white"
-          }`}
-          onMouseEnter={() => setPortfolioHovered(true)}
-          onMouseLeave={() => setPortfolioHovered(false)}
-        >
-          View My Portfolio
-        </button>
+      <Link
+        href="/portfolio"
+        className={`mt-8 px-8 py-3 text-lg font-semibold border-2 rounded-lg transition-all ${
+          portfolioHovered
+            ? "bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 border-transparent text-white"
+            : "bg-transparent border-gray-700 text-gray-400 hover:text-white"
+        }`}
+        onMouseEnter={() => setPortfolioHovered(true)}
+        onMouseLeave={() => setPortfolioHovered(false)}
+      >
+        View My Portfolio
       </Link>
 
       {/* Sports & Campus Life Section */}
@@ -60,27 +59,27 @@ export default function HomePage() {
       </section>
 
       {/* Projects Button */}
-      <Link href="/projects">
-        <button
-          className={`mt-8 px-8 py-3 text-lg font-semibold border-2 rounded-lg transition-all ${
-            projectsHovered
-              ? "bg-gradient-to-r from-green-500 via-yellow-500 to-orange-500 border-transparent text-white"
-              : "bg-transparent border-gray-700 text-gray-400 hover:text-white"
-          }`}
-          onMouseEnter={() => setProjectsHovered(true)}
-          onMouseLeave={() => setProjectsHovered(false)}
-        >
-          Explore My Projects
-        </button>
+      <Link
+        href="/projects"
+        className={`mt-8 px-8 py-3 text-lg font-semibold border-2 rounded-lg transition-all ${
+          projectsHovered
+            ? "bg-gradient-to-r from-green-500 via-yellow-500 to-orange-500 border-transparent text-white"
+            : "bg-transparent border-gray-700 text-gray-400 hover:text-white"
+        }`}
+        onMouseEnter={() => setProjectsHovered(true)}
+        onMouseLeave={() => setProjectsHovered(false)}
+      >
+        Explore My Projects
       </Link>
 
       {/* Contact Section */}
       <footer className="mt-24 text-center">
         <p className="text-gray-400 mb-4">Want to collaborate or have a project in mind?</p>
-        <Link href="mailto:dukebenson@example.com">
-          <a className="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full text-white font-semibold hover:shadow-lg transition-all">
-            Get In Touch
-          </a>
+        <Link
+          href="mailto:dukebenson@example.com"
+          className="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full text-white font-semibold hover:shadow-lg transition-all"
+        >
+          Get In Touch
         </Link>
       </footer>
     </div>
