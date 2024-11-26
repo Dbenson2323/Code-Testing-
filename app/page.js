@@ -1,10 +1,12 @@
+//app/page.js
 "use client";
 
 import { useState } from "react";
-import Link from "next/link"; // Import the Link component
+import Link from "next/link";
 
 export default function HomePage() {
-  const [hovered, setHovered] = useState(false);
+  const [portfolioHovered, setPortfolioHovered] = useState(false);
+  const [projectsHovered, setProjectsHovered] = useState(false);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900 text-white flex flex-col items-center justify-center">
@@ -22,12 +24,12 @@ export default function HomePage() {
       <Link href="/portfolio">
         <button
           className={`mt-8 px-8 py-3 text-lg font-semibold border-2 rounded-lg transition-all ${
-            hovered
+            portfolioHovered
               ? "bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 border-transparent text-white"
               : "bg-transparent border-gray-700 text-gray-400 hover:text-white"
           }`}
-          onMouseEnter={() => setHovered(true)}
-          onMouseLeave={() => setHovered(false)}
+          onMouseEnter={() => setPortfolioHovered(true)}
+          onMouseLeave={() => setPortfolioHovered(false)}
         >
           View My Portfolio
         </button>
@@ -37,7 +39,7 @@ export default function HomePage() {
       <section className="mt-16 space-y-8 max-w-4xl text-center">
         <h2 className="text-4xl font-semibold">Sports & Campus Life</h2>
         <p className="text-gray-400 text-lg">
-          As a CU Boulder student, I'm passionate about sports, fitness, and staying active while balancing academic life.
+          As a CU Boulder student, I&apos;m passionate about sports, fitness, and staying active while balancing academic life.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
           {[
@@ -61,12 +63,12 @@ export default function HomePage() {
       <Link href="/projects">
         <button
           className={`mt-8 px-8 py-3 text-lg font-semibold border-2 rounded-lg transition-all ${
-            hovered
+            projectsHovered
               ? "bg-gradient-to-r from-green-500 via-yellow-500 to-orange-500 border-transparent text-white"
               : "bg-transparent border-gray-700 text-gray-400 hover:text-white"
           }`}
-          onMouseEnter={() => setHovered(true)}
-          onMouseLeave={() => setHovered(false)}
+          onMouseEnter={() => setProjectsHovered(true)}
+          onMouseLeave={() => setProjectsHovered(false)}
         >
           Explore My Projects
         </button>
@@ -75,12 +77,11 @@ export default function HomePage() {
       {/* Contact Section */}
       <footer className="mt-24 text-center">
         <p className="text-gray-400 mb-4">Want to collaborate or have a project in mind?</p>
-        <a
-          href="mailto:dukebenson@example.com"
-          className="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full text-white font-semibold hover:shadow-lg transition-all"
-        >
-          Get In Touch
-        </a>
+        <Link href="mailto:dukebenson@example.com">
+          <a className="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full text-white font-semibold hover:shadow-lg transition-all">
+            Get In Touch
+          </a>
+        </Link>
       </footer>
     </div>
   );

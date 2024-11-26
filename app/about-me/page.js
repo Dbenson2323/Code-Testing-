@@ -1,4 +1,8 @@
+// app/about-me/page.js
+
 "use client";
+
+import Link from "next/link";
 
 export default function AboutMe() {
   return (
@@ -19,7 +23,7 @@ export default function AboutMe() {
           <div className="space-y-4">
             <h2 className="text-3xl font-semibold text-blue-400">Who I Am</h2>
             <p className="text-gray-300 leading-relaxed">
-              Hi, I’m <span className="font-bold">Duke Benson</span>, a passionate developer and creative thinker based in Colorado, USA. 
+              Hi, I&apos;m <span className="font-bold">Duke Benson</span>, a passionate developer and creative thinker based in Colorado, USA. 
               With a knack for building cutting-edge applications and crafting intuitive user experiences, I thrive in the dynamic intersection of technology and design.
             </p>
           </div>
@@ -27,7 +31,7 @@ export default function AboutMe() {
             <h2 className="text-3xl font-semibold text-blue-400">My Journey</h2>
             <p className="text-gray-300 leading-relaxed">
               My journey in technology started with curiosity and a drive to create. From tinkering with code in high school to building scalable applications today, 
-              I’ve always sought to challenge myself and learn continuously. I’m currently expanding my expertise in modern frameworks like <span className="font-bold">Next.js</span> 
+              I&apos;ve always sought to challenge myself and learn continuously. I&apos;m currently expanding my expertise in modern frameworks like <span className="font-bold">Next.js</span> 
               and <span className="font-bold">React</span>, alongside exploring the possibilities of AI and immersive user interfaces.
             </p>
           </div>
@@ -72,12 +76,11 @@ export default function AboutMe() {
 
         {/* Call to Action */}
         <footer className="mt-16 text-center">
-          <a
-            href="/"
-            className="inline-block bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all"
-          >
-            Back to Home
-          </a>
+          <Link href="/">
+            <a className="inline-block bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all">
+              Back to Home
+            </a>
+          </Link>
         </footer>
       </div>
     </div>
