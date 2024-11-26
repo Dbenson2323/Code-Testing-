@@ -16,7 +16,7 @@ export default function HomePage() {
           Duke Benson
         </h1>
         <p className="text-xl md:text-2xl text-gray-400">
-          CU Boulder Student | Sports Enthusiast | Future Innovator
+          CU Boulder Student | Nuggets | Future Innovator
         </p>
       </header>
 
