@@ -1,0 +1,111 @@
+"use client";
+
+import { useMemo, useState } from "react";
+import Link from "next/link";
+import StoryCard from "./components/StoryCard";
+
+function formatDate(iso) {
+  try {
+    return new Date(iso).toLocaleString(undefined, {
+      dateStyle: "medium",
+      timeStyle: "short",
+    });
+  } catch {
+    return iso;
+  }
+}
+
+export default function AiResearchClient({ stories, generatedAt }) {
+  const [query, setQuery] = useState("");
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  const categories = useMemo(() => {
+    const set = new Set(stories.map((s) => s.category));
+    return ["All", ...Array.from(set).sort()];
+  }, [stories]);
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return stories.filter((s) => {
+      const matchesCategory = activeCategory === "All" || s.category === activeCategory;
+      const matchesQuery =
+        !q ||
+        s.title.toLowerCase().includes(q) ||
+        s.blurb.toLowerCase().includes(q) ||
+        s.sourceName.toLowerCase().includes(q);
+      return matchesCategory && matchesQuery;
+    });
+  }, [stories, query, activeCategory]);
+
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-[#05060a] via-[#0a0b12] to-black text-white">
+      {/* Hero / search */}
+      <header className="pt-14 pb-8 px-6 flex flex-col items-center text-center border-b border-white/10">
+        <Link href="/" className="text-xs text-gray-500 hover:text-gray-300 mb-6 self-start ml-2 sm:ml-8">
+          ← Back to home
+        </Link>
+        <div className="flex items-center gap-3 mb-2">
+          <span className="text-3xl">🧠</span>
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 via-purple-300 to-pink-300">
+            AI Research Feed
+          </h1>
+        </div>
+        <p className="text-gray-400 text-sm md:text-base max-w-xl mb-6">
+          Every AI advance worth knowing about, pulled daily from research papers, labs, and
+          the community — scored for how factual vs. opinionated it is, and how well it&apos;s written.
+        </p>
+
+        <div className="w-full max-w-xl relative">
+          <input
+            type="text"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search AI research, models, labs…"
+            className="w-full rounded-full bg-white/5 border border-white/15 focus:border-cyan-400/60 focus:outline-none px-6 py-3.5 text-sm text-white placeholder-gray-500 shadow-[0_0_30px_-10px_rgba(34,211,238,0.4)]"
+          />
+          <span className="absolute right-5 top-1/2 -translate-y-1/2 text-gray-500">🔍</span>
+        </div>
+
+        <p className="text-xs text-gray-500 mt-4">
+          Last updated {formatDate(generatedAt)} · refreshes automatically every day
+        </p>
+      </header>
+
+      {/* Category chips */}
+      <div className="sticky top-0 z-10 backdrop-blur-md bg-black/40 border-b border-white/10 px-4 py-3 overflow-x-auto">
+        <div className="flex gap-2 justify-center min-w-max mx-auto max-w-4xl">
+          {categories.map((cat) => (
+            <button
+              key={cat}
+              onClick={() => setActiveCategory(cat)}
+              className={`px-4 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-colors ${
+                activeCategory === cat
+                  ? "bg-cyan-400 text-black"
+                  : "bg-white/5 text-gray-300 hover:bg-white/10"
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Feed */}
+      <main className="max-w-2xl mx-auto px-4 py-8 flex flex-col gap-5">
+        {filtered.length === 0 && (
+          <p className="text-center text-gray-500 py-16">
+            No stories match &ldquo;{query}&rdquo; in {activeCategory}.
+          </p>
+        )}
+        {filtered.map((story) => (
+          <StoryCard key={story.id} story={story} />
+        ))}
+      </main>
+
+      <footer className="text-center text-xs text-gray-600 pb-12 px-6">
+        Scores are automated estimates based on source type and content, not a manual fact-check.
+        Sources: arXiv, Hacker News, Reddit, GitHub Trending, and official/industry blogs.
+      </footer>
+    </div>
+  );
+}

@@ -20,6 +20,14 @@ export default function HomePage() {
         </p>
       </header>
 
+      {/* AI Research Feed Button */}
+      <Link
+        href="/ai-research"
+        className="mt-6 px-8 py-3 text-lg font-semibold rounded-lg bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 text-white shadow-lg hover:shadow-cyan-500/30 transition-all"
+      >
+        🧠 AI Research Feed
+      </Link>
+
       {/* Portfolio Button */}
       <Link
         href="/portfolio"
