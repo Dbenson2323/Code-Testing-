@@ -66,6 +66,18 @@ export default function AiResearchClient({ stories, generatedAt }) {
           <span className="absolute right-5 top-1/2 -translate-y-1/2 text-gray-500">🔍</span>
         </div>
 
+        {query.trim() && (
+          <a
+            href={`https://www.google.com/search?q=${encodeURIComponent(query.trim() + " AI")}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-cyan-300/90 hover:text-cyan-200 underline underline-offset-2 mt-3"
+          >
+            {filtered.length} result{filtered.length === 1 ? "" : "s"} in this feed for &ldquo;{query.trim()}&rdquo;
+            — search the wider web instead ↗
+          </a>
+        )}
+
         <p className="text-xs text-gray-500 mt-4">
           Last updated {formatDate(generatedAt)} · refreshes automatically every day
         </p>

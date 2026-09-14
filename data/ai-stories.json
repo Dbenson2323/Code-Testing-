@@ -4,7 +4,7 @@
     {
       "id": "seed1",
       "title": "Anthropic publishes new interpretability research on tracing model reasoning",
-      "blurb": "New research traces how large language models plan several steps ahead before generating a response, offering a clearer window into model internals than prior attribution methods.",
+      "blurb": "New research traces how large language models plan several steps ahead before generating a response, offering a clearer window into model internals than prior attribution methods. The team says the technique could help catch cases where a model's stated reasoning doesn't match what it actually computed internally.",
       "url": "https://www.anthropic.com/research",
       "sourceName": "Anthropic",
       "sourceType": "official",
@@ -12,12 +12,13 @@
       "publishedAt": "2026-09-12T09:00:00.000Z",
       "factualScore": 92,
       "qualityScore": 87,
-      "gradient": ["#EF4444", "#7C3AED"]
+      "gradient": ["#EF4444", "#7C3AED"],
+      "icon": "brain"
     },
     {
       "id": "seed2",
       "title": "New arXiv preprint benchmarks reasoning models on multi-step scientific problem solving",
-      "blurb": "Researchers introduce a new benchmark suite testing whether frontier reasoning models can chain multiple scientific facts together without hallucinating intermediate steps.",
+      "blurb": "Researchers introduce a new benchmark suite testing whether frontier reasoning models can chain multiple scientific facts together without hallucinating intermediate steps. Early results show a sizable gap between models that verify their own intermediate work and those that don't.",
       "url": "https://arxiv.org/list/cs.AI/recent",
       "sourceName": "arXiv",
       "sourceType": "paper",
@@ -25,12 +26,13 @@
       "publishedAt": "2026-09-12T06:30:00.000Z",
       "factualScore": 96,
       "qualityScore": 88,
-      "gradient": ["#6366F1", "#14B8A6"]
+      "gradient": ["#6366F1", "#14B8A6"],
+      "icon": "brain"
     },
     {
       "id": "seed3",
       "title": "OpenAI rolls out updated multimodal model with faster tool-calling",
-      "blurb": "The update focuses on lower latency for agentic workflows, letting the model call external tools mid-response instead of waiting for full generation.",
+      "blurb": "The update focuses on lower latency for agentic workflows, letting the model call external tools mid-response instead of waiting for full generation. OpenAI says early testers saw noticeably shorter round-trips on tasks that chain several tool calls together.",
       "url": "https://openai.com/news/",
       "sourceName": "OpenAI",
       "sourceType": "official",
@@ -38,12 +40,13 @@
       "publishedAt": "2026-09-11T22:00:00.000Z",
       "factualScore": 90,
       "qualityScore": 85,
-      "gradient": ["#7C3AED", "#22D3EE"]
+      "gradient": ["#7C3AED", "#22D3EE"],
+      "icon": "brain"
     },
     {
       "id": "seed4",
       "title": "Open-source robotics foundation model trends on GitHub",
-      "blurb": "A new open-weights model for humanoid robot control is climbing GitHub's trending page, with contributors reporting it works on off-the-shelf robotic arms.",
+      "blurb": "A new open-weights model for humanoid robot control is climbing GitHub's trending page, with contributors reporting it works on off-the-shelf robotic arms. Several forks have already added support for cheaper hobbyist hardware within days of the initial release.",
       "url": "https://github.com/trending",
       "sourceName": "GitHub Trending",
       "sourceType": "opensource",
@@ -51,12 +54,13 @@
       "publishedAt": "2026-09-11T18:15:00.000Z",
       "factualScore": 82,
       "qualityScore": 74,
-      "gradient": ["#F97316", "#EAB308"]
+      "gradient": ["#F97316", "#EAB308"],
+      "icon": "robot"
     },
     {
       "id": "seed5",
       "title": "Hacker News debates the tradeoffs of the latest open-weight model release",
-      "blurb": "Trending on Hacker News with 540 points and 310 comments, the thread weighs licensing terms against raw benchmark performance for the newest open-weight release.",
+      "blurb": "Trending on Hacker News with 540 points and 310 comments, the thread weighs licensing terms against raw benchmark performance for the newest open-weight release. Commenters are split on whether the restrictive commercial-use clause will slow real-world adoption.",
       "url": "https://news.ycombinator.com/",
       "sourceName": "Hacker News",
       "sourceType": "aggregator",
@@ -64,12 +68,13 @@
       "publishedAt": "2026-09-11T14:40:00.000Z",
       "factualScore": 62,
       "qualityScore": 68,
-      "gradient": ["#22C55E", "#0EA5E9"]
+      "gradient": ["#22C55E", "#0EA5E9"],
+      "icon": "code"
     },
     {
       "id": "seed6",
       "title": "Google DeepMind details progress on video-generation world models",
-      "blurb": "DeepMind researchers describe how newer world models simulate physical interactions across longer video sequences with fewer artifacts.",
+      "blurb": "DeepMind researchers describe how newer world models simulate physical interactions across longer video sequences with fewer artifacts. The team highlights better object permanence as the main improvement over last year's version.",
       "url": "https://deepmind.google/discover/blog/",
       "sourceName": "Google DeepMind",
       "sourceType": "official",
@@ -77,12 +82,13 @@
       "publishedAt": "2026-09-11T10:00:00.000Z",
       "factualScore": 90,
       "qualityScore": 86,
-      "gradient": ["#EC4899", "#6366F1"]
+      "gradient": ["#EC4899", "#6366F1"],
+      "icon": "eye"
     },
     {
       "id": "seed7",
       "title": "r/MachineLearning discusses whether synthetic data scaling has plateaued",
-      "blurb": "A widely upvoted discussion on r/MachineLearning breaks down recent papers questioning how much further synthetic-data training can push benchmark gains.",
+      "blurb": "A widely upvoted discussion on r/MachineLearning breaks down recent papers questioning how much further synthetic-data training can push benchmark gains. Several commenters point to diminishing returns once synthetic data starts echoing a model's own biases back at it.",
       "url": "https://www.reddit.com/r/MachineLearning/",
       "sourceName": "Reddit r/MachineLearning",
       "sourceType": "community",
@@ -90,12 +96,13 @@
       "publishedAt": "2026-09-10T20:20:00.000Z",
       "factualScore": 48,
       "qualityScore": 58,
-      "gradient": ["#14B8A6", "#22D3EE"]
+      "gradient": ["#14B8A6", "#22D3EE"],
+      "icon": "globe"
     },
     {
       "id": "seed8",
       "title": "Mistral AI announces new lightweight model tuned for on-device inference",
-      "blurb": "The release targets phones and laptops directly, trading some benchmark performance for a footprint small enough to run fully offline.",
+      "blurb": "The release targets phones and laptops directly, trading some benchmark performance for a footprint small enough to run fully offline. Mistral says the model still handles most everyday assistant tasks without needing a network connection.",
       "url": "https://mistral.ai/news",
       "sourceName": "Mistral AI",
       "sourceType": "official",
@@ -103,12 +110,13 @@
       "publishedAt": "2026-09-10T15:00:00.000Z",
       "factualScore": 90,
       "qualityScore": 84,
-      "gradient": ["#7C3AED", "#22D3EE"]
+      "gradient": ["#7C3AED", "#22D3EE"],
+      "icon": "brain"
     },
     {
       "id": "seed9",
       "title": "Venture funding for applied-AI startups climbs again this quarter",
-      "blurb": "Industry trackers report another jump in early-stage funding for startups applying foundation models to vertical-specific workflows.",
+      "blurb": "Industry trackers report another jump in early-stage funding for startups applying foundation models to vertical-specific workflows. Healthcare and legal-tech applications reportedly drew the largest share of new rounds this quarter.",
       "url": "https://venturebeat.com/category/ai/",
       "sourceName": "VentureBeat AI",
       "sourceType": "journalism",
@@ -116,12 +124,13 @@
       "publishedAt": "2026-09-10T11:00:00.000Z",
       "factualScore": 78,
       "qualityScore": 80,
-      "gradient": ["#0EA5E9", "#A855F7"]
+      "gradient": ["#0EA5E9", "#A855F7"],
+      "icon": "rocket"
     },
     {
       "id": "seed10",
       "title": "Hugging Face highlights community fine-tunes climbing the open leaderboard",
-      "blurb": "This week's roundup covers several community fine-tunes that jumped the open leaderboard rankings using new efficient training recipes.",
+      "blurb": "This week's roundup covers several community fine-tunes that jumped the open leaderboard rankings using new efficient training recipes. A few of the entries reportedly matched much larger closed models on reasoning benchmarks at a fraction of the parameter count.",
       "url": "https://huggingface.co/blog",
       "sourceName": "Hugging Face",
       "sourceType": "opensource",
@@ -129,7 +138,8 @@
       "publishedAt": "2026-09-09T17:30:00.000Z",
       "factualScore": 82,
       "qualityScore": 75,
-      "gradient": ["#22C55E", "#0EA5E9"]
+      "gradient": ["#22C55E", "#0EA5E9"],
+      "icon": "code"
     }
   ]
 }

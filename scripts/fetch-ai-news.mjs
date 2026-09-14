@@ -22,7 +22,7 @@ const DATA_DIR = path.join(__dirname, "..", "data");
 const DATA_FILE = path.join(DATA_DIR, "ai-stories.json");
 
 const MAX_AGE_DAYS = 30;
-const MAX_STORIES = 200;
+const MAX_STORIES = 350;
 const FETCH_TIMEOUT_MS = 12000;
 
 const xmlParser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_" });
@@ -63,7 +63,7 @@ function stripHtml(input = "") {
     .trim();
 }
 
-function makeBlurb(text, max = 240) {
+function makeBlurb(text, max = 360) {
   const clean = stripHtml(text);
   if (clean.length <= max) return clean;
   return clean.slice(0, max - 1).replace(/\s+\S*$/, "") + "…";
@@ -145,6 +145,40 @@ const CATEGORY_GRADIENTS = {
   "AI News": ["#14B8A6", "#22D3EE"],
 };
 
+// Every card gets one small original vector icon instead of a stock/stolen
+// photo — zero copyright risk, zero network calls, and it's picked to match
+// what the article is actually about (checked against the title first,
+// falling back to the article's category).
+const ICON_RULES = [
+  { icon: "brain", keywords: ["brain", "neural", "reasoning", "cognit", "think"] },
+  { icon: "robot", keywords: ["robot", "robotic", "humanoid", "drone", "autonomous vehicle", "self-driving"] },
+  { icon: "eye", keywords: ["vision", "image generation", "video generation", "camera", "diffusion", "photo", "sora", "midjourney"] },
+  { icon: "chip", keywords: ["chip", "gpu", "hardware", "silicon", "processor", "tpu", "semiconductor"] },
+  { icon: "shield", keywords: ["safety", "align", "regulat", "polic", "ethic", "risk", "governance"] },
+  { icon: "rocket", keywords: ["fund", "raise", "valuation", "acquisition", "ipo", "revenue", "million", "billion", "partnership"] },
+  { icon: "document", keywords: ["paper", "arxiv", "study", "research", "benchmark", "dataset", "preprint"] },
+  { icon: "code", keywords: ["open source", "open-source", "github", "framework", "library", "sdk", "api release"] },
+];
+
+const CATEGORY_ICON_FALLBACK = {
+  "LLMs & Chatbots": "brain",
+  "Computer Vision": "eye",
+  Robotics: "robot",
+  "AI Safety & Policy": "shield",
+  "Open Source & Tools": "code",
+  "Industry & Business": "rocket",
+  "Research Papers": "document",
+  "AI News": "globe",
+};
+
+function detectIcon(title, summary, category) {
+  const haystack = `${title} ${summary}`.toLowerCase();
+  for (const rule of ICON_RULES) {
+    if (rule.keywords.some((kw) => haystack.includes(kw))) return rule.icon;
+  }
+  return CATEGORY_ICON_FALLBACK[category] ?? "globe";
+}
+
 function buildStory({ title, url, summary, sourceName, sourceType, publishedAt }) {
   const category = detectCategory(title, summary);
   const { factualScore, qualityScore } = scoreStory({ title, summary, sourceType });
@@ -160,6 +194,7 @@ function buildStory({ title, url, summary, sourceName, sourceType, publishedAt }
     factualScore,
     qualityScore,
     gradient: CATEGORY_GRADIENTS[category] ?? CATEGORY_GRADIENTS["AI News"],
+    icon: detectIcon(title, summary, category),
   };
 }
 
@@ -169,7 +204,7 @@ function buildStory({ title, url, summary, sourceName, sourceType, publishedAt }
 
 async function fetchArxiv() {
   const url =
-    "http://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.CL+OR+cat:cs.LG+OR+cat:cs.RO&sortBy=submittedDate&sortOrder=descending&max_results=20";
+    "http://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.CL+OR+cat:cs.LG+OR+cat:cs.RO+OR+cat:cs.CV&sortBy=submittedDate&sortOrder=descending&max_results=35";
   const res = await fetchWithTimeout(url);
   const xml = await res.text();
   const parsed = xmlParser.parse(xml);
@@ -189,7 +224,7 @@ async function fetchArxiv() {
 
 async function fetchHackerNews() {
   const url =
-    "https://hn.algolia.com/api/v1/search_by_date?tags=story&query=AI%20OR%20LLM%20OR%20OpenAI%20OR%20Anthropic%20OR%20%22artificial%20intelligence%22&hitsPerPage=25";
+    "https://hn.algolia.com/api/v1/search_by_date?tags=story&query=AI%20OR%20LLM%20OR%20OpenAI%20OR%20Anthropic%20OR%20%22artificial%20intelligence%22&hitsPerPage=40";
   const res = await fetchWithTimeout(url);
   const json = await res.json();
   return (json.hits ?? [])
@@ -207,7 +242,7 @@ async function fetchHackerNews() {
 }
 
 async function fetchReddit(subreddit) {
-  const url = `https://www.reddit.com/r/${subreddit}/hot.json?limit=15`;
+  const url = `https://www.reddit.com/r/${subreddit}/hot.json?limit=20`;
   const res = await fetchWithTimeout(url);
   const json = await res.json();
   return (json.data?.children ?? [])
@@ -267,7 +302,7 @@ async function fetchRss({ url, sourceName, sourceType }) {
 
 async function fetchGithubTrendingAI() {
   const since = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-  const url = `https://api.github.com/search/repositories?q=artificial+intelligence+created:>${since}&sort=stars&order=desc&per_page=15`;
+  const url = `https://api.github.com/search/repositories?q=artificial+intelligence+created:>${since}&sort=stars&order=desc&per_page=20`;
   const res = await fetchWithTimeout(url, { headers: { Accept: "application/vnd.github+json" } });
   const json = await res.json();
   return (json.items ?? []).map((repo) =>
@@ -291,6 +326,14 @@ const RSS_SOURCES = [
   { url: "https://huggingface.co/blog/feed.xml", sourceName: "Hugging Face", sourceType: "opensource" },
   { url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", sourceName: "MIT Technology Review", sourceType: "journalism" },
   { url: "https://venturebeat.com/category/ai/feed/", sourceName: "VentureBeat AI", sourceType: "journalism" },
+  // Added for wider coverage — each is wrapped in try/catch by safe(), so a
+  // wrong/changed RSS path here just gets skipped rather than breaking the run.
+  { url: "https://www.microsoft.com/en-us/microsoft-cloud/blog/feed/", sourceName: "Microsoft AI Blog", sourceType: "official" },
+  { url: "https://blogs.nvidia.com/feed/", sourceName: "NVIDIA Blog", sourceType: "official" },
+  { url: "https://stability.ai/news?format=rss", sourceName: "Stability AI", sourceType: "official" },
+  { url: "https://txt.cohere.com/rss/", sourceName: "Cohere", sourceType: "official" },
+  { url: "https://www.marktechpost.com/feed/", sourceName: "MarkTechPost", sourceType: "journalism" },
+  { url: "https://techcrunch.com/category/artificial-intelligence/feed/", sourceName: "TechCrunch AI", sourceType: "journalism" },
 ];
 
 // ---------------------------------------------------------------------------
@@ -314,6 +357,7 @@ async function main() {
     safe("Hacker News", fetchHackerNews),
     safe("Reddit r/MachineLearning", () => fetchReddit("MachineLearning")),
     safe("Reddit r/artificial", () => fetchReddit("artificial")),
+    safe("Reddit r/singularity", () => fetchReddit("singularity")),
     safe("GitHub Trending", fetchGithubTrendingAI),
     ...RSS_SOURCES.map((src) => safe(src.sourceName, () => fetchRss(src))),
   ];

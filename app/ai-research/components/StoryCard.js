@@ -1,4 +1,5 @@
 import ScoreMeter from "./ScoreMeter";
+import TechIcon from "./TechIcons";
 
 const SOURCE_TYPE_LABEL = {
   paper: "Preprint",
@@ -28,18 +29,19 @@ export default function StoryCard({ story }) {
     <article className="rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-sm overflow-hidden hover:border-cyan-400/40 transition-colors">
       <a href={story.url} target="_blank" rel="noopener noreferrer" className="block">
         <div
-          className="relative h-32 w-full flex items-center justify-center overflow-hidden"
+          className="relative h-40 w-full flex items-center justify-center overflow-hidden"
           style={{ background: `linear-gradient(135deg, ${c1}, ${c2})` }}
         >
           <div
-            className="absolute inset-0 opacity-30"
+            className="absolute inset-0 opacity-25"
             style={{
               backgroundImage:
                 "linear-gradient(rgba(255,255,255,.4) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.4) 1px, transparent 1px)",
               backgroundSize: "22px 22px",
             }}
           />
-          <span className="relative text-xs font-mono tracking-widest text-white/90 uppercase bg-black/30 px-3 py-1 rounded-full">
+          <TechIcon name={story.icon} className="relative w-16 h-16 text-white/85 drop-shadow-md" />
+          <span className="absolute bottom-3 right-3 text-[11px] font-mono tracking-widest text-white/90 uppercase bg-black/30 px-3 py-1 rounded-full">
             {story.category}
           </span>
         </div>
@@ -56,7 +58,7 @@ export default function StoryCard({ story }) {
           <h2 className="text-lg font-semibold text-white leading-snug mb-2">
             {story.title}
           </h2>
-          <p className="text-sm text-gray-300 leading-relaxed line-clamp-4">
+          <p className="text-sm text-gray-300 leading-relaxed line-clamp-6">
             {story.blurb}
           </p>
         </div>
