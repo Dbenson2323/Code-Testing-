@@ -39,7 +39,7 @@ async function fetchWithTimeout(url, options = {}) {
       ...options,
       signal: controller.signal,
       headers: {
-        "User-Agent": "ai-research-feed-bot/1.0 (+https://github.com/Dbenson2323/Web-1-)",
+        "User-Agent": "ai-research-feed-bot/1.0 (+https://github.com/Dbenson2323/Code-Testing-)",
         ...options.headers,
       },
     });

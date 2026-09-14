@@ -1,4 +1,4 @@
-# Web-1-
+# Code-Testing-
 
 Duke Benson's site — a personal home/portfolio plus a daily-updated **AI Research Feed**.
 
@@ -81,8 +81,8 @@ the site.
    `node` and `npm` commands used below.
 2. **Get the code onto your computer** (one-time): if you don't already have a local copy,
    install [GitHub Desktop](https://desktop.github.com) and use it to clone
-   `Dbenson2323/Web-1-`, or run `git clone https://github.com/Dbenson2323/Web-1-.git` in a
-   terminal.
+   `Dbenson2323/Code-Testing-`, or run `git clone https://github.com/Dbenson2323/Code-Testing-.git`
+   in a terminal.
 3. **Open a terminal in that folder** and install dependencies (one-time per copy, or after code
    changes to `package.json`):
    ```bash
@@ -118,7 +118,7 @@ push. One-time setup in the GitHub UI (can't be done from a script):
 After that, every push rebuilds and redeploys automatically, and your public link will be:
 
 ```
-https://dbenson2323.github.io/Web-1-/
+https://dbenson2323.github.io/Code-Testing-/
 ```
 
 That's the link you can open on your phone or send to anyone.
