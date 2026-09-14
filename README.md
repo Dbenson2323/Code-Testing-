@@ -2,6 +2,19 @@
 
 Duke Benson's site — a personal home/portfolio plus a daily-updated **AI Research Feed**.
 
+## Quick start (read this first)
+
+There are two completely different ways this site gets used, and they don't require the same
+thing from you:
+
+- **Visitors** (anyone you send the link to) just open a URL in their normal browser — phone,
+  laptop, whatever. They never install anything or run any command. That's the whole point of
+  hosting it.
+- **You**, when you want to preview a change *before* it's live, run it on your own computer
+  with the steps below. This is optional — the live site works without you ever doing this.
+
+See "Running it on your own computer" and "Getting the live public link" further down for both.
+
 ## AI Research Feed (`/ai-research`)
 
 A Twitter-style scrolling feed of AI research and industry news, most recent first, with a
@@ -58,17 +71,43 @@ You can also run it locally any time:
 npm run fetch:news
 ```
 
-## Running locally
+## Running it on your own computer
 
-```bash
-npm install
-npm run dev
-```
+This is only for previewing changes before they go live — nobody else needs to do this to view
+the site.
 
-Open [http://localhost:3000](http://localhost:3000) — the personal home page is at `/`, the AI
-feed is at `/ai-research`, and the about page is unchanged at `/about-me`.
+1. **Install Node.js** (one-time, only if you don't have it): go to
+   [nodejs.org](https://nodejs.org) and install the "LTS" version. This gives your computer the
+   `node` and `npm` commands used below.
+2. **Get the code onto your computer** (one-time): if you don't already have a local copy,
+   install [GitHub Desktop](https://desktop.github.com) and use it to clone
+   `Dbenson2323/Web-1-`, or run `git clone https://github.com/Dbenson2323/Web-1-.git` in a
+   terminal.
+3. **Open a terminal in that folder** and install dependencies (one-time per copy, or after code
+   changes to `package.json`):
+   ```bash
+   npm install
+   ```
+   This downloads all the libraries the project depends on (Next.js, React, etc.) into a
+   `node_modules` folder. You won't see this folder in GitHub — it's not something anyone
+   uploads or downloads by hand.
+4. **Start the local preview server**:
+   ```bash
+   npm run dev
+   ```
+   Leave this running in the terminal, then open
+   [http://localhost:3000](http://localhost:3000) in your browser — the personal home page is at
+   `/`, the AI feed is at `/ai-research`, and the about page is unchanged at `/about-me`.
+   `localhost:3000` only works on your own computer; nobody else can open that address.
+5. **To stop it**, click into the terminal and press `Ctrl+C`.
+6. **To get the latest version** (e.g. after the daily AI-fetch bot has added new stories, or
+   after I push more changes), pull the latest code first, then restart:
+   ```bash
+   git pull
+   npm run dev
+   ```
 
-## Deploying / getting a public link
+## Getting the live public link
 
 The site deploys to **GitHub Pages** automatically via `.github/workflows/deploy.yml` on every
 push. One-time setup in the GitHub UI (can't be done from a script):
