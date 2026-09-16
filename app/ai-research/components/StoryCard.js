@@ -23,14 +23,12 @@ function timeAgo(iso) {
 }
 
 export default function StoryCard({ story }) {
-  const [c1, c2] = story.gradient ?? ["#14B8A6", "#22D3EE"];
-
   return (
-    <article className="rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-sm overflow-hidden hover:border-cyan-400/40 transition-colors">
+    <article className="rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-sm overflow-hidden hover:border-white/30 transition-colors">
       <a href={story.url} target="_blank" rel="noopener noreferrer" className="block">
         <div
           className="relative h-40 w-full flex items-center justify-center overflow-hidden"
-          style={{ background: `linear-gradient(135deg, ${c1}, ${c2})` }}
+          style={{ background: "linear-gradient(135deg, #26282c, #0c0d0f)" }}
         >
           <div
             className="absolute inset-0 opacity-25"
@@ -48,14 +46,14 @@ export default function StoryCard({ story }) {
 
         <div className="p-4">
           <div className="flex items-center gap-2 text-xs text-gray-400 mb-2">
-            <span className="font-semibold text-cyan-300">{story.sourceName}</span>
+            <span className="font-semibold text-white">{story.sourceName}</span>
             <span>·</span>
             <span>{SOURCE_TYPE_LABEL[story.sourceType] ?? "Source"}</span>
             <span>·</span>
             <span>{timeAgo(story.publishedAt)}</span>
           </div>
 
-          <h2 className="text-lg font-semibold text-white leading-snug mb-2">
+          <h2 className="text-lg font-serif font-bold text-white leading-snug mb-2">
             {story.title}
           </h2>
           <p className="text-sm text-gray-300 leading-relaxed line-clamp-6">

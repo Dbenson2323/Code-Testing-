@@ -45,8 +45,8 @@ export default function AiResearchClient({ stories, generatedAt }) {
           ← Back to home
         </Link>
         <div className="flex items-center gap-3 mb-2">
-          <span className="text-3xl">🧠</span>
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 via-purple-300 to-pink-300">
+          <span className="text-3xl grayscale">🧠</span>
+          <h1 className="text-4xl md:text-5xl font-serif font-bold tracking-tight text-white">
             AI Research Feed
           </h1>
         </div>
@@ -61,7 +61,7 @@ export default function AiResearchClient({ stories, generatedAt }) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search AI research, models, labs…"
-            className="w-full rounded-full bg-white/5 border border-white/15 focus:border-cyan-400/60 focus:outline-none px-6 py-3.5 text-sm text-white placeholder-gray-500 shadow-[0_0_30px_-10px_rgba(34,211,238,0.4)]"
+            className="w-full rounded-full bg-white/5 border border-white/15 focus:border-white/40 focus:outline-none px-6 py-3.5 text-sm text-white placeholder-gray-500 shadow-[0_0_30px_-10px_rgba(255,255,255,0.25)]"
           />
           <span className="absolute right-5 top-1/2 -translate-y-1/2 text-gray-500">🔍</span>
         </div>
@@ -71,7 +71,7 @@ export default function AiResearchClient({ stories, generatedAt }) {
             href={`https://www.google.com/search?q=${encodeURIComponent(query.trim() + " AI")}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs text-cyan-300/90 hover:text-cyan-200 underline underline-offset-2 mt-3"
+            className="text-xs text-gray-300 hover:text-white underline underline-offset-2 mt-3"
           >
             {filtered.length} result{filtered.length === 1 ? "" : "s"} in this feed for &ldquo;{query.trim()}&rdquo;
             — search the wider web instead ↗
@@ -92,7 +92,7 @@ export default function AiResearchClient({ stories, generatedAt }) {
               onClick={() => setActiveCategory(cat)}
               className={`px-4 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-colors ${
                 activeCategory === cat
-                  ? "bg-cyan-400 text-black"
+                  ? "bg-white text-black"
                   : "bg-white/5 text-gray-300 hover:bg-white/10"
               }`}
             >

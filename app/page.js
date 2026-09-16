@@ -1,46 +1,33 @@
 //app/page.js
 import Link from "next/link";
-import Image from "next/image";
+import PhotoBackdrop from "./components/PhotoBackdrop";
 import EducationRow from "./components/EducationRow";
 import SocialLink from "./components/SocialLink";
 import { MailIcon, LinkedInIcon, InstagramIcon, XIcon } from "./components/ProfileIcons";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-
 export default function HomePage() {
   return (
     <div className="relative min-h-screen bg-white text-gray-900">
-      {/* Fixed, faded background photo — covers roughly the first screen,
-          then fades to plain white so it reads as atmosphere behind the
-          hero text rather than a bold banner, and disappears as you
-          scroll into the rest of the page. */}
-      <div className="fixed inset-0 h-screen overflow-hidden">
-        <Image
-          src={`${basePath}/glacier-national-park-river-falls-nature-landscapes-2627b2.jpg`}
-          alt="Glacier National Park river falls"
-          fill
-          priority
-          className="object-cover opacity-40"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/60 to-white" />
-      </div>
+      <PhotoBackdrop />
 
       {/* Hero text, floating directly over the background photo */}
       <div className="relative px-6 pt-20 pb-8 max-w-2xl mx-auto text-center">
-        <h1 className="text-5xl md:text-6xl font-bold tracking-tight">Duke Benson</h1>
-        <p className="mt-3 text-lg text-gray-500">Denver, Colorado</p>
-        <p className="mt-5 text-gray-600 leading-relaxed max-w-lg mx-auto">
+        <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-white drop-shadow-lg">
+          Duke Benson
+        </h1>
+        <p className="mt-3 text-lg text-white/80 drop-shadow">Denver, Colorado</p>
+        <p className="mt-5 text-white/90 leading-relaxed max-w-lg mx-auto drop-shadow">
           Studying Finance &amp; Real Estate at the University of Colorado Boulder&apos;s Leeds
           School of Business. I build software that combines both interests — from an
           AI research feed to a live commercial real estate market dashboard.
         </p>
-        <p className="mt-6 text-[8px] text-gray-400">
+        <p className="mt-6 text-[8px] text-white/50">
           Background photo: Glacier National Park, via{" "}
           <a
             href="https://picryl.com/media/glacier-national-park-river-falls-nature-landscapes-2627b2"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline hover:text-gray-600"
+            className="underline hover:text-white/80"
           >
             Picryl
           </a>
@@ -99,6 +86,34 @@ export default function HomePage() {
               </p>
               <span className="mt-3 inline-block text-sm font-semibold border-b border-white/60">Explore →</span>
             </Link>
+
+            <div className="rounded-xl p-5 bg-gray-900 text-white shadow-md sm:col-span-2">
+              <span className="text-2xl grayscale">🐋</span>
+              <h2 className="mt-2 font-bold">RiskWhale</h2>
+              <p className="mt-1 text-sm text-gray-300 leading-relaxed">
+                Comprehensive risk analytics for financial markets — pattern matching across
+                thousands of symbols, SEC forensic analysis, and an AI terminal built for
+                institutional-grade risk intelligence.
+              </p>
+              <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm font-semibold">
+                <a
+                  href="https://www.riskwhale.com/dashboard"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border-b border-white/60 hover:text-gray-300"
+                >
+                  Explore →
+                </a>
+                <a
+                  href="https://x.com/riskwhale"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border-b border-white/60 hover:text-gray-300"
+                >
+                  Follow on X →
+                </a>
+              </div>
+            </div>
           </div>
 
           <div className="mt-4 flex flex-wrap justify-center gap-3">
