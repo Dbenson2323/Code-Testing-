@@ -1,10 +1,435 @@
 {
-  "generatedAt": "2026-09-15T17:30:34.168Z",
+  "generatedAt": "2026-09-16T17:31:08.394Z",
   "stories": [
+    {
+      "id": "s1558044395",
+      "title": "Your AI agents can now control your Google Home devices",
+      "blurb": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
+      "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T17:00:00.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "eye"
+    },
+    {
+      "id": "s2063174021",
+      "title": "Anthropic merges Claude chat and Cowork in one interface",
+      "blurb": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T16:30:00.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s1204081272",
+      "title": "Helping older adults use AI in everyday life",
+      "blurb": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "sourceName": "OpenAI",
+      "sourceType": "official",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T16:00:00.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s386267533",
+      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "blurb": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale.…",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "sourceName": "NVIDIA Blog",
+      "sourceType": "official",
+      "category": "Industry & Business",
+      "publishedAt": "2026-09-16T15:00:48.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#0EA5E9",
+        "#A855F7"
+      ],
+      "icon": "chip"
+    },
+    {
+      "id": "s1391113855",
+      "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+      "blurb": "The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 on your pass.",
+      "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T15:00:00.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "robot"
+    },
+    {
+      "id": "s2087941509",
+      "title": "Threads&#8217; new features let podcasters promote shows and reach listeners",
+      "blurb": "Threads is rolling out new tools for podcasters, including profile cards, episode links, transcripts, guest tags, posting reminders, and audience insights, as Meta looks to make the X rival a bigger hub for podcast promotion and discussion.",
+      "url": "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T14:24:58.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1943549595",
+      "title": "Next wave of VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026 revealed",
+      "blurb": "Meet the next five top-tier investors judging the Startup Battlefield 200 contenders live at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 and don't miss a moment of the ultimate startup pitch competition.",
+      "url": "https://techcrunch.com/2026/09/16/next-wave-of-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026-revealed/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T14:15:00.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s914467408",
+      "title": "3 days left to exhibit: Get your brand in front of VCs and high-value leads at TechCrunch Disrupt 2026",
+      "blurb": "Last day to book your exhibit table at Disrupt is September 18. Three days left. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
+      "url": "https://techcrunch.com/2026/09/16/3-days-left-to-exhibit-at-techcrunch-disrupt-2026/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T14:00:00.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s468203880",
+      "title": "SK Hynix reportedly in talks with Intel to build memory chips in US",
+      "blurb": "SK Hynix told TechCrunch the company hasn't finalized any plans or arrangements yet.",
+      "url": "https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T13:23:02.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "chip"
+    },
+    {
+      "id": "s562127770",
+      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+      "blurb": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their…",
+      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "sourceName": "NVIDIA Blog",
+      "sourceType": "official",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T13:00:33.000Z",
+      "factualScore": 94,
+      "qualityScore": 85,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s181996513",
+      "title": "Reimagining advertising with AI",
+      "blurb": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "sourceName": "OpenAI",
+      "sourceType": "official",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T13:00:00.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s2146889454",
+      "title": "Former Infosys chief&#8217;s AI startup nabs another $53M",
+      "blurb": "The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch.",
+      "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T13:00:00.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1977954436",
+      "title": "Building the materials foundation for AI",
+      "blurb": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management, electrical efficiency, and reliability, creating new demands…",
+      "url": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+      "sourceName": "MIT Technology Review",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T12:47:34.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "chip"
+    },
+    {
+      "id": "s622414504",
+      "title": "Amazon launches Alexa+ in India with Hindi support",
+      "blurb": "Amazon is letting all customers use Alexa+ assistant in early access period.",
+      "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T10:34:47.000Z",
+      "factualScore": 82,
+      "qualityScore": 72,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1199879024",
+      "title": "How workers are unlocking new ways of working",
+      "blurb": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "sourceName": "OpenAI",
+      "sourceType": "official",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T09:00:00.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "document"
+    },
+    {
+      "id": "s227194995",
+      "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+      "blurb": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the [&#8230;]",
+      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+      "sourceName": "NVIDIA Blog",
+      "sourceType": "official",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T05:00:42.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "shield"
+    },
+    {
+      "id": "s1367938614",
+      "title": "We don&#8217;t need AI regulation — leave safety to us, Nvidia&#8217;s Jensen Huang says",
+      "blurb": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
+      "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI Safety & Policy",
+      "publishedAt": "2026-09-16T00:20:39.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#EF4444",
+        "#7C3AED"
+      ],
+      "icon": "chip"
+    },
+    {
+      "id": "s709151483",
+      "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+      "blurb": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into [&#8230;]",
+      "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+      "sourceName": "NVIDIA Blog",
+      "sourceType": "official",
+      "category": "AI News",
+      "publishedAt": "2026-09-15T22:24:34.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s2079422607",
+      "title": "The AI data center boom is colliding with cities scarred by big industry",
+      "blurb": "National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.",
+      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-15T21:47:38.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1651651814",
+      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+      "blurb": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.",
+      "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-15T20:12:53.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s610588555",
+      "title": "The AI graveyard: a running list of projects and startups that didn&#8217;t make it",
+      "blurb": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-15T19:00:00.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1967249882",
+      "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
+      "blurb": "The AI frenzy could push U.S. data centers to become one of the largest consumers of natural gas in the world.",
+      "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-15T18:29:20.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s909913914",
+      "title": "Roundtables: Could AI really kill us all?",
+      "blurb": "Listen to the session or watch below Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so,&#8230;",
+      "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
+      "sourceName": "MIT Technology Review",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-15T17:47:51.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1452230544",
+      "title": "AI agents now have a place to snitch",
+      "blurb": "The AI Contact Hotline is designed to be a discreet place where agents that have witnessed misbehavior can tip off authorities.",
+      "url": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-15T17:42:59.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1101886564",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "blurb": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "sourceName": "Google DeepMind",
+      "sourceType": "official",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-15T17:05:57.000Z",
+      "factualScore": 90,
+      "qualityScore": 77,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
     {
       "id": "s1028052483",
       "title": "Meta expands subscription push with new AI-focused plans",
-      "blurb": "Meta One bundles expanded access to the company’s AI tools with premium features across Facebook, Instagram and WhatsApp.",
+      "blurb": "Meta One bundles expanded access to the company’s AI tools with premium features across Facebook, Instagram, and WhatsApp.",
       "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
       "sourceName": "TechCrunch AI",
       "sourceType": "journalism",
@@ -597,6 +1022,23 @@
       "icon": "brain"
     },
     {
+      "id": "s1525953004",
+      "title": "xblack160-sys/jinfive: Artificial Intelligence Platform",
+      "blurb": "Artificial Intelligence Platform",
+      "url": "https://github.com/xblack160-sys/jinfive",
+      "sourceName": "GitHub Trending",
+      "sourceType": "opensource",
+      "category": "AI News",
+      "publishedAt": "2026-09-11T18:26:38.000Z",
+      "factualScore": 82,
+      "qualityScore": 66,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
       "id": "seed4",
       "title": "Open-source robotics foundation model trends on GitHub",
       "blurb": "A new open-weights model for humanoid robot control is climbing GitHub's trending page, with contributors reporting it works on off-the-shelf robotic arms. Several forks have already added support for cheaper hobbyist hardware within days of the initial release.",
@@ -709,6 +1151,40 @@
       "publishedAt": "2026-09-10T20:20:00.000Z",
       "factualScore": 48,
       "qualityScore": 58,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1824739789",
+      "title": "vivianaranha/complete-artificial-intelligence-mega-course-2026: AI Foundations → Python → Data → Math & Statistics → Machine Learning → Advanced ML → Deep Learning → NLP → Computer Vision → Transformers & LLMs → Prompt Engineering → Embeddings & RAG → Advanced RAG → Agents → MCP → Multimodal AI → Evaluation & Security → MLOps/LLMOps → Enterprise AI → Capstone",
+      "blurb": "AI Foundations → Python → Data → Math & Statistics → Machine Learning → Advanced ML → Deep Learning → NLP → Computer Vision → Transformers & LLMs → Prompt Engineering → Embeddings & RAG → Advanced RAG → Agents → MCP → Multimodal AI → Evaluation & Security → MLOps/LLMOps → Enterprise AI → Capstone",
+      "url": "https://github.com/vivianaranha/complete-artificial-intelligence-mega-course-2026",
+      "sourceName": "GitHub Trending",
+      "sourceType": "opensource",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-10T19:57:41.000Z",
+      "factualScore": 82,
+      "qualityScore": 74,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "eye"
+    },
+    {
+      "id": "s1079296525",
+      "title": "NelsonUzoma/A-Comprehensive-Overview-of-Artificial-Intelligence: A simplified beginner friendly theory on the history, development and proposed future advancement of Artificial Intelligence.",
+      "blurb": "A simplified beginner friendly theory on the history, development and proposed future advancement of Artificial Intelligence.",
+      "url": "https://github.com/NelsonUzoma/A-Comprehensive-Overview-of-Artificial-Intelligence",
+      "sourceName": "GitHub Trending",
+      "sourceType": "opensource",
+      "category": "AI News",
+      "publishedAt": "2026-09-10T16:56:38.000Z",
+      "factualScore": 82,
+      "qualityScore": 74,
       "gradient": [
         "#14B8A6",
         "#22D3EE"
@@ -862,6 +1338,23 @@
       "publishedAt": "2026-09-10T11:00:00.000Z",
       "factualScore": 78,
       "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1947422137",
+      "title": "pro-donkey/Human-Centric-Artificial-Intelligence-Projects: This repo contains all the 4 Projects which were allocated by Prof. Pierre-Alexandre Murena",
+      "blurb": "This repo contains all the 4 Projects which were allocated by Prof. Pierre-Alexandre Murena",
+      "url": "https://github.com/pro-donkey/Human-Centric-Artificial-Intelligence-Projects",
+      "sourceName": "GitHub Trending",
+      "sourceType": "opensource",
+      "category": "AI News",
+      "publishedAt": "2026-09-10T07:30:47.000Z",
+      "factualScore": 82,
+      "qualityScore": 74,
       "gradient": [
         "#14B8A6",
         "#22D3EE"
@@ -1039,6 +1532,23 @@
       "icon": "shield"
     },
     {
+      "id": "s2008526710",
+      "title": "TianCZeng/sharp-cv: Official implementation of SHARP, statistical test under cross-validation performances, proposed in Zeng et. al., Spurious model comparisons are widespread in biomedical artificial intelligence. bioRxiv. 2026",
+      "blurb": "Official implementation of SHARP, statistical test under cross-validation performances, proposed in Zeng et. al., Spurious model comparisons are widespread in biomedical artificial intelligence. bioRxiv. 2026",
+      "url": "https://github.com/TianCZeng/sharp-cv",
+      "sourceName": "GitHub Trending",
+      "sourceType": "opensource",
+      "category": "AI News",
+      "publishedAt": "2026-09-09T11:37:19.000Z",
+      "factualScore": 82,
+      "qualityScore": 74,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
       "id": "s1599195193",
       "title": "GPT-6 Astra: The next generation in intelligence for work",
       "blurb": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
@@ -1122,6 +1632,23 @@
         "#7C3AED"
       ],
       "icon": "shield"
+    },
+    {
+      "id": "s1727918741",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "blurb": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "sourceName": "Google DeepMind",
+      "sourceType": "official",
+      "category": "AI News",
+      "publishedAt": "2026-09-08T14:00:15.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "rocket"
     },
     {
       "id": "s1731059056",
@@ -1481,6 +2008,23 @@
       "icon": "chip"
     },
     {
+      "id": "s279826976",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "blurb": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "sourceName": "Google DeepMind",
+      "sourceType": "official",
+      "category": "AI News",
+      "publishedAt": "2026-09-03T15:02:08.000Z",
+      "factualScore": 90,
+      "qualityScore": 77,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
       "id": "s846295734",
       "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
       "blurb": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
@@ -1753,6 +2297,40 @@
       "icon": "brain"
     },
     {
+      "id": "s998226315",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "blurb": "Proactive cyber defense for governments and enterprises",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "sourceName": "Google DeepMind",
+      "sourceType": "official",
+      "category": "AI News",
+      "publishedAt": "2026-09-02T16:24:24.000Z",
+      "factualScore": 90,
+      "qualityScore": 77,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1968609994",
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "blurb": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "sourceName": "Google DeepMind",
+      "sourceType": "official",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-02T16:18:31.000Z",
+      "factualScore": 90,
+      "qualityScore": 77,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
+    {
       "id": "s1111995674",
       "title": "TirupMehta/ModelRegistry: ModelRegistry is a community-driven, machine-readable index tracking the state of foundational artificial intelligence.",
       "blurb": "ModelRegistry is a community-driven, machine-readable index tracking the state of foundational artificial intelligence.",
@@ -1870,6 +2448,23 @@
         "#22D3EE"
       ],
       "icon": "globe"
+    },
+    {
+      "id": "s1286721275",
+      "title": "Introducing agentic video understanding with Gemini",
+      "blurb": "Introducing agentic video understanding with Gemini",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "sourceName": "Google DeepMind",
+      "sourceType": "official",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-01T17:08:51.000Z",
+      "factualScore": 90,
+      "qualityScore": 77,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
     },
     {
       "id": "s727808101",
@@ -2076,6 +2671,23 @@
       "icon": "globe"
     },
     {
+      "id": "s1384918756",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "blurb": "Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "sourceName": "Google DeepMind",
+      "sourceType": "official",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-08-27T16:11:32.000Z",
+      "factualScore": 90,
+      "qualityScore": 77,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
+    {
       "id": "s586323524",
       "title": "GeForce NOW Gives Gamers More Ways to Play at Gamescom 2026",
       "blurb": "NVIDIA’s Gamescom announcements are revealing what’s next for GeForce NOW, with new ways to play, more supported devices and platforms, and even more big PC games headed to the cloud. New NVIDIA DLSS 4.5 technology controls give members more ways to fine-tune gameplay, while expanded support for new Steam devices, GOG single sign-on, Firefox browser…",
@@ -2108,6 +2720,23 @@
         "#22D3EE"
       ],
       "icon": "globe"
+    },
+    {
+      "id": "s1764761739",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "blurb": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "sourceName": "Google DeepMind",
+      "sourceType": "official",
+      "category": "Industry & Business",
+      "publishedAt": "2026-08-27T12:59:16.000Z",
+      "factualScore": 90,
+      "qualityScore": 77,
+      "gradient": [
+        "#0EA5E9",
+        "#A855F7"
+      ],
+      "icon": "rocket"
     },
     {
       "id": "s827914844",
@@ -2159,6 +2788,23 @@
         "#22D3EE"
       ],
       "icon": "globe"
+    },
+    {
+      "id": "s816354770",
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "blurb": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "sourceName": "Google DeepMind",
+      "sourceType": "official",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-08-26T17:01:00.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
     },
     {
       "id": "s236478684",
@@ -2414,6 +3060,23 @@
         "#22D3EE"
       ],
       "icon": "brain"
+    },
+    {
+      "id": "s715315204",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "blurb": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "sourceName": "Google DeepMind",
+      "sourceType": "official",
+      "category": "AI News",
+      "publishedAt": "2026-08-21T11:59:48.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "document"
     },
     {
       "id": "s1175645618",
@@ -2703,57 +3366,6 @@
         "#22D3EE"
       ],
       "icon": "globe"
-    },
-    {
-      "id": "s505246271",
-      "title": "The Defender’s Window",
-      "blurb": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
-      "url": "https://openai.com/index/the-defenders-window",
-      "sourceName": "OpenAI",
-      "sourceType": "official",
-      "category": "AI News",
-      "publishedAt": "2026-08-17T05:30:00.000Z",
-      "factualScore": 90,
-      "qualityScore": 85,
-      "gradient": [
-        "#14B8A6",
-        "#22D3EE"
-      ],
-      "icon": "globe"
-    },
-    {
-      "id": "s501532161",
-      "title": "OpenAI joins PORTS-Pike project",
-      "blurb": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
-      "url": "https://openai.com/index/openai-joins-ports-pike-project",
-      "sourceName": "OpenAI",
-      "sourceType": "official",
-      "category": "AI News",
-      "publishedAt": "2026-08-17T05:00:00.000Z",
-      "factualScore": 90,
-      "qualityScore": 85,
-      "gradient": [
-        "#14B8A6",
-        "#22D3EE"
-      ],
-      "icon": "globe"
-    },
-    {
-      "id": "s422250568",
-      "title": "New policy ideas for the Intelligence Age",
-      "blurb": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
-      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-      "sourceName": "OpenAI",
-      "sourceType": "official",
-      "category": "AI Safety & Policy",
-      "publishedAt": "2026-08-17T03:15:00.000Z",
-      "factualScore": 90,
-      "qualityScore": 85,
-      "gradient": [
-        "#EF4444",
-        "#7C3AED"
-      ],
-      "icon": "shield"
     }
   ]
 }
