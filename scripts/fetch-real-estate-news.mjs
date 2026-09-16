@@ -179,10 +179,15 @@ async function fetchRss({ url, sourceName }) {
     const link = item.link?.["@_href"] ?? (Array.isArray(item.link) ? item.link[0]?.["@_href"] : item.link) ?? item.id ?? "";
     const summary = item.description ?? item["content:encoded"] ?? item.summary ?? item.content ?? "";
     const publishedAt = item.pubDate ?? item.updated ?? item.published ?? new Date().toISOString();
-    const text = `${title} ${summary}`;
+    // Market/asset-class detection intentionally looks at the TITLE only, not
+    // the full body: trade-press headlines reliably name the deal's actual
+    // city (e.g. "...in Palm Beach Gardens, Florida"), but the body text
+    // often mentions unrelated places too (a buyer's home city, a source's
+    // affiliation) — matching the whole body previously mistagged a New
+    // Jersey deal as Miami just because the acquirer was "Florida-based."
     return {
-      market: detectMarket(text),
-      assetClass: detectAssetClass(text),
+      market: detectMarket(title),
+      assetClass: detectAssetClass(title),
       title: stripHtml(title),
       blurb: makeBlurb(summary || title),
       url: link,
