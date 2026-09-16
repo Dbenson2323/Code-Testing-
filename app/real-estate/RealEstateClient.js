@@ -3,8 +3,10 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import RateCard from "./components/RateCard";
+import MarketOverview from "./components/MarketOverview";
 import MarketMetricCard from "./components/MarketMetricCard";
 import OccupancyChart from "./components/OccupancyChart";
+import CyclePhase from "./components/CyclePhase";
 import NewsList from "./components/NewsList";
 import ModelsSection from "./components/ModelsSection";
 import ResourcesSection from "./components/ResourcesSection";
@@ -88,11 +90,12 @@ export default function RealEstateClient({ rates, ratesGeneratedAt, news, metric
         <p className="text-sm text-[#5C5443] mb-6">
           Real, current figures pulled directly from the Federal Reserve (FRED) — not estimates.
         </p>
-        <div className="grid sm:grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-3 gap-5 mb-6">
           <RateCard label="Fed Funds Rate" rate={rates.fedFundsRate} />
           <RateCard label="10-Year Treasury" rate={rates.treasury10Y} />
           <RateCard label="30-Year Mortgage" rate={rates.mortgage30Y} />
         </div>
+        <MarketOverview rates={rates} generatedAt={ratesGeneratedAt} />
       </section>
 
       {/* Market tabs */}
@@ -118,6 +121,10 @@ export default function RealEstateClient({ rates, ratesGeneratedAt, news, metric
         </h3>
         <div className="rounded-xl border border-[#D8CDB8] bg-white p-6 mb-10">
           <OccupancyChart assetClasses={ASSET_CLASSES} marketMetrics={marketMetrics} />
+        </div>
+
+        <div className="mb-10">
+          <CyclePhase marketLabel={marketLabel} />
         </div>
 
         <h3 className="text-lg font-serif font-bold text-[#1F3A34] mb-3">
