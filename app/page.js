@@ -49,41 +49,41 @@ export default function HomePage() {
           <div className="grid sm:grid-cols-2 gap-4">
             <Link
               href="/ai-research"
-              className="block rounded-xl p-5 bg-gradient-to-br from-cyan-500 via-purple-500 to-pink-500 text-white shadow-md hover:shadow-lg transition-shadow"
+              className="block rounded-xl p-5 bg-gray-900 text-white shadow-md hover:bg-black transition-colors"
             >
-              <span className="text-2xl">🧠</span>
+              <span className="text-2xl grayscale">🧠</span>
               <h2 className="mt-2 font-bold">AI Research Feed</h2>
-              <p className="mt-1 text-sm text-white/90 leading-relaxed">
+              <p className="mt-1 text-sm text-gray-300 leading-relaxed">
                 A daily-updated feed of AI research and industry news, scored automatically for
                 factual accuracy and writing quality.
               </p>
-              <span className="mt-3 inline-block text-sm font-semibold">Explore →</span>
+              <span className="mt-3 inline-block text-sm font-semibold border-b border-white/60">Explore →</span>
             </Link>
 
             <Link
               href="/real-estate"
-              className="block rounded-xl p-5 bg-gradient-to-br from-amber-600 via-orange-600 to-red-600 text-white shadow-md hover:shadow-lg transition-shadow"
+              className="block rounded-xl p-5 bg-gray-900 text-white shadow-md hover:bg-black transition-colors"
             >
-              <span className="text-2xl">🏢</span>
+              <span className="text-2xl grayscale">🏢</span>
               <h2 className="mt-2 font-bold">Real Estate Dashboard</h2>
-              <p className="mt-1 text-sm text-white/90 leading-relaxed">
+              <p className="mt-1 text-sm text-gray-300 leading-relaxed">
                 Real interest rates from the Federal Reserve, live deal news, and market metrics
                 across four focus markets.
               </p>
-              <span className="mt-3 inline-block text-sm font-semibold">Explore →</span>
+              <span className="mt-3 inline-block text-sm font-semibold border-b border-white/60">Explore →</span>
             </Link>
           </div>
 
           <div className="mt-4 flex flex-wrap justify-center gap-3">
             <Link
               href="/work"
-              className="px-6 py-2.5 text-sm font-semibold rounded-full border-2 border-gray-300 text-gray-700 hover:border-gray-500 transition-colors"
+              className="px-6 py-2.5 text-sm font-semibold rounded-full border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-colors"
             >
               All Work
             </Link>
             <Link
               href="/about-me"
-              className="px-6 py-2.5 text-sm font-semibold rounded-full border-2 border-gray-300 text-gray-700 hover:border-gray-500 transition-colors"
+              className="px-6 py-2.5 text-sm font-semibold rounded-full border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-colors"
             >
               About Me
             </Link>
