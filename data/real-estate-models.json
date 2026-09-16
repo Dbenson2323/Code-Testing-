@@ -1,0 +1,23 @@
+{
+  "_note": "Named download slots for your Excel models. `file: null` means not uploaded yet — the page shows it as 'Coming soon'. To publish one: drop the .xlsx into public/real-estate/models/ and set `file` here to its filename (e.g. \"acquisition-model.xlsx\").",
+  "models": [
+    {
+      "id": "model-1",
+      "name": "Model 1",
+      "description": "Acquisition underwriting model — add a description once uploaded.",
+      "file": null
+    },
+    {
+      "id": "model-description",
+      "name": "Model Description",
+      "description": "A guide explaining how the models are structured and how to use them.",
+      "file": null
+    },
+    {
+      "id": "waterfall-model",
+      "name": "Waterfall Model",
+      "description": "Equity distribution waterfall template.",
+      "file": null
+    }
+  ]
+}

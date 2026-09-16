@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "fetch:news": "node scripts/fetch-ai-news.mjs"
+    "fetch:news": "node scripts/fetch-ai-news.mjs",
+    "fetch:real-estate": "node scripts/fetch-real-estate-news.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "^5.11.1",

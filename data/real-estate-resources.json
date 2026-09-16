@@ -1,0 +1,7 @@
+{
+  "_note": "Named link slots for the Resources section (e.g. explainer videos on deal structuring). `href: null` means not filled in yet — the page shows it as 'Coming soon'. Just add the real URL here to publish it; no code changes needed.",
+  "resources": [
+    { "id": "model-structure-walkthrough", "title": "Model Structure Walkthrough", "href": null },
+    { "id": "waterfall-explained", "title": "Waterfall Structures Explained", "href": null }
+  ]
+}

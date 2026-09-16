@@ -1,6 +1,7 @@
 # Code-Testing-
 
-Duke Benson's site — a personal home/portfolio plus a daily-updated **AI Research Feed**.
+Duke Benson's site — a personal home/portfolio, a daily-updated **AI Research Feed**, and a
+**Real Estate** market page.
 
 ## Quick start (read this first)
 
@@ -71,6 +72,42 @@ You can also run it locally any time:
 npm run fetch:news
 ```
 
+## Real Estate (`/real-estate`)
+
+A commercial real estate market page covering four focus markets — Denver, Chicago, Miami, and
+San Francisco — across five asset classes (Multifamily, Industrial, Office, Retail, Hospitality).
+
+**What's real vs. what's a placeholder, and why:**
+
+- **Interest rates** (Fed Funds Rate, 10-Year Treasury, 30-Year Mortgage) are real, current
+  figures pulled directly from the Federal Reserve's public FRED data — no API key needed, no
+  estimates. See `fetchAllRates()` in `scripts/fetch-real-estate-news.mjs`.
+- **Deal news** per market is pulled from free commercial real estate trade-press RSS feeds
+  (GlobeSt, Commercial Property Executive, REBusinessOnline, The Real Deal, Multi-Housing News),
+  filtered to stories that mention one of the four focus markets.
+- **Asset-class metrics** (net absorption, supply under construction, vacancy) are **not**
+  fetched from anywhere — that data lives behind paid subscriptions (CoStar, CBRE, JLL) with no
+  free public API, so fabricating realistic-looking numbers here would be misleading. Instead,
+  `data/real-estate-metrics.json` holds clearly-labeled example figures (`"example": true`,
+  which the page shows as an "Example data" badge) for you to replace with your own real numbers
+  and source citations once you have data access.
+
+**How the daily update works:** `.github/workflows/fetch-real-estate-news.yml` runs
+`npm run fetch:real-estate` once a day (14:00 UTC), which writes the real rates and news to
+`data/real-estate-rates.json` and `data/real-estate-news.json` and commits if anything changed —
+same pattern as the AI Research Feed. Trigger it by hand any time from the Actions tab, or run
+locally with `npm run fetch:real-estate`.
+
+**Uploading Excel models:** the "Models" section reads `data/real-estate-models.json`, a simple
+list of `{ name, description, file }` entries. To publish a model:
+
+1. Drop the `.xlsx` file into `public/real-estate/models/`
+2. Set that entry's `file` to the filename (e.g. `"waterfall-model.xlsx"`)
+3. Push — the download button appears automatically, no code changes needed
+
+The same pattern works for the "Resources" section's video/article links in
+`data/real-estate-resources.json` — just fill in a `href`.
+
 ## Running it on your own computer
 
 This is only for previewing changes before they go live — nobody else needs to do this to view
@@ -129,19 +166,38 @@ That's the link you can open on your phone or send to anyone.
 app/
   page.js              personal home page
   about-me/            personal about page (unchanged)
+  work/                real project list (replaces old dead Portfolio/Projects links)
   ai-research/         the AI research feed
     page.js            server component, loads data/ai-stories.json
     AiResearchClient.js search + category filtering + feed layout
     components/
       StoryCard.js      one feed card
       ScoreMeter.js     the factual/quality score bars
+      TechIcons.js      original topic-matched SVG icon art (no stock photos)
+  real-estate/         the real estate market page
+    page.js            server component, loads all data/real-estate-*.json
+    RealEstateClient.js market/asset-class tabs, rates, news, models, resources
+    components/
+      RateCard.js          one FRED interest-rate stat
+      MarketMetricCard.js  one market x asset-class metrics card
+      NewsList.js          filtered deal-news list for a market
+      ModelsSection.js     Excel model download cards
+      ResourcesSection.js  video/article link list
 data/
-  ai-stories.json       the current feed data (rewritten daily by CI)
+  ai-stories.json            the current AI feed data (rewritten daily by CI)
+  real-estate-rates.json     real Fed interest rates (rewritten daily by CI)
+  real-estate-news.json      real deal news per market (rewritten daily by CI)
+  real-estate-metrics.json   hand-edited example asset-class metrics (see Real Estate section)
+  real-estate-models.json    named Excel model download slots
+  real-estate-resources.json named resource/video link slots
+public/real-estate/models/   drop .xlsx files here to publish them for download
 scripts/
-  fetch-ai-news.mjs      the daily fetch/score/merge job
+  fetch-ai-news.mjs           the daily AI feed fetch/score/merge job
+  fetch-real-estate-news.mjs  the daily real estate rates/news fetch job
 .github/workflows/
-  fetch-ai-news.yml      daily cron: fetch news, commit if changed
-  deploy.yml             build + deploy to GitHub Pages on every push
+  fetch-ai-news.yml            daily cron: fetch AI news, commit if changed
+  fetch-real-estate-news.yml   daily cron: fetch real estate data, commit if changed
+  deploy.yml                   build + deploy to GitHub Pages on every push
 ```
 
 ## Security

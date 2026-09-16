@@ -22,6 +22,13 @@ export default function HomePage() {
         </Link>
 
         <Link
+          href="/real-estate"
+          className="px-8 py-3 text-base font-semibold rounded-lg bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 text-white shadow-lg hover:shadow-orange-500/30 transition-all"
+        >
+          🏢 Real Estate
+        </Link>
+
+        <Link
           href="/work"
           className="px-8 py-3 text-base font-semibold rounded-lg border-2 border-gray-700 text-gray-300 hover:text-white hover:border-gray-500 transition-colors"
         >
