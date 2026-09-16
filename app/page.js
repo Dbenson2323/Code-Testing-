@@ -14,6 +14,11 @@ export default function HomePage() {
         <header className="text-center">
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight">Duke Benson</h1>
           <p className="mt-3 text-lg text-gray-500">Denver, Colorado</p>
+          <p className="mt-5 text-gray-600 leading-relaxed max-w-lg mx-auto">
+            Studying Finance &amp; Real Estate at the University of Colorado Boulder&apos;s Leeds
+            School of Business. I build software that combines both interests — from an
+            AI research feed to a live commercial real estate market dashboard.
+          </p>
         </header>
 
         {/* Education */}
@@ -36,33 +41,54 @@ export default function HomePage() {
           />
         </section>
 
-        {/* Site nav */}
-        <nav className="mt-12 flex flex-wrap justify-center gap-3">
-          <Link
-            href="/ai-research"
-            className="px-6 py-2.5 text-sm font-semibold rounded-full bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 text-white shadow-md hover:shadow-cyan-500/30 transition-all"
-          >
-            🧠 AI Research Feed
-          </Link>
-          <Link
-            href="/real-estate"
-            className="px-6 py-2.5 text-sm font-semibold rounded-full bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 text-white shadow-md hover:shadow-orange-500/30 transition-all"
-          >
-            🏢 Real Estate
-          </Link>
-          <Link
-            href="/work"
-            className="px-6 py-2.5 text-sm font-semibold rounded-full border-2 border-gray-300 text-gray-700 hover:border-gray-500 transition-colors"
-          >
-            Work
-          </Link>
-          <Link
-            href="/about-me"
-            className="px-6 py-2.5 text-sm font-semibold rounded-full border-2 border-gray-300 text-gray-700 hover:border-gray-500 transition-colors"
-          >
-            About Me
-          </Link>
-        </nav>
+        {/* Currently building */}
+        <section className="mt-14">
+          <p className="text-center text-xs font-semibold uppercase tracking-wide text-gray-400 mb-4">
+            Currently Building
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <Link
+              href="/ai-research"
+              className="block rounded-xl p-5 bg-gradient-to-br from-cyan-500 via-purple-500 to-pink-500 text-white shadow-md hover:shadow-lg transition-shadow"
+            >
+              <span className="text-2xl">🧠</span>
+              <h2 className="mt-2 font-bold">AI Research Feed</h2>
+              <p className="mt-1 text-sm text-white/90 leading-relaxed">
+                A daily-updated feed of AI research and industry news, scored automatically for
+                factual accuracy and writing quality.
+              </p>
+              <span className="mt-3 inline-block text-sm font-semibold">Explore →</span>
+            </Link>
+
+            <Link
+              href="/real-estate"
+              className="block rounded-xl p-5 bg-gradient-to-br from-amber-600 via-orange-600 to-red-600 text-white shadow-md hover:shadow-lg transition-shadow"
+            >
+              <span className="text-2xl">🏢</span>
+              <h2 className="mt-2 font-bold">Real Estate Dashboard</h2>
+              <p className="mt-1 text-sm text-white/90 leading-relaxed">
+                Real interest rates from the Federal Reserve, live deal news, and market metrics
+                across four focus markets.
+              </p>
+              <span className="mt-3 inline-block text-sm font-semibold">Explore →</span>
+            </Link>
+          </div>
+
+          <div className="mt-4 flex flex-wrap justify-center gap-3">
+            <Link
+              href="/work"
+              className="px-6 py-2.5 text-sm font-semibold rounded-full border-2 border-gray-300 text-gray-700 hover:border-gray-500 transition-colors"
+            >
+              All Work
+            </Link>
+            <Link
+              href="/about-me"
+              className="px-6 py-2.5 text-sm font-semibold rounded-full border-2 border-gray-300 text-gray-700 hover:border-gray-500 transition-colors"
+            >
+              About Me
+            </Link>
+          </div>
+        </section>
 
         {/* Contact */}
         <section className="mt-16 text-center">
