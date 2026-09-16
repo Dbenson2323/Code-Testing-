@@ -10,44 +10,44 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function HomePage() {
   return (
     <div className="relative min-h-screen bg-white text-gray-900">
-      {/* Hero photo */}
-      <div className="relative w-full h-72 md:h-96 overflow-hidden bg-black">
+      {/* Fixed, faded background photo — covers roughly the first screen,
+          then fades to plain white so it reads as atmosphere behind the
+          hero text rather than a bold banner, and disappears as you
+          scroll into the rest of the page. */}
+      <div className="fixed inset-0 h-screen overflow-hidden">
         <Image
           src={`${basePath}/glacier-national-park-river-falls-nature-landscapes-2627b2.jpg`}
           alt="Glacier National Park river falls"
           fill
           priority
-          className="object-cover"
+          className="object-cover opacity-40"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
-        <div className="absolute inset-x-0 bottom-0 pb-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white drop-shadow">
-            Duke Benson
-          </h1>
-        </div>
-        <p className="absolute bottom-1.5 right-3 text-[10px] text-white/70">
-          Photo: Glacier National Park, via{" "}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/60 to-white" />
+      </div>
+
+      {/* Hero text, floating directly over the background photo */}
+      <div className="relative px-6 pt-20 pb-8 max-w-2xl mx-auto text-center">
+        <h1 className="text-5xl md:text-6xl font-bold tracking-tight">Duke Benson</h1>
+        <p className="mt-3 text-lg text-gray-500">Denver, Colorado</p>
+        <p className="mt-5 text-gray-600 leading-relaxed max-w-lg mx-auto">
+          Studying Finance &amp; Real Estate at the University of Colorado Boulder&apos;s Leeds
+          School of Business. I build software that combines both interests — from an
+          AI research feed to a live commercial real estate market dashboard.
+        </p>
+        <p className="mt-6 text-[8px] text-gray-400">
+          Background photo: Glacier National Park, via{" "}
           <a
             href="https://picryl.com/media/glacier-national-park-river-falls-nature-landscapes-2627b2"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline hover:text-white"
+            className="underline hover:text-gray-600"
           >
             Picryl
           </a>
         </p>
       </div>
 
-      <div className="relative px-6 py-14 max-w-2xl mx-auto">
-        <header className="text-center">
-          <p className="text-lg text-gray-500">Denver, Colorado</p>
-          <p className="mt-5 text-gray-600 leading-relaxed max-w-lg mx-auto">
-            Studying Finance &amp; Real Estate at the University of Colorado Boulder&apos;s Leeds
-            School of Business. I build software that combines both interests — from an
-            AI research feed to a live commercial real estate market dashboard.
-          </p>
-        </header>
-
+      <div className="relative bg-white px-6 pb-14 max-w-2xl mx-auto">
         {/* Education */}
         <section className="mt-12 space-y-3">
           <EducationRow
