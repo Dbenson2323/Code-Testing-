@@ -231,8 +231,17 @@ async function main() {
     // first run
   }
 
+  // Re-run detection on every previously-stored item's title, not just new
+  // fetches: otherwise a mistag never heals itself (it only ever gets
+  // *overwritten* if the exact same URL happens to come back through a
+  // fresh fetch — which won't happen once it ages out of a feed's listing
+  // or, as here, once a detection-rule fix makes it stop matching at all).
+  const healedPrevious = previous
+    .map((item) => ({ ...item, market: detectMarket(item.title), assetClass: detectAssetClass(item.title) }))
+    .filter((item) => item.market);
+
   const byUrl = new Map();
-  for (const item of [...previous, ...marketNews]) byUrl.set(item.url, item);
+  for (const item of [...healedPrevious, ...marketNews]) byUrl.set(item.url, item);
 
   const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
   const merged = [...byUrl.values()]
