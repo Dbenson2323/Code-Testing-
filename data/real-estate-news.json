@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T20:16:12.707Z",
+  "generatedAt": "2026-09-16T20:18:45.642Z",
   "news": [
     {
       "market": "miami",
@@ -9,15 +9,6 @@
       "url": "https://rebusinessonline.com/nuveen-sells-207877-sf-shopping-center-in-palm-beach-gardens-florida/",
       "sourceName": "REBusinessOnline",
       "publishedAt": "2026-09-16T14:38:19.000Z"
-    },
-    {
-      "market": "miami",
-      "assetClass": "industrial",
-      "title": "Basis Industrial Receives $24M Construction Loan for Self-Storage Project in Wayne, New Jersey",
-      "blurb": "WAYNE, N.J. — Florida-based owner-operator Basis Industrial has received a $24 million construction loan for a self-storage project in the Northern New Jersey community of Wayne. ExtraSpace Storage will operate the facility at 555 Hamburg Turnpike, which will span 85,330 net rentable square feet across 586…",
-      "url": "https://rebusinessonline.com/basis-industrial-receives-24m-construction-loan-for-self-storage-project-in-wayne-new-jersey/",
-      "sourceName": "REBusinessOnline",
-      "publishedAt": "2026-09-16T13:34:43.000Z"
     },
     {
       "market": "chicago",
@@ -36,15 +27,6 @@
       "url": "https://rebusinessonline.com/switchyards-inks-leases-for-two-new-coworking-spaces-in-chicago/",
       "sourceName": "REBusinessOnline",
       "publishedAt": "2026-09-16T13:12:30.000Z"
-    },
-    {
-      "market": "chicago",
-      "assetClass": "general",
-      "title": "Eisenberg Foundation Expands Mentorship Program into Indianapolis",
-      "blurb": "INDIANAPOLIS — The Harold E. Eisenberg Foundation is expanding its real estate mentorship program to Indiana. Headquartered in the north suburbs of Chicago, the foundation’s mentorship program has worked with more than 2,200 college and university students and over 100 professionals. Students can now request…",
-      "url": "https://rebusinessonline.com/eisenberg-foundation-expands-mentorship-program-into-indianapolis/",
-      "sourceName": "REBusinessOnline",
-      "publishedAt": "2026-09-16T13:11:40.000Z"
     }
   ]
 }
