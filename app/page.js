@@ -1,19 +1,46 @@
 //app/page.js
 import Link from "next/link";
-import MountainBackdrop from "./components/MountainBackdrop";
+import Image from "next/image";
 import EducationRow from "./components/EducationRow";
 import SocialLink from "./components/SocialLink";
 import { MailIcon, LinkedInIcon, InstagramIcon, XIcon } from "./components/ProfileIcons";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function HomePage() {
   return (
     <div className="relative min-h-screen bg-white text-gray-900">
-      <MountainBackdrop />
+      {/* Hero photo */}
+      <div className="relative w-full h-72 md:h-96 overflow-hidden bg-black">
+        <Image
+          src={`${basePath}/glacier-national-park-river-falls-nature-landscapes-2627b2.jpg`}
+          alt="Glacier National Park river falls"
+          fill
+          priority
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 pb-6 text-center">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white drop-shadow">
+            Duke Benson
+          </h1>
+        </div>
+        <p className="absolute bottom-1.5 right-3 text-[10px] text-white/70">
+          Photo: Glacier National Park, via{" "}
+          <a
+            href="https://picryl.com/media/glacier-national-park-river-falls-nature-landscapes-2627b2"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-white"
+          >
+            Picryl
+          </a>
+        </p>
+      </div>
 
-      <div className="relative px-6 py-20 max-w-2xl mx-auto">
+      <div className="relative px-6 py-14 max-w-2xl mx-auto">
         <header className="text-center">
-          <h1 className="text-5xl md:text-6xl font-bold tracking-tight">Duke Benson</h1>
-          <p className="mt-3 text-lg text-gray-500">Denver, Colorado</p>
+          <p className="text-lg text-gray-500">Denver, Colorado</p>
           <p className="mt-5 text-gray-600 leading-relaxed max-w-lg mx-auto">
             Studying Finance &amp; Real Estate at the University of Colorado Boulder&apos;s Leeds
             School of Business. I build software that combines both interests — from an
