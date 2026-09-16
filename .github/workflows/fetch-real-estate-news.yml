@@ -1,11 +1,15 @@
-name: Fetch daily real estate data
+name: Fetch real estate data
 
 # Note: GitHub only fires the `schedule` trigger for workflow files on the
 # repository's default branch. Trigger by hand from the Actions tab with
-# "Run workflow" any time before/without that.
+# "Run workflow" any time before/without that. Interest rates and RSS news
+# don't change hourly, but running every 6 hours (rather than once a day)
+# keeps the page closer to "current" without needing a live on-click
+# refetch — which a public static site can't safely offer anyway (that
+# would require embedding a write-capable GitHub token in the page).
 on:
   schedule:
-    - cron: "0 14 * * *" # 14:00 UTC daily
+    - cron: "0 */6 * * *" # every 6 hours
   workflow_dispatch: {}
 
 permissions:

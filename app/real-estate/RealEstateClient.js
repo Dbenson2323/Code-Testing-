@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import RateCard from "./components/RateCard";
 import MarketMetricCard from "./components/MarketMetricCard";
+import OccupancyChart from "./components/OccupancyChart";
 import NewsList from "./components/NewsList";
 import ModelsSection from "./components/ModelsSection";
 import ResourcesSection from "./components/ResourcesSection";
@@ -34,7 +35,7 @@ function formatDate(iso) {
 
 export default function RealEstateClient({ rates, ratesGeneratedAt, news, metrics, models, resources }) {
   const [activeMarket, setActiveMarket] = useState("denver");
-  const [activeAssetClass, setActiveAssetClass] = useState("multifamily");
+  const [refreshing, setRefreshing] = useState(false);
 
   const marketNews = useMemo(
     () => news.filter((item) => item.market === activeMarket).slice(0, 6),
@@ -42,16 +43,31 @@ export default function RealEstateClient({ rates, ratesGeneratedAt, news, metric
   );
 
   const marketMetrics = metrics.markets[activeMarket];
-  const assetMetrics = marketMetrics?.assetClasses?.[activeAssetClass];
-  const assetLabel = ASSET_CLASSES.find((a) => a.key === activeAssetClass)?.label ?? activeAssetClass;
+  const marketLabel = MARKETS.find((m) => m.key === activeMarket)?.label;
+
+  function handleRefresh() {
+    setRefreshing(true);
+    // Static site: this reloads the page to guarantee you're seeing the
+    // most recently *published* data (not a stale browser cache) — it does
+    // not itself pull new numbers from the Fed/RSS. That happens on the
+    // daily automated job (or on request).
+    window.location.reload();
+  }
 
   return (
     <div className="min-h-screen bg-[#F6F1E7] text-[#2A241C]">
       {/* Hero */}
-      <header className="px-6 pt-14 pb-10 text-center border-b border-[#D8CDB8] bg-[#FBF8F0]">
+      <header className="relative px-6 pt-14 pb-10 text-center border-b border-[#D8CDB8] bg-[#FBF8F0]">
         <Link href="/" className="text-xs text-[#9C927C] hover:text-[#2A241C] block mb-6">
           ← Back to home
         </Link>
+        <button
+          onClick={handleRefresh}
+          title="Reload this page with the latest published data"
+          className="absolute top-6 right-6 text-xs font-semibold text-[#5C5443] hover:text-[#B54A32] border border-[#D8CDB8] hover:border-[#B54A32] rounded-full px-3 py-1.5 transition-colors"
+        >
+          {refreshing ? "Refreshing…" : "↻ Refresh"}
+        </button>
         <h1 className="text-5xl md:text-6xl font-serif font-bold text-[#1F3A34]">Real Estate</h1>
         <p className="mt-3 text-[#5C5443] max-w-xl mx-auto">
           A market analyst&apos;s view of commercial real estate — national interest rates,
@@ -59,7 +75,7 @@ export default function RealEstateClient({ rates, ratesGeneratedAt, news, metric
         </p>
         {ratesGeneratedAt && (
           <p className="mt-3 text-xs text-[#9C927C]">
-            Rates &amp; news last updated {formatDate(ratesGeneratedAt)} · refreshes automatically every day
+            Rates &amp; news last updated {formatDate(ratesGeneratedAt)} · refreshes automatically every few hours
           </p>
         )}
       </header>
@@ -81,7 +97,7 @@ export default function RealEstateClient({ rates, ratesGeneratedAt, news, metric
 
       {/* Market tabs */}
       <section className="max-w-5xl mx-auto px-6 py-6">
-        <div className="flex flex-wrap gap-2 justify-center mb-8">
+        <div className="flex flex-wrap gap-2 justify-center mb-10">
           {MARKETS.map((m) => (
             <button
               key={m.key}
@@ -97,36 +113,30 @@ export default function RealEstateClient({ rates, ratesGeneratedAt, news, metric
           ))}
         </div>
 
-        <div className="flex flex-wrap gap-2 justify-center mb-8">
+        <h3 className="text-lg font-serif font-bold text-[#1F3A34] mb-3">
+          {marketLabel} — Occupancy by Sector
+        </h3>
+        <div className="rounded-xl border border-[#D8CDB8] bg-white p-6 mb-10">
+          <OccupancyChart assetClasses={ASSET_CLASSES} marketMetrics={marketMetrics} />
+        </div>
+
+        <h3 className="text-lg font-serif font-bold text-[#1F3A34] mb-3">
+          {marketLabel} — All Asset Classes
+        </h3>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
           {ASSET_CLASSES.map((a) => (
-            <button
+            <MarketMetricCard
               key={a.key}
-              onClick={() => setActiveAssetClass(a.key)}
-              className={`px-4 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                activeAssetClass === a.key
-                  ? "bg-[#B54A32] text-white"
-                  : "bg-white border border-[#D8CDB8] text-[#5C5443] hover:border-[#B54A32]"
-              }`}
-            >
-              {a.label}
-            </button>
+              assetClassLabel={a.label}
+              metrics={marketMetrics?.assetClasses?.[a.key]}
+            />
           ))}
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          <div>
-            <h3 className="text-lg font-serif font-bold text-[#1F3A34] mb-3">
-              {MARKETS.find((m) => m.key === activeMarket)?.label} — {assetLabel} Metrics
-            </h3>
-            <MarketMetricCard assetClassLabel={assetLabel} metrics={assetMetrics} />
-          </div>
-          <div>
-            <h3 className="text-lg font-serif font-bold text-[#1F3A34] mb-3">
-              {MARKETS.find((m) => m.key === activeMarket)?.label} — Recent Deal News
-            </h3>
-            <NewsList items={marketNews} />
-          </div>
-        </div>
+        <h3 className="text-lg font-serif font-bold text-[#1F3A34] mb-3">
+          {marketLabel} — Recent Deal News
+        </h3>
+        <NewsList items={marketNews} />
       </section>
 
       {/* Models */}

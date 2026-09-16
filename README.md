@@ -92,8 +92,8 @@ San Francisco — across five asset classes (Multifamily, Industrial, Office, Re
   which the page shows as an "Example data" badge) for you to replace with your own real numbers
   and source citations once you have data access.
 
-**How the daily update works:** `.github/workflows/fetch-real-estate-news.yml` runs
-`npm run fetch:real-estate` once a day (14:00 UTC), which writes the real rates and news to
+**How the automatic update works:** `.github/workflows/fetch-real-estate-news.yml` runs
+`npm run fetch:real-estate` every 6 hours, which writes the real rates and news to
 `data/real-estate-rates.json` and `data/real-estate-news.json` and commits if anything changed —
 same pattern as the AI Research Feed. Trigger it by hand any time from the Actions tab, or run
 locally with `npm run fetch:real-estate`.
@@ -193,10 +193,10 @@ data/
 public/real-estate/models/   drop .xlsx files here to publish them for download
 scripts/
   fetch-ai-news.mjs           the daily AI feed fetch/score/merge job
-  fetch-real-estate-news.mjs  the daily real estate rates/news fetch job
+  fetch-real-estate-news.mjs  the real estate rates/news fetch job (runs every 6h)
 .github/workflows/
   fetch-ai-news.yml            daily cron: fetch AI news, commit if changed
-  fetch-real-estate-news.yml   daily cron: fetch real estate data, commit if changed
+  fetch-real-estate-news.yml   cron: fetch real estate data every 6h, commit if changed
   deploy.yml                   build + deploy to GitHub Pages on every push
 ```
 
