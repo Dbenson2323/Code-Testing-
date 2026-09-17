@@ -4,6 +4,7 @@ import newsData from "../../data/real-estate-news.json";
 import metricsData from "../../data/real-estate-metrics.json";
 import modelsData from "../../data/real-estate-models.json";
 import resourcesData from "../../data/real-estate-resources.json";
+import personalNotesData from "../../data/real-estate-personal-notes.json";
 
 export const metadata = {
   title: "Real Estate",
@@ -19,6 +20,7 @@ export default function RealEstatePage() {
       metrics={metricsData}
       models={modelsData.models}
       resources={resourcesData.resources}
+      personalNotes={personalNotesData.markets}
     />
   );
 }

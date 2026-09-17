@@ -10,6 +10,7 @@ import CyclePhase from "./components/CyclePhase";
 import NewsList from "./components/NewsList";
 import ModelsSection from "./components/ModelsSection";
 import ResourcesSection from "./components/ResourcesSection";
+import MyTake from "./components/MyTake";
 
 const MARKETS = [
   { key: "denver", label: "Denver" },
@@ -35,7 +36,7 @@ function formatDate(iso) {
   }
 }
 
-export default function RealEstateClient({ rates, ratesGeneratedAt, news, metrics, models, resources }) {
+export default function RealEstateClient({ rates, ratesGeneratedAt, news, metrics, models, resources, personalNotes }) {
   const [activeMarket, setActiveMarket] = useState("denver");
   const [refreshing, setRefreshing] = useState(false);
 
@@ -125,6 +126,10 @@ export default function RealEstateClient({ rates, ratesGeneratedAt, news, metric
 
         <div className="mb-10">
           <CyclePhase marketLabel={marketLabel} />
+        </div>
+
+        <div className="mb-10">
+          <MyTake marketLabel={marketLabel} notes={personalNotes?.[activeMarket]} />
         </div>
 
         <h3 className="text-lg font-serif font-bold text-[#1F3A34] mb-3">
