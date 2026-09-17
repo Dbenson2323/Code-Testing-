@@ -1,8 +1,8 @@
 {
   "_note": "This is YOUR personal take, not automated data — nothing here is fetched or fabricated. Edit each market's `overview`, `headwinds`, and `tailwinds` directly to add your own analysis. Leave a bullet/overview empty (\"\") to have the page show a 'not filled in yet' placeholder instead.",
   "markets": {
-    "denver": {Denver has been showing supply pains inflicted through overdevelopment, neccessity for office space, and socail stresses on the city. Denver shows early recovery as the market recovers from the hangover supply. 
-      "overview": "",
+    "denver": {
+      "overview": "Denver has been showing supply pains inflicted through overdevelopment, necessity for office space, and social stresses on the city. Denver shows early recovery as the market recovers from the hangover supply.",
       "headwinds": [],
       "tailwinds": []
     },
