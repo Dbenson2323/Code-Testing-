@@ -24,7 +24,7 @@ export default function PhotoBackdrop() {
             "radial-gradient(ellipse 65% 55% at 50% 28%, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.25) 55%, rgba(0,0,0,0) 78%)",
         }}
       />
-      <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-b from-transparent to-white" />
+      <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-b from-transparent to-gray-950" />
     </div>
   );
 }
