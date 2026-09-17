@@ -16,19 +16,43 @@
       ]
     },
     "chicago": {
-      "overview": "",
-      "headwinds": [],
-      "tailwinds": []
+      "overview": "Chicago's story is bifurcation, not decline. Trophy and new-build towers in Fulton Market and the West Loop are absorbing tenants at the expense of aging Loop office stock, some of which is heading toward functional obsolescence rather than recovery. Multifamily stays a steady, unglamorous performer — Chicago's relative affordability keeps renter demand consistent even without dramatic population growth. Industrial around O'Hare and the I-55/I-80 corridors continues to lean on the city's position as a national distribution hub. The bigger overhang across every asset class isn't fundamentals, it's the city and Cook County's fiscal and property-tax picture, which shows up as a valuation discount more than a demand problem.",
+      "headwinds": [
+        "Office: Flight-to-quality is hollowing out older Loop stock, pushing vacancy and shadow space higher for anything short of top-tier",
+        "Multifamily: Rising property taxes and insurance costs are compressing NOI even where rent growth is healthy",
+        "Citywide: Ongoing city/county fiscal uncertainty is a persistent drag on investor sentiment and cap rates"
+      ],
+      "tailwinds": [
+        "Industrial: Rail and highway connectivity keep Chicago a top-tier national distribution hub with durable demand",
+        "Multifamily: Limited new supply relative to renter demand is keeping occupancy and rent growth resilient in most submarkets",
+        "Office: Fulton Market/West Loop trophy towers are still capturing outsized leasing activity — quality gets funded even in a down market"
+      ]
     },
     "miami": {
-      "overview": "",
-      "headwinds": [],
-      "tailwinds": []
+      "overview": "Miami has been one of the strongest multifamily and office markets nationally, riding sustained in-migration, no state income tax, and a growing finance presence. That same growth has produced a wave of new multifamily supply in Brickell and Downtown that's now pressuring rent growth and pushing concessions up after several very strong years. Industrial stays structurally tight given how little developable land is left. Office picked up real momentum from financial-services relocations, but is now digesting new supply of its own rather than running purely on scarcity.",
+      "headwinds": [
+        "Multifamily: Heavy new supply delivering in Brickell/Downtown is pushing concessions higher and slowing rent growth",
+        "Citywide: Insurance and climate risk (flood, hurricane) are structurally raising operating costs across every asset class",
+        "Industrial: Land scarcity is pushing land and construction costs up, making new development harder to underwrite"
+      ],
+      "tailwinds": [
+        "Office: Continued relocation of financial-services firms and family offices from the Northeast keeps trophy office demand resilient",
+        "Multifamily: In-migration and no state income tax keep supporting long-term demand even as new supply digests",
+        "Industrial: Port access and limited available land keep existing industrial stock structurally undersupplied"
+      ]
     },
     "sanfrancisco": {
-      "overview": "",
-      "headwinds": [],
-      "tailwinds": []
+      "overview": "San Francisco's office market has been the poster child for post-pandemic distress, with vacancy near historic highs — though there are early, tentative signs of stabilization as AI-sector hiring pulls tenants back into the market, concentrated around the SoMa AI cluster. Multifamily has held up better than office, benefiting as renewed tech hiring brings workers back into the city. Lab/life-science space is the market's own soft spot, overbuilt relative to the current biotech venture-funding environment. The bigger picture: San Francisco's talent density and venture capital concentration are unmatched, which is exactly why it's positioned to benefit disproportionately if this AI-driven demand wave continues.",
+      "headwinds": [
+        "Office: Vacancy remains near record highs, and older or poorly located buildings face real risk of long-term obsolescence or conversion",
+        "Life sciences/lab space: Overbuilt relative to the current venture-funding environment, leaving significant sublease and shadow vacancy",
+        "Citywide: High cost of doing business and lingering downtown perception issues continue to weigh on investor sentiment"
+      ],
+      "tailwinds": [
+        "Office: AI-sector leasing is the first genuine positive demand driver downtown office has seen since the pandemic",
+        "Multifamily: Renewed tech hiring tied to AI is bringing workers back into the city, supporting occupancy and rent growth",
+        "Long-term: Unmatched talent density and venture capital concentration position SF to benefit disproportionately from the next growth cycle"
+      ]
     }
   }
 }
