@@ -7,7 +7,7 @@ import { MailIcon, LinkedInIcon, InstagramIcon, XIcon } from "./components/Profi
 
 export default function HomePage() {
   return (
-    <div className="relative min-h-screen bg-white text-gray-900">
+    <div className="relative min-h-screen text-white">
       <PhotoBackdrop />
 
       {/* Hero text, floating directly over the background photo */}
@@ -34,14 +34,13 @@ export default function HomePage() {
         </p>
       </div>
 
-      <div className="relative bg-white px-6 pb-14 max-w-2xl mx-auto">
+      <div className="relative px-6 pb-14 max-w-2xl mx-auto">
         {/* Education */}
         <section className="mt-12 space-y-3">
           <EducationRow
             href="https://www.colorado.edu/business/"
             iconBg="#000000"
-            logoSrc="/logos/cu-boulder-logo.svg"
-            logoShape="wide"
+            logoSrc="/logos/cu-boulder-icon.svg"
             title="University of Colorado Boulder — Leeds School of Business"
             subtitle="Class of 2026 · Finance & Real Estate"
             bio="Studying finance and real estate at CU Boulder's Leeds School of Business."
@@ -58,7 +57,7 @@ export default function HomePage() {
 
         {/* Currently building */}
         <section className="mt-14">
-          <p className="text-center text-xs font-semibold uppercase tracking-wide text-gray-400 mb-4">
+          <p className="text-center text-xs font-semibold uppercase tracking-wide text-white/70 drop-shadow mb-4">
             Currently Building
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
@@ -121,13 +120,13 @@ export default function HomePage() {
           <div className="mt-4 flex flex-wrap justify-center gap-6">
             <Link
               href="/work"
-              className="px-2 py-2 text-sm font-semibold text-gray-900 hover:text-gray-600 underline underline-offset-4 transition-colors"
+              className="px-2 py-2 text-sm font-semibold text-white hover:text-white/70 underline underline-offset-4 transition-colors drop-shadow"
             >
               All Work
             </Link>
             <Link
               href="/about-me"
-              className="px-2 py-2 text-sm font-semibold text-gray-900 hover:text-gray-600 underline underline-offset-4 transition-colors"
+              className="px-2 py-2 text-sm font-semibold text-white hover:text-white/70 underline underline-offset-4 transition-colors drop-shadow"
             >
               About Me
             </Link>
@@ -136,7 +135,7 @@ export default function HomePage() {
 
         {/* Contact */}
         <section className="mt-16 text-center">
-          <p className="text-gray-500 mb-4">Let&apos;s connect</p>
+          <p className="text-white/70 drop-shadow mb-4">Let&apos;s connect</p>
           <div className="flex flex-wrap justify-center gap-3">
             <SocialLink href="mailto:dukerenobenson@gmail.com" icon={<MailIcon className="w-4 h-4" />} label="Email" />
             <SocialLink href="https://www.linkedin.com/in/dukebenson/" icon={<LinkedInIcon className="w-4 h-4 rounded" />} label="LinkedIn" />

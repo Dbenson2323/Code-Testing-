@@ -1,31 +1,21 @@
 import { GraduationCapIcon } from "./ProfileIcons";
 
-export default function EducationRow({ href, iconColor, iconBg, logoSrc, logoShape = "circle", title, subtitle, bio }) {
+export default function EducationRow({ href, iconColor, iconBg, logoSrc, title, subtitle, bio }) {
   return (
     <a
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-start gap-4 p-4 rounded-xl border border-gray-200 hover:border-gray-400 bg-white transition-colors"
+      className="flex items-start gap-4 p-4 rounded-xl border border-white/40 hover:border-white/70 bg-white/95 backdrop-blur-sm transition-colors"
     >
       {logoSrc ? (
-        logoShape === "wide" ? (
-          <span
-            className="shrink-0 h-11 max-w-[130px] px-2.5 rounded-lg flex items-center justify-center overflow-hidden"
-            style={{ backgroundColor: iconBg }}
-          >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={logoSrc} alt={`${title} logo`} className="h-5 w-auto" />
-          </span>
-        ) : (
-          <span
-            className="shrink-0 w-11 h-11 rounded-full overflow-hidden flex items-center justify-center"
-            style={{ backgroundColor: iconBg }}
-          >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={logoSrc} alt={`${title} logo`} className="w-full h-full object-cover" />
-          </span>
-        )
+        <span
+          className="shrink-0 w-11 h-11 rounded-full overflow-hidden flex items-center justify-center p-2"
+          style={{ backgroundColor: iconBg }}
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={logoSrc} alt={`${title} logo`} className="w-full h-full object-contain" />
+        </span>
       ) : (
         <span
           className="shrink-0 w-11 h-11 rounded-full flex items-center justify-center"
