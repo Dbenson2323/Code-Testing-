@@ -1,6 +1,788 @@
 {
-  "generatedAt": "2026-09-16T17:31:08.394Z",
+  "generatedAt": "2026-09-17T17:31:13.641Z",
   "stories": [
+    {
+      "id": "s1304973857",
+      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "blurb": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
+      "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI Safety & Policy",
+      "publishedAt": "2026-09-17T17:15:59.000Z",
+      "factualScore": 82,
+      "qualityScore": 80,
+      "gradient": [
+        "#EF4444",
+        "#7C3AED"
+      ],
+      "icon": "shield"
+    },
+    {
+      "id": "s1543969771",
+      "title": "Pinterest teases a new &#8216;Restyle&#8217; feature that lets you redesign your room with AI",
+      "blurb": "Pinterest is testing Restyle, a new AI-powered feature that lets users visualize furniture, decor, lighting and other changes in photos of their own rooms — potentially helping turn saved inspiration into purchases.",
+      "url": "https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-17T17:15:00.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "eye"
+    },
+    {
+      "id": "s788320179",
+      "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
+      "blurb": "Huawei is accelerating the launch of its next-generation Ascend 960DT AI chip as it pushes to compete with Nvidia and close China’s AI computing gap with the U.S.",
+      "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-17T14:06:14.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "chip"
+    },
+    {
+      "id": "s1924177552",
+      "title": "2 days left to exhibit at TechCrunch Disrupt 2026",
+      "blurb": "Last day to book your exhibit table at Disrupt is September 18. Two days left. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
+      "url": "https://techcrunch.com/2026/09/17/2-days-left-to-exhibit-at-techcrunch-disrupt-2026/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-17T14:00:00.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1740790990",
+      "title": "Rival AI agents, Instinct and Meta&#8217;s Muse, both add the ability to make calls",
+      "blurb": "People can use these assistants to make restaurant reservations and cancel subscriptions.",
+      "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-17T13:46:16.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s107899040",
+      "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
+      "blurb": "A new coalition that includes Google, Nvidia, Anthropic, and Emerald AI wants to find 100 GW of grid capacity for new data centers.",
+      "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-17T13:38:33.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s120725084",
+      "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
+      "blurb": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashing limited-time Deluxe Edition sale on…",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
+      "sourceName": "NVIDIA Blog",
+      "sourceType": "official",
+      "category": "AI News",
+      "publishedAt": "2026-09-17T13:00:55.000Z",
+      "factualScore": 94,
+      "qualityScore": 85,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s324981156",
+      "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
+      "blurb": "Treble's voice simulation platform is used by voice AI model developers and AI wearable and robotics companies,",
+      "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "Robotics",
+      "publishedAt": "2026-09-17T05:00:00.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#F97316",
+        "#EAB308"
+      ],
+      "icon": "robot"
+    },
+    {
+      "id": "s1657036425",
+      "title": "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026",
+      "blurb": "This session will explore how early-stage companies are building teams where humans and AI agents work alongside each other — and how founders can do that without sacrificing speed, accountability, or culture. Learn more at TechCrunch Disrupt 2026. Register before September 25 to save up to $200.",
+      "url": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-17T03:30:00.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1037304612",
+      "title": "Snap tries to make the case again for its $2,200 smart glasses",
+      "blurb": "Since Specs' debut earlier this year, Snap has clearly been looking for an opportunity to explain why the smart glasses deserve to exist.",
+      "url": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-17T00:58:49.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s428172654",
+      "title": "Al Gore says the real AI risk isn&#8217;t data centers",
+      "blurb": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed.",
+      "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T23:43:09.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "shield"
+    },
+    {
+      "id": "s400315803",
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+      "blurb": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI Safety & Policy",
+      "publishedAt": "2026-09-16T21:07:24.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#EF4444",
+        "#7C3AED"
+      ],
+      "icon": "shield"
+    },
+    {
+      "id": "s987114688",
+      "title": "After accusations of selling &#8216;perv glasses,&#8217; Meta prepares to sell a pair without a camera",
+      "blurb": "Can Meta dodge the \"pervert glasses\" accusations with a new camera-free product?",
+      "url": "https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T20:12:00.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "eye"
+    },
+    {
+      "id": "s442472446",
+      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "blurb": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
+      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T18:25:25.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s1942075861",
+      "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
+      "blurb": "Two dominant tokenisation algorithms are used by modern language models: byte-pair encoding (BPE) and UnigramLM. These differ along two orthogonal axes: their optimisation objective (compression vs. log-likelihood) and their search procedure (bottom-up merging vs. top-down pruning). Existing comparisons confound these axes, making it unclear whether their…",
+      "url": "https://arxiv.org/abs/2609.19145v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T17:59:45.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s1942074900",
+      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+      "blurb": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates alternative ways to extract information from preference pairs with small likelihood margins. In this paper, we propose and analyze Comparison-based…",
+      "url": "https://arxiv.org/abs/2609.19144v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T17:59:35.000Z",
+      "factualScore": 100,
+      "qualityScore": 93,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "shield"
+    },
+    {
+      "id": "s1942073939",
+      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
+      "blurb": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but reliably associating them with image pixels remains challenging. Existing methods that combine dense captioning with pixel-level grounding often…",
+      "url": "https://arxiv.org/abs/2609.19143v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T17:59:30.000Z",
+      "factualScore": 100,
+      "qualityScore": 93,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "eye"
+    },
+    {
+      "id": "s1942072978",
+      "title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
+      "blurb": "World models endow perceptual systems with the ability to predict how scenes evolve under interaction. They are most beneficial when trained on diverse volumes of data, to instill a rich prior into downstream applications. Existing methods typically require robot action labels to learn action-conditioned 3D dynamics, which excludes web video data from the…",
+      "url": "https://arxiv.org/abs/2609.19142v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Robotics",
+      "publishedAt": "2026-09-16T17:59:30.000Z",
+      "factualScore": 100,
+      "qualityScore": 93,
+      "gradient": [
+        "#F97316",
+        "#EAB308"
+      ],
+      "icon": "robot"
+    },
+    {
+      "id": "s1942048953",
+      "title": "In-Context Robot Learning with VLM Agents",
+      "blurb": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such in-context learning (ICL), however, remains largely…",
+      "url": "https://arxiv.org/abs/2609.19138v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T17:58:35.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "robot"
+    },
+    {
+      "id": "s1942047992",
+      "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+      "blurb": "Recent advances in video generation allow robots to learn manipulation trajectories from generated videos. However, these approaches produce purely kinematic trajectories that lack force information, causing failures in contact-rich tasks where appropriate contact forces are essential for success. In this work, we explore augmenting generated video with…",
+      "url": "https://arxiv.org/abs/2609.19137v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Computer Vision",
+      "publishedAt": "2026-09-16T17:56:44.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#EC4899",
+        "#6366F1"
+      ],
+      "icon": "robot"
+    },
+    {
+      "id": "s1942046070",
+      "title": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
+      "blurb": "Can a logged dataset visit every hidden state frequently and still be exponentially uninformative about a target policy's value? We show that it can when the logger depends on history. For every horizon $H \\ge 3$, we construct two POMDPs with at most two latent states per stage, three actions, and a common logger with three memory states. Action coverage,…",
+      "url": "https://arxiv.org/abs/2609.19135v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "AI Safety & Policy",
+      "publishedAt": "2026-09-16T17:56:12.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#EF4444",
+        "#7C3AED"
+      ],
+      "icon": "shield"
+    },
+    {
+      "id": "s1942045109",
+      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+      "blurb": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented toolchains, implicit domain conventions, and specialized correctness criteria make this knowledge difficult to convert into reliable learning experience-a challenge we call the scientific experience bottleneck. We introduce ScienceIDE,…",
+      "url": "https://arxiv.org/abs/2609.19134v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Open Source & Tools",
+      "publishedAt": "2026-09-16T17:55:47.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#22C55E",
+        "#0EA5E9"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s1942019162",
+      "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
+      "blurb": "Language agents remain brittle in interactive environments, where success requires long-horizon state tracking, valid action execution, and recovery from failed steps. We extend SwiftSage, a dual-process agent that combines a fast action proposer with a slower planner, using two modular cognitive extensions: an Adaptive Memory Module (AMM) for…",
+      "url": "https://arxiv.org/abs/2609.19128v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T17:50:42.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s1942016279",
+      "title": "Affora: A Design System for Agent-Friendly Interfaces",
+      "blurb": "Computer-use agents increasingly operate software designed for people, but interfaces often leave actions or task state unclear to machine readers. We present Affora, a design system that supports both readers while preserving visual freedom and familiar human workflows. Three controlled studies examine component implementations, visual variation, and…",
+      "url": "https://arxiv.org/abs/2609.19125v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Industry & Business",
+      "publishedAt": "2026-09-16T17:46:34.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#0EA5E9",
+        "#A855F7"
+      ],
+      "icon": "rocket"
+    },
+    {
+      "id": "s1942015318",
+      "title": "Flag Game: A Toy Model for Mechanistic Swarm Interpretability",
+      "blurb": "Emergent coordinated behaviors of AI agents are starting to present critical safety risks. A key phenomenon driving these behaviors is the rapid formation and spread of beliefs about the world, and mechanistic understanding is crucial for collective alignment. To this end, we introduce the Flag Game, a toy model for studying the mechanisms of collective…",
+      "url": "https://arxiv.org/abs/2609.19124v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "AI Safety & Policy",
+      "publishedAt": "2026-09-16T17:46:06.000Z",
+      "factualScore": 100,
+      "qualityScore": 93,
+      "gradient": [
+        "#EF4444",
+        "#7C3AED"
+      ],
+      "icon": "shield"
+    },
+    {
+      "id": "s1942013396",
+      "title": "Adaptive Convolutional Sparse Coding via Information Bottleneck for Robust Visual Signal Representation",
+      "blurb": "Visual signals require compact yet sufficient representations for robust downstream prediction. Convolutional sparse coding (CSC) provides an explicit mechanism for suppressing redundant components while preserving signal content, but its sparsity coefficient is typically fixed and manually selected. We propose an adaptive convolutional sparse coding…",
+      "url": "https://arxiv.org/abs/2609.19122v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Open Source & Tools",
+      "publishedAt": "2026-09-16T17:43:46.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#22C55E",
+        "#0EA5E9"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s1941990332",
+      "title": "Track, Articulate, Act: Generating Articulation from Casual Human Videos",
+      "blurb": "Human videos contain rich causal evidence for robot manipulation: they reveal how hand motion induces object motion and produces task-relevant changes in object state. In this work, we study articulated objects such as doors, drawers, cabinets, laptops, ovens, and hinged containers that are ubiquitous in daily life and present unique challenges for…",
+      "url": "https://arxiv.org/abs/2609.19119v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Computer Vision",
+      "publishedAt": "2026-09-16T17:43:12.000Z",
+      "factualScore": 100,
+      "qualityScore": 93,
+      "gradient": [
+        "#EC4899",
+        "#6366F1"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s1941984566",
+      "title": "Playing log(N)-Questions over Wikipedia Abstracts: Communication Efficiency Between Paired Frontier Models",
+      "blurb": "We evaluate six frontier language models on the two-agent $\\log(N)$-Questions game. A questioner sees $N$ Wikipedia lead paragraphs and must identify a secretly chosen target using exactly $\\log_2 N$ yes/no questions. An answerer sees only the target and the question, and replies with one word. Both roles run on the same provider, so the game measures how…",
+      "url": "https://arxiv.org/abs/2609.19113v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T17:41:12.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s1941958619",
+      "title": "How Model Growth, Recursion, and Boundary Operators Influence Scaling Exponents",
+      "blurb": "Scaling laws predict how loss decreases with increases in computation. We show, contrary to conventional wisdom, that architectural interventions can modify scaling exponents in pre-training, leading to exponential improvements in performance with increases in computation. As an anchoring point, we consider the architectural formulation of looped…",
+      "url": "https://arxiv.org/abs/2609.19107v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T17:36:13.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s1941955736",
+      "title": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference",
+      "blurb": "Factory work is a promising early scenario for embodied AI: assigning repetitive manual jobs to robots has clear economic payoff, and a structured station keeps the jobs tractable for current policies. Vision-Language-Action (VLA) models now dominate as the policy paradigm for these robots. The inference latency of VLA models directly affects robot…",
+      "url": "https://arxiv.org/abs/2609.19104v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Robotics",
+      "publishedAt": "2026-09-16T17:34:43.000Z",
+      "factualScore": 100,
+      "qualityScore": 93,
+      "gradient": [
+        "#F97316",
+        "#EAB308"
+      ],
+      "icon": "robot"
+    },
+    {
+      "id": "s1941952853",
+      "title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+      "blurb": "As models scale, reward hacking becomes more frequent, more sophisticated, and more consequential. Does it leave a telltale signature in model representations? This work analyzes how reward hacking is represented internally in frontier open source LLMs, and how those representations can be used to understand and discover the range of hacking behaviors a…",
+      "url": "https://arxiv.org/abs/2609.19101v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T17:31:52.000Z",
+      "factualScore": 100,
+      "qualityScore": 93,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "rocket"
+    },
+    {
+      "id": "s1941305139",
+      "title": "Evidence-Grounded Agentic Formulation Development in an Autonomous Laboratory",
+      "blurb": "Self-emulsifying drug delivery systems (SEDDS) can improve the oral bioavailability of poorly soluble drugs, but identifying high-performing formulations remains experimentally intensive. We present Andromeda 2, an agentic system that reasons over structured in-house experimental evidence and invokes computational and experimental tools to design and…",
+      "url": "https://arxiv.org/abs/2609.19099v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Research Papers",
+      "publishedAt": "2026-09-16T17:31:27.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#6366F1",
+        "#14B8A6"
+      ],
+      "icon": "document"
+    },
+    {
+      "id": "s1941302256",
+      "title": "Prepared Or Unprepared? Evaluating Healthcare Workforce Readiness for Clinical Adoption of Artificial Intelligence in Nigeria",
+      "blurb": "Artificial intelligence (AI) is increasingly integrated into healthcare systems worldwide, yet its successful clinical adoption depends critically on workforce readiness, particularly in low- and middle-income countries (LMICs) where infrastructural and training gaps persist. This cross-sectional study evaluated awareness, attitudes, preparedness, and…",
+      "url": "https://arxiv.org/abs/2609.19096v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Open Source & Tools",
+      "publishedAt": "2026-09-16T17:30:48.000Z",
+      "factualScore": 100,
+      "qualityScore": 93,
+      "gradient": [
+        "#22C55E",
+        "#0EA5E9"
+      ],
+      "icon": "shield"
+    },
+    {
+      "id": "s1941299373",
+      "title": "Reporting Practice Matters: The Impact of Reference Choice on Chest X-ray Report Evaluation",
+      "blurb": "Radiologists follow heterogeneous reporting practices. Two radiologists examining the same image and identifying the same clinical findings might nevertheless compose superficially distinct reports, varying in terminology, shorthand, formatting, and level of detail. These variations in reporting norms represent an under-appreciated obstacle in efforts to…",
+      "url": "https://arxiv.org/abs/2609.19093v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Industry & Business",
+      "publishedAt": "2026-09-16T17:28:51.000Z",
+      "factualScore": 100,
+      "qualityScore": 93,
+      "gradient": [
+        "#0EA5E9",
+        "#A855F7"
+      ],
+      "icon": "rocket"
+    },
+    {
+      "id": "s1941296490",
+      "title": "Securing quantum error correction against misleading advice from AI agents",
+      "blurb": "Can an attacker turn influence over an artificial intelligence (AI) adviser into a harmful quantum error-correction update? We identify an ambiguity in passive syndrome records that obstructs recovery selection, then show how additional calibration measurements support certified recovery updates under uncertainty and drift. In an odd-distance square toric…",
+      "url": "https://arxiv.org/abs/2609.19090v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Industry & Business",
+      "publishedAt": "2026-09-16T17:26:54.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#0EA5E9",
+        "#A855F7"
+      ],
+      "icon": "rocket"
+    },
+    {
+      "id": "s1941274387",
+      "title": "MUSE: Benchmarking Large Vision-Language Models on Multi-Modal Understanding in Situated Education",
+      "blurb": "Large vision-language models have achieved remarkable progress in multi-modal understanding, yet their capabilities in educational settings remain insufficiently evaluated. In AI-assisted language learning, models must interpret artistic imagery, understand its semantic, affective, and cultural content, and reason about visual context to support meaningful…",
+      "url": "https://arxiv.org/abs/2609.19088v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T17:26:10.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s1941269582",
+      "title": "A General Kernel Framework for Non-CND Distance Measures Using |D|-Dimensional Sparse Landmark Embeddings",
+      "blurb": "Kernel methods, and Gaussian Processes (GPs) in particular, require a Hilbertian distance measure---one whose square is conditionally negative definite (CND)---to guarantee positive semi-definiteness (PSD) of the kernel matrix; a condition that fails for many natural input spaces, including smooth manifolds and spaces of probability distributions. We…",
+      "url": "https://arxiv.org/abs/2609.19083v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Open Source & Tools",
+      "publishedAt": "2026-09-16T17:23:50.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#22C55E",
+        "#0EA5E9"
+      ],
+      "icon": "code"
+    },
+    {
+      "id": "s1941266699",
+      "title": "ElastiQP: An Always-Feasible QP Solver for Constrained Robot Control",
+      "blurb": "As robot capabilities increase, quadratic programming (QP)-based controllers must account for a similarly increasing number of constraints to ensure safe, reliable operation. Yet, with each added constraint, this introduces more chances of momentary conflict: in which case, a QP solver that returns an \"infeasible\" status leaves the controller with nothing…",
+      "url": "https://arxiv.org/abs/2609.19080v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Robotics",
+      "publishedAt": "2026-09-16T17:22:09.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#F97316",
+        "#EAB308"
+      ],
+      "icon": "robot"
+    },
+    {
+      "id": "s1941243635",
+      "title": "Probabilistic Linear Explanations",
+      "blurb": "Formal explainability provides mathematically grounded justifications for individual predictions. However, abductive explanations often exceed human cognitive limits by involving too many features, while probabilistic relaxations have remained largely limited to categorical classification. We present a unified framework for probabilistic explainability…",
+      "url": "https://arxiv.org/abs/2609.19077v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Open Source & Tools",
+      "publishedAt": "2026-09-16T17:18:00.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#22C55E",
+        "#0EA5E9"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": "s1941242674",
+      "title": "Double descent is the principle of least action",
+      "blurb": "The test error of a model plotted against its number of parameters $d$ falls, peaks when the model can just fit the training data, and falls again, exhibiting the double descent phenomenon. We explain the phenomenon with statistical mechanics. The training trajectory of a stochastic gradient-based method is a particle wandering over the energy landscape of…",
+      "url": "https://arxiv.org/abs/2609.19076v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T17:17:46.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "rocket"
+    },
+    {
+      "id": "s1941240752",
+      "title": "RLLBC-Lib: An Educational Code Library for Reinforcement Learning and Learning-Based Control",
+      "blurb": "Reinforcement learning (RL) is an exciting concept as well as a remarkable success story worth sharing. However, RL builds on rather complex interactions between different objects that play out over several cycles. Such dynamics are often best explained with an easily accessible implementation. We present RLLBC-Lib, a carefully crafted code library with…",
+      "url": "https://arxiv.org/abs/2609.19074v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Open Source & Tools",
+      "publishedAt": "2026-09-16T17:15:59.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#22C55E",
+        "#0EA5E9"
+      ],
+      "icon": "code"
+    },
+    {
+      "id": "s1920919446",
+      "title": "\"What's going to happen after I'm gone?\": Parent Perspectives on Technology in Supporting Independent Living for Adults with Intellectual Disabilities",
+      "blurb": "Adults with intellectual and developmental disabilities (IDD) are increasingly transitioning from family homes towards semi-inde\\-pendent living. As parents hand off the role of primary caregiver, they face numerous challenges in arranging consistent and quality support. Our research centers on understanding these caregiving routines. By focusing on the…",
+      "url": "https://arxiv.org/abs/2609.18970v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "AI News",
+      "publishedAt": "2026-09-16T17:11:36.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "eye"
+    },
+    {
+      "id": "s1920805087",
+      "title": "Long-Lived Characters, Local Inference: Incremental Memory Maintenance for Game NPCs",
+      "blurb": "A game character should not have to reread its entire life before every conversation. For locally deployed language-model characters, however, revising a few memories can invalidate a long reusable prefix. The resulting preparation cost competes with both foreground dialogue and the maintenance of other characters. This matters especially when dialogue…",
+      "url": "https://arxiv.org/abs/2609.18935v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Research Papers",
+      "publishedAt": "2026-09-16T17:09:05.000Z",
+      "factualScore": 100,
+      "qualityScore": 93,
+      "gradient": [
+        "#6366F1",
+        "#14B8A6"
+      ],
+      "icon": "document"
+    },
+    {
+      "id": "s1920800282",
+      "title": "Learning Holistic Whole-Body Loco-Manipulation with a Bipedal Mobile Manipulator",
+      "blurb": "Bipedal loco-manipulation enables robots to interact with objects beyond the nominal workspace of their arms by coordinating locomotion and manipulation. Realizing this capability requires a low-level whole-body controller that translates task-level manipulation goals into coordinated arm and leg motions while maintaining balance. We present a unified…",
+      "url": "https://arxiv.org/abs/2609.18930v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Computer Vision",
+      "publishedAt": "2026-09-16T17:05:32.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#EC4899",
+        "#6366F1"
+      ],
+      "icon": "robot"
+    },
+    {
+      "id": "s1920779140",
+      "title": "Social Laws for Multi-agent Coordination in Stochastic Environments",
+      "blurb": "In multi-agent environments, coordinating agents to prevent interference and ensure robust individual performance is a critical challenge. Previous research on social laws for multi-agent systems has primarily focused on deterministic, goal-based settings. This paper extends the concept of social laws to stochastic, reward-based environments, proposing a…",
+      "url": "https://arxiv.org/abs/2609.18929v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "AI Safety & Policy",
+      "publishedAt": "2026-09-16T17:05:03.000Z",
+      "factualScore": 100,
+      "qualityScore": 93,
+      "gradient": [
+        "#EF4444",
+        "#7C3AED"
+      ],
+      "icon": "shield"
+    },
+    {
+      "id": "s1920778179",
+      "title": "Comprehensive reconstruction of collider events with hypergraph representation learning and graph-conditioned diffusion",
+      "blurb": "In particle collider experiments, event reconstruction is the task of inferring the kinematics of short-lived particles produced in the hard scatter from the stable final states recorded by detectors. We decompose event reconstruction into two primary tasks: assigning measured jets and charged leptons to parent particles, and predicting unmeasured neutrino…",
+      "url": "https://arxiv.org/abs/2609.18928v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "Computer Vision",
+      "publishedAt": "2026-09-16T17:03:37.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#EC4899",
+        "#6366F1"
+      ],
+      "icon": "eye"
+    },
     {
       "id": "s1558044395",
       "title": "Your AI agents can now control your Google Home devices",
@@ -17,6 +799,74 @@
         "#22D3EE"
       ],
       "icon": "eye"
+    },
+    {
+      "id": "s354685478",
+      "title": "Our framework for reporting model misalignment",
+      "blurb": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "sourceName": "OpenAI",
+      "sourceType": "official",
+      "category": "AI Safety & Policy",
+      "publishedAt": "2026-09-16T17:00:00.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#EF4444",
+        "#7C3AED"
+      ],
+      "icon": "shield"
+    },
+    {
+      "id": "s1920770491",
+      "title": "PhysVGGT: Feed-Forward Dense Physical Property Estimation from A Single Image",
+      "blurb": "Physical properties, such as friction, hardness, stiffness, and density, govern how robots should grasp, manipulate and interact with objects, yet estimating these properties from RGB images remains challenging. Existing methods typically employ per-object reconstruction augmented with physical properties or directly query vision-language models at test…",
+      "url": "https://arxiv.org/abs/2609.18920v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T16:58:14.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "robot"
+    },
+    {
+      "id": "s1920746466",
+      "title": "Higher-order pruning of experts in mixture-of-experts language models",
+      "blurb": "Mixture-of-Experts (MoE) language models suffer from large parameter counts, which create a significant memory bottleneck. Expert pruning is the most direct approach for reducing this parameter count, yet existing methods make pruning decisions for each expert independently, and assume experts' contributions are purely additive. In reality, expert usage in…",
+      "url": "https://arxiv.org/abs/2609.18916v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T16:55:46.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "document"
+    },
+    {
+      "id": "s1920740700",
+      "title": "CaSCo: Cascade-Aware Soft-Collision Motion Planning",
+      "blurb": "Conventional motion planning treats collision as a binary constraint, although contact with different objects can have drastically different consequences. A robot may safely brush against a cardboard box while even minor contact with a glass, laptop, or unstable object may be undesirable. Moreover, a direct robot--object collision can move the contacted…",
+      "url": "https://arxiv.org/abs/2609.18910v1",
+      "sourceName": "arXiv",
+      "sourceType": "paper",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T16:51:15.000Z",
+      "factualScore": 96,
+      "qualityScore": 93,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
     },
     {
       "id": "s2063174021",
@@ -223,6 +1073,23 @@
       "icon": "chip"
     },
     {
+      "id": "s332109051",
+      "title": "How to connect AI usage to business value",
+      "blurb": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "sourceName": "OpenAI",
+      "sourceType": "official",
+      "category": "LLMs & Chatbots",
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#7C3AED",
+        "#22D3EE"
+      ],
+      "icon": "brain"
+    },
+    {
       "id": "s622414504",
       "title": "Amazon launches Alexa+ in India with Hindi support",
       "blurb": "Amazon is letting all customers use Alexa+ assistant in early access period.",
@@ -369,6 +1236,23 @@
       "publishedAt": "2026-09-15T18:29:20.000Z",
       "factualScore": 78,
       "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s478695519",
+      "title": "rohitgupta1003/Week-1-Assignment-Introduction-to-Artificial-Intelligence-and-Python: new AI project",
+      "blurb": "rohitgupta1003/Week-1-Assignment-Introduction-to-Artificial-Intelligence-and-Python: new AI project",
+      "url": "https://github.com/rohitgupta1003/Week-1-Assignment-Introduction-to-Artificial-Intelligence-and-Python",
+      "sourceName": "GitHub Trending",
+      "sourceType": "opensource",
+      "category": "AI News",
+      "publishedAt": "2026-09-15T18:07:25.000Z",
+      "factualScore": 82,
+      "qualityScore": 66,
       "gradient": [
         "#14B8A6",
         "#22D3EE"
@@ -1533,8 +2417,8 @@
     },
     {
       "id": "s2008526710",
-      "title": "TianCZeng/sharp-cv: Official implementation of SHARP, statistical test under cross-validation performances, proposed in Zeng et. al., Spurious model comparisons are widespread in biomedical artificial intelligence. bioRxiv. 2026",
-      "blurb": "Official implementation of SHARP, statistical test under cross-validation performances, proposed in Zeng et. al., Spurious model comparisons are widespread in biomedical artificial intelligence. bioRxiv. 2026",
+      "title": "TianCZeng/sharp-cv: Official implementation of SHARP, a statistical method that redesigns cross-validation and test whether model performance differences are supported by the data. proposed in Zeng et. al., Spurious model comparisons are widespread in biomedical artificial intelligence. bioRxiv. 2026",
+      "blurb": "Official implementation of SHARP, a statistical method that redesigns cross-validation and test whether model performance differences are supported by the data. proposed in Zeng et. al., Spurious model comparisons are widespread in biomedical artificial intelligence. bioRxiv. 2026",
       "url": "https://github.com/TianCZeng/sharp-cv",
       "sourceName": "GitHub Trending",
       "sourceType": "opensource",
@@ -1770,6 +2654,23 @@
       "icon": "shield"
     },
     {
+      "id": "s2112363984",
+      "title": "Kowloongs/Atlantis: Atlantis - Atlantis Artificial Intelligence",
+      "blurb": "Atlantis - Atlantis Artificial Intelligence",
+      "url": "https://github.com/Kowloongs/Atlantis",
+      "sourceName": "GitHub Trending",
+      "sourceType": "opensource",
+      "category": "AI News",
+      "publishedAt": "2026-09-08T07:54:08.000Z",
+      "factualScore": 82,
+      "qualityScore": 66,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
       "id": "s1404139300",
       "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
       "blurb": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
@@ -1906,6 +2807,23 @@
       "icon": "document"
     },
     {
+      "id": "s342154022",
+      "title": "krishna-rao-g/machine-learning: Artificial Intelligence Techniques and Applications",
+      "blurb": "Artificial Intelligence Techniques and Applications",
+      "url": "https://github.com/krishna-rao-g/machine-learning",
+      "sourceName": "GitHub Trending",
+      "sourceType": "opensource",
+      "category": "AI News",
+      "publishedAt": "2026-09-05T11:59:07.000Z",
+      "factualScore": 82,
+      "qualityScore": 66,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
       "id": "s1408925320",
       "title": "Architecting memory and storage in the AI era",
       "blurb": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous…",
@@ -1933,6 +2851,23 @@
       "publishedAt": "2026-09-04T12:11:34.000Z",
       "factualScore": 82,
       "qualityScore": 74,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe"
+    },
+    {
+      "id": "s191027662",
+      "title": "rahulkiran2222/Stanford-University-Probability-for-Artificial-Intelligence-PAI: A Project from Stanford’s Probability for Artificial Intelligence (PAI) — 2026",
+      "blurb": "A Project from Stanford’s Probability for Artificial Intelligence (PAI) — 2026",
+      "url": "https://github.com/rahulkiran2222/Stanford-University-Probability-for-Artificial-Intelligence-PAI",
+      "sourceName": "GitHub Trending",
+      "sourceType": "opensource",
+      "category": "AI News",
+      "publishedAt": "2026-09-04T11:56:36.000Z",
+      "factualScore": 82,
+      "qualityScore": 66,
       "gradient": [
         "#14B8A6",
         "#22D3EE"
@@ -3240,125 +4175,6 @@
       "sourceType": "opensource",
       "category": "AI News",
       "publishedAt": "2026-08-18T18:09:38.000Z",
-      "factualScore": 82,
-      "qualityScore": 66,
-      "gradient": [
-        "#14B8A6",
-        "#22D3EE"
-      ],
-      "icon": "globe"
-    },
-    {
-      "id": "s25829121",
-      "title": "Partnering with CodeAI to prepare the first AI generation",
-      "blurb": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-      "url": "https://openai.com/index/partnering-with-codeai",
-      "sourceName": "OpenAI",
-      "sourceType": "official",
-      "category": "AI News",
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "factualScore": 90,
-      "qualityScore": 85,
-      "gradient": [
-        "#14B8A6",
-        "#22D3EE"
-      ],
-      "icon": "brain"
-    },
-    {
-      "id": "s936462907",
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "blurb": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "sourceName": "OpenAI",
-      "sourceType": "official",
-      "category": "AI Safety & Policy",
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "factualScore": 90,
-      "qualityScore": 85,
-      "gradient": [
-        "#EF4444",
-        "#7C3AED"
-      ],
-      "icon": "shield"
-    },
-    {
-      "id": "s872092573",
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "blurb": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-      "url": "https://openai.com/index/chatgpt-for-teens",
-      "sourceName": "OpenAI",
-      "sourceType": "official",
-      "category": "LLMs & Chatbots",
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "factualScore": 90,
-      "qualityScore": 85,
-      "gradient": [
-        "#7C3AED",
-        "#22D3EE"
-      ],
-      "icon": "brain"
-    },
-    {
-      "id": "s1168338154",
-      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
-      "blurb": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
-      "url": "https://openai.com/index/asana",
-      "sourceName": "OpenAI",
-      "sourceType": "official",
-      "category": "AI News",
-      "publishedAt": "2026-08-18T07:00:00.000Z",
-      "factualScore": 90,
-      "qualityScore": 85,
-      "gradient": [
-        "#14B8A6",
-        "#22D3EE"
-      ],
-      "icon": "globe"
-    },
-    {
-      "id": "s1897536807",
-      "title": "How NVIDIA scales expertise with ChatGPT Work",
-      "blurb": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-      "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "sourceName": "OpenAI",
-      "sourceType": "official",
-      "category": "LLMs & Chatbots",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "factualScore": 90,
-      "qualityScore": 85,
-      "gradient": [
-        "#7C3AED",
-        "#22D3EE"
-      ],
-      "icon": "brain"
-    },
-    {
-      "id": "s546887771",
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "blurb": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "sourceName": "Hugging Face",
-      "sourceType": "opensource",
-      "category": "AI News",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "factualScore": 82,
-      "qualityScore": 66,
-      "gradient": [
-        "#14B8A6",
-        "#22D3EE"
-      ],
-      "icon": "globe"
-    },
-    {
-      "id": "s1992622659",
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "blurb": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "sourceName": "Hugging Face",
-      "sourceType": "opensource",
-      "category": "AI News",
-      "publishedAt": "2026-08-17T19:46:21.000Z",
       "factualScore": 82,
       "qualityScore": 66,
       "gradient": [
