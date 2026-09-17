@@ -2,9 +2,18 @@
   "_note": "This is YOUR personal take, not automated data — nothing here is fetched or fabricated. Edit each market's `overview`, `headwinds`, and `tailwinds` directly to add your own analysis. Leave a bullet/overview empty (\"\") to have the page show a 'not filled in yet' placeholder instead.",
   "markets": {
     "denver": {
-      "overview": "Denver has been showing supply pains inflicted through overdevelopment, necessity for office space, and social stresses on the city. Denver shows early recovery as the market recovers from the hangover supply.",
-      "headwinds": [],
-      "tailwinds": []
+      "overview": "Denver's market is exhibiting stability and improving fundamentals across all sectors. The re-balancing from the oversupply perspective is a common theme. Submarkets outside Downtown Denver are leading the recovery — Cherry Creek Class A office and prime buildings lead new lease volumes, reflecting overcome return-to-office uncertainty. Industrial demand is blooming as a broadening set of tenants show interest, with 3PLs, aerospace, and advanced manufacturing emerging. The cyclical trough of multifamily has finally passed, with occupancy rising and little pipeline to slow the recovery.",
+      "headwinds": [
+        "Office: New development staying dormant — just 1% of new inventory over the past 2 years",
+        "Office: Class B and C owners unwilling to invest in CIPs or offer competitive TI allowances will continue to face occupancy pressure",
+        "Industrial: Landlords prioritizing retention over new tenant pursuits, holding the market under equilibrium"
+      ],
+      "tailwinds": [
+        "Office: Tenants have overcome return-to-office uncertainty, promoting longer-term commitments",
+        "Office: Quality-concentrated demand on Class A",
+        "Industrial: Investors entering new supply-constrained submarkets, investing on upside market improvement",
+        "Multifamily: Widening performance gap between newer and dated properties — quality and location carry high value for disposition strategy"
+      ]
     },
     "chicago": {
       "overview": "",
