@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2026-09-16T20:18:45.642Z",
+  "generatedAt": "2026-09-17T16:41:49.532Z",
   "news": [
+    {
+      "market": "chicago",
+      "assetClass": "general",
+      "title": "Google Shares Renderings for Reimagined Thompson Center in Chicago",
+      "blurb": "CHICAGO — Google has shared new design renderings for the Thompson Center’s atrium in Chicago. The company announced plans to buy the James R. Thompson Center building in 2022. Google has also teamed up with After School Matters to commission a student-designed art piece for the retail concourse. Artist Sanford…",
+      "url": "https://rebusinessonline.com/google-shares-renderings-for-reimagined-thompson-center-in-chicago/",
+      "sourceName": "REBusinessOnline",
+      "publishedAt": "2026-09-17T14:43:52.000Z"
+    },
+    {
+      "market": "miami",
+      "assetClass": "general",
+      "title": "Walmart to Anchor 40-Acre Retail Development in St. Cloud, Florida",
+      "blurb": "ST. CLOUD, FLA. — Walmart plans to anchor a new 40-acre retail development underway in St. Cloud, an Orlando suburb in Osceola County. Situated at the intersection of U.S. Highway 192 and Puffin Road, the property will include a 187,000-square-foot Walmart Supercenter, a Walmart convenience store and gas station and…",
+      "url": "https://rebusinessonline.com/walmart-to-anchor-40-acre-retail-development-in-st-cloud-florida/",
+      "sourceName": "REBusinessOnline",
+      "publishedAt": "2026-09-17T13:31:38.000Z"
+    },
+    {
+      "market": "denver",
+      "assetClass": "general",
+      "title": "BWEIS Arranges Sale of 137-Unit Seniors Housing Community in Lakewood, Colorado",
+      "blurb": "LAKEWOOD, COLO. — BWE Investment Sales (BWEIS) has arranged the sale of Lakewood Reserve Senior Living, a 137-unit assisted living and memory care community located in Lakewood, approximately eight miles southwest of downtown Denver. BWEIS represented the seller, a private equity seniors housing investor, in the…",
+      "url": "https://rebusinessonline.com/bweis-arranges-sale-of-137-unit-seniors-housing-community-in-lakewood-colorado/",
+      "sourceName": "REBusinessOnline",
+      "publishedAt": "2026-09-17T13:10:34.000Z"
+    },
+    {
+      "market": "chicago",
+      "assetClass": "industrial",
+      "title": "Dermody Breaks Ground on 357,619 SF Logistics Center in Berkeley, Illinois",
+      "blurb": "BERKELEY, ILL. — Dermody has broken ground on the LogistiCenter at Berkeley, a 357,619-square-foot facility at 5300 St. Charles Road in Berkeley, a western suburb of Chicago. The project is a redevelopment of an older, functionally obsolete industrial building. The property will feature a clear height of 40 feet, 57…",
+      "url": "https://rebusinessonline.com/dermody-breaks-ground-on-357619-sf-logistics-center-in-berkeley-illinois/",
+      "sourceName": "REBusinessOnline",
+      "publishedAt": "2026-09-17T12:59:26.000Z"
+    },
+    {
+      "market": "chicago",
+      "assetClass": "multifamily",
+      "title": "Interra Realty Brokers $19.2M Sale of Chicago Apartment Building",
+      "blurb": "CHICAGO — Interra Realty has brokered the $19.2 million sale of Paper Box Lofts, a 35-unit apartment building in Chicago’s River North neighborhood. Joe Smazal and Mark Dykstra of Interra represented the buyer, an affiliate of Los Angeles-based Blatteis &#38; Schnur Inc. The duo also represented the seller, an…",
+      "url": "https://rebusinessonline.com/interra-realty-brokers-19-2m-sale-of-chicago-apartment-building/",
+      "sourceName": "REBusinessOnline",
+      "publishedAt": "2026-09-17T12:58:24.000Z"
+    },
     {
       "market": "miami",
       "assetClass": "retail",
