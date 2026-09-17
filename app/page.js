@@ -7,7 +7,7 @@ import { MailIcon, LinkedInIcon, InstagramIcon, XIcon } from "./components/Profi
 
 export default function HomePage() {
   return (
-    <div className="relative min-h-screen bg-gray-950 text-white">
+    <div className="relative min-h-screen bg-white text-gray-900">
       <PhotoBackdrop />
 
       {/* Hero text, floating directly over the background photo */}
@@ -34,13 +34,14 @@ export default function HomePage() {
         </p>
       </div>
 
-      <div className="relative bg-gray-950 px-6 pb-14 max-w-2xl mx-auto">
+      <div className="relative bg-white px-6 pb-14 max-w-2xl mx-auto">
         {/* Education */}
         <section className="mt-12 space-y-3">
           <EducationRow
             href="https://www.colorado.edu/business/"
             iconBg="#000000"
-            iconColor="#CFB87C"
+            logoSrc="/logos/cu-boulder-logo.svg"
+            logoShape="wide"
             title="University of Colorado Boulder — Leeds School of Business"
             subtitle="Class of 2026 · Finance & Real Estate"
             bio="Studying finance and real estate at CU Boulder's Leeds School of Business."
@@ -48,7 +49,7 @@ export default function HomePage() {
           <EducationRow
             href="https://www.kentdenver.org/"
             iconBg="#F3F4F6"
-            iconColor="#374151"
+            logoSrc="/logos/kent-denver-logo.jpeg"
             title="Kent Denver School"
             subtitle="Class of 2022"
             bio="Graduated from Kent Denver School in Denver, Colorado."
@@ -88,7 +89,8 @@ export default function HomePage() {
             </Link>
 
             <div className="rounded-xl p-5 bg-gray-900 text-white shadow-md sm:col-span-2">
-              <span className="text-2xl grayscale">🐋</span>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logos/riskwhale-icon.jpg" alt="RiskWhale" className="w-8 h-8 rounded-full" />
               <h2 className="mt-2 font-bold">RiskWhale</h2>
               <p className="mt-1 text-sm text-gray-300 leading-relaxed">
                 Comprehensive risk analytics for financial markets — pattern matching across
@@ -119,13 +121,13 @@ export default function HomePage() {
           <div className="mt-4 flex flex-wrap justify-center gap-6">
             <Link
               href="/work"
-              className="px-2 py-2 text-sm font-semibold text-white hover:text-gray-300 underline underline-offset-4 transition-colors"
+              className="px-2 py-2 text-sm font-semibold text-gray-900 hover:text-gray-600 underline underline-offset-4 transition-colors"
             >
               All Work
             </Link>
             <Link
               href="/about-me"
-              className="px-2 py-2 text-sm font-semibold text-white hover:text-gray-300 underline underline-offset-4 transition-colors"
+              className="px-2 py-2 text-sm font-semibold text-gray-900 hover:text-gray-600 underline underline-offset-4 transition-colors"
             >
               About Me
             </Link>
@@ -134,7 +136,7 @@ export default function HomePage() {
 
         {/* Contact */}
         <section className="mt-16 text-center">
-          <p className="text-gray-400 mb-4">Let&apos;s connect</p>
+          <p className="text-gray-500 mb-4">Let&apos;s connect</p>
           <div className="flex flex-wrap justify-center gap-3">
             <SocialLink href="mailto:dukerenobenson@gmail.com" icon={<MailIcon className="w-4 h-4" />} label="Email" />
             <SocialLink href="https://www.linkedin.com/in/dukebenson/" icon={<LinkedInIcon className="w-4 h-4 rounded" />} label="LinkedIn" />

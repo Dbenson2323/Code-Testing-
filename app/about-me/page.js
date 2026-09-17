@@ -4,7 +4,7 @@ import PhotoBackdrop from "../components/PhotoBackdrop";
 
 export default function AboutMe() {
   return (
-    <div className="relative min-h-screen bg-gray-950 text-white">
+    <div className="relative min-h-screen bg-white text-gray-900">
       <PhotoBackdrop />
 
       <div className="relative px-6 pt-20 pb-14 max-w-2xl mx-auto text-center">
