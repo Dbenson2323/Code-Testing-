@@ -1,6 +1,60 @@
 {
-  "generatedAt": "2026-09-18T16:58:04.346Z",
+  "generatedAt": "2026-09-18T17:55:33.340Z",
   "stories": [
+    {
+      "id": "s1226198988",
+      "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
+      "blurb": "Google is refocusing its CC AI agent on household coordination, letting families share emails, schedules, and tasks so the AI can manage calendars, fill out forms, make shopping lists, plan meals, and more.",
+      "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-18T17:33:50.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe",
+      "image": null
+    },
+    {
+      "id": "s470312572",
+      "title": "Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but…how?",
+      "blurb": "A week after an Anthropic researcher’s doomsday warning rattled the AI world, the company’s CEO Dario Amodei has outlined his plan to “pace the frontier” of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countries, and it’s already picked up some industry support, along with some pointed…",
+      "url": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI Safety & Policy",
+      "publishedAt": "2026-09-18T17:09:56.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#EF4444",
+        "#7C3AED"
+      ],
+      "icon": "shield",
+      "image": null
+    },
+    {
+      "id": "s729558733",
+      "title": "Automattic’s 33-Hour Coup, and can AI labs police themselves?",
+      "blurb": "A week after an Anthropic researcher’s doomsday warning rattled the AI world, the company’s CEO Dario Amodei has outlined his plan to “pace the frontier” of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countries, and it’s already picked up some industry support, along with some pointed…",
+      "url": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI Safety & Policy",
+      "publishedAt": "2026-09-18T17:06:32.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#EF4444",
+        "#7C3AED"
+      ],
+      "icon": "shield",
+      "image": null
+    },
     {
       "id": "s1389322915",
       "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
@@ -16,7 +70,8 @@
         "#0EA5E9",
         "#A855F7"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": null
     },
     {
       "id": "s1161243908",
@@ -33,7 +88,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1872849029",
@@ -50,7 +106,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s825214248",
@@ -67,7 +124,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1879142556",
@@ -84,7 +142,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "s338276084",
@@ -101,7 +160,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1303798883",
@@ -118,7 +178,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1190712640",
@@ -135,7 +196,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/11225092?v=4"
     },
     {
       "id": "s2111532781",
@@ -152,7 +214,8 @@
         "#0EA5E9",
         "#A855F7"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": null
     },
     {
       "id": "s1065935497",
@@ -169,7 +232,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "s1169688997",
@@ -186,7 +250,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s134804577",
@@ -203,7 +268,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s81627582",
@@ -220,7 +286,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1673882503",
@@ -237,7 +304,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s1195624306",
@@ -254,7 +322,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s62785020",
@@ -271,7 +340,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1166577857",
@@ -288,7 +358,8 @@
         "#6366F1",
         "#14B8A6"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "s1716647931",
@@ -305,7 +376,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "robot"
+      "icon": "robot",
+      "image": null
     },
     {
       "id": "s1716648892",
@@ -322,7 +394,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s1716649853",
@@ -339,7 +412,8 @@
         "#F97316",
         "#EAB308"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1716670995",
@@ -356,7 +430,8 @@
         "#0EA5E9",
         "#A855F7"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1716671956",
@@ -373,7 +448,8 @@
         "#0EA5E9",
         "#A855F7"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1716672917",
@@ -390,7 +466,8 @@
         "#22C55E",
         "#0EA5E9"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "s1716673878",
@@ -407,7 +484,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1716674839",
@@ -424,7 +502,8 @@
         "#22C55E",
         "#0EA5E9"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1716675800",
@@ -441,7 +520,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1716677722",
@@ -458,7 +538,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": null
     },
     {
       "id": "s1716701747",
@@ -475,7 +556,8 @@
         "#22C55E",
         "#0EA5E9"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1716702708",
@@ -492,7 +574,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s1716705591",
@@ -509,7 +592,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "s1716709435",
@@ -526,7 +610,8 @@
         "#22C55E",
         "#0EA5E9"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1717360993",
@@ -543,7 +628,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1717363876",
@@ -560,7 +646,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1717390784",
@@ -577,7 +664,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1717415770",
@@ -594,7 +682,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": null
     },
     {
       "id": "s1717418653",
@@ -611,7 +700,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1717445561",
@@ -628,7 +718,8 @@
         "#EC4899",
         "#6366F1"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1717446522",
@@ -645,7 +736,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": null
     },
     {
       "id": "s1717449405",
@@ -662,7 +754,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1717453249",
@@ -679,7 +772,8 @@
         "#F97316",
         "#EAB308"
       ],
-      "icon": "robot"
+      "icon": "robot",
+      "image": null
     },
     {
       "id": "s1717476313",
@@ -696,7 +790,8 @@
         "#0EA5E9",
         "#A855F7"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": null
     },
     {
       "id": "s1717478235",
@@ -713,7 +808,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1717480157",
@@ -730,7 +826,8 @@
         "#22C55E",
         "#0EA5E9"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": null
     },
     {
       "id": "s1717482079",
@@ -747,7 +844,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": null
     },
     {
       "id": "s1717483040",
@@ -764,7 +862,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1717507065",
@@ -781,7 +880,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1717509948",
@@ -798,7 +898,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s522116382",
@@ -815,7 +916,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1717539739",
@@ -832,7 +934,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1717541661",
@@ -849,7 +952,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": null
     },
     {
       "id": "s1717542622",
@@ -866,7 +970,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1717571452",
@@ -883,7 +988,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "code"
+      "icon": "code",
+      "image": null
     },
     {
       "id": "s1304973857",
@@ -900,7 +1006,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s1543969771",
@@ -934,7 +1041,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1699907390",
@@ -951,7 +1059,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/144578633?v=4"
     },
     {
       "id": "s225722170",
@@ -968,7 +1077,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/144578633?v=4"
     },
     {
       "id": "s1298299810",
@@ -985,7 +1095,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/144578633?v=4"
     },
     {
       "id": "s788320179",
@@ -1070,7 +1181,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/gfn-thursday-9-17-blog-1920x1080-logo.jpg"
     },
     {
       "id": "s304495127",
@@ -1087,7 +1199,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": null
     },
     {
       "id": "s324981156",
@@ -1155,7 +1268,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s428172654",
@@ -1801,7 +1915,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s1920770491",
@@ -1886,7 +2001,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s386267533",
@@ -1903,7 +2019,8 @@
         "#0EA5E9",
         "#A855F7"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/mlperf-inference-6-1.png"
     },
     {
       "id": "s1391113855",
@@ -2005,7 +2122,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/aema-main-feature.png"
     },
     {
       "id": "s181996513",
@@ -2022,7 +2140,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s2146889454",
@@ -2056,7 +2175,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": null
     },
     {
       "id": "s332109051",
@@ -2073,7 +2193,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s622414504",
@@ -2107,7 +2228,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/35335120?v=4"
     },
     {
       "id": "s1199879024",
@@ -2124,7 +2246,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "s227194995",
@@ -2141,7 +2264,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/Is-AI-Poll-01_1920x1080.jpg"
     },
     {
       "id": "s1367938614",
@@ -2175,7 +2299,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/DF26-SF-260915-EL2_6006-1-scaled.jpg"
     },
     {
       "id": "s2079422607",
@@ -2226,7 +2351,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": "https://avatars.githubusercontent.com/u/155917271?v=4"
     },
     {
       "id": "s610588555",
@@ -2294,7 +2420,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1452230544",
@@ -2328,7 +2455,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1028052483",
@@ -2362,7 +2490,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/3026/09/end-to-end-tech-blog-dsx-ee-kv-1920x1080-5601273.jpg"
     },
     {
       "id": "s2010283301",
@@ -2379,7 +2508,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/IanBuck-5-scaled.jpg"
     },
     {
       "id": "s734644409",
@@ -2396,7 +2526,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/196611548?v=4"
     },
     {
       "id": "s1252941325",
@@ -2413,7 +2544,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s886011142",
@@ -2549,7 +2681,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/h_16492684.jpg?w=840"
     },
     {
       "id": "s1732984680",
@@ -2566,7 +2699,8 @@
         "#22C55E",
         "#0EA5E9"
       ],
-      "icon": "code"
+      "icon": "code",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/CHOP_still.png"
     },
     {
       "id": "s585418353",
@@ -2634,7 +2768,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s980689421",
@@ -2702,7 +2837,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s1450635513",
@@ -2719,7 +2855,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/Local-AI_Perplexity-on-Windows_Blog_Feature.jpg"
     },
     {
       "id": "s803288875",
@@ -2821,7 +2958,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/8206008?v=4"
     },
     {
       "id": "s1173156346",
@@ -2838,7 +2976,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1276826893",
@@ -2855,7 +2994,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s696823082",
@@ -2940,7 +3080,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/232799763?v=4"
     },
     {
       "id": "seed4",
@@ -2974,7 +3115,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "seed5",
@@ -3025,7 +3167,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": null
     },
     {
       "id": "s361063579",
@@ -3042,7 +3185,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/202760404?v=4"
     },
     {
       "id": "seed7",
@@ -3076,7 +3220,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": "https://avatars.githubusercontent.com/u/140722?v=4"
     },
     {
       "id": "s1079296525",
@@ -3093,7 +3238,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/267252910?v=4"
     },
     {
       "id": "s872491863",
@@ -3110,7 +3256,8 @@
         "#F97316",
         "#EAB308"
       ],
-      "icon": "robot"
+      "icon": "robot",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/skildai-kv-1920x1080-1.jpg"
     },
     {
       "id": "s2059925932",
@@ -3127,7 +3274,8 @@
         "#F97316",
         "#EAB308"
       ],
-      "icon": "robot"
+      "icon": "robot",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/auto-robotaxi-hero-kv-blog-r7-1920x1080-1.jpg"
     },
     {
       "id": "s1445453728",
@@ -3144,7 +3292,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "seed8",
@@ -3178,7 +3327,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s51577621",
@@ -3195,7 +3345,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/gpu-architecture-corp-blog-dmatrix-nvlink-fusion-1280x680-5692448-r1.png"
     },
     {
       "id": "s735084852",
@@ -3212,7 +3363,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/GFN_Thursday_September_10.jpg"
     },
     {
       "id": "seed9",
@@ -3246,7 +3398,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/ON-contributed-image.jpg?w=840"
     },
     {
       "id": "s1947422137",
@@ -3263,7 +3416,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/153301727?v=4"
     },
     {
       "id": "s713631141",
@@ -3280,7 +3434,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "s1251040543",
@@ -3297,7 +3452,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1954553704",
@@ -3314,7 +3470,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s376617216",
@@ -3331,7 +3488,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1196635859",
@@ -3348,7 +3506,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1884480042",
@@ -3365,7 +3524,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "seed10",
@@ -3399,7 +3559,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s1691726798",
@@ -3416,7 +3577,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/me-ai-for-media-kv-1920x1080-5262591.jpeg"
     },
     {
       "id": "s1438937726",
@@ -3433,7 +3595,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s2008526710",
@@ -3450,7 +3613,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/96066725?v=4"
     },
     {
       "id": "s1599195193",
@@ -3467,7 +3631,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1297025233",
@@ -3484,7 +3649,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s268781729",
@@ -3501,7 +3667,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/194432821?v=4"
     },
     {
       "id": "s1928689103",
@@ -3518,7 +3685,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "s478922439",
@@ -3535,7 +3703,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s1727918741",
@@ -3552,7 +3721,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": "https://lh3.googleusercontent.com/vOjFcTcdX2GCEB9yk-tJ7GAfyhTAMo-zW7scq3TrT9qk1mYw5qE0BdUqI8XQclMuUchZr7pYUFdVt3ZzrXc1NGFFJOqi7kIUX_QuAXZR7lkVzxjk=w528-h297-n-nu-rw-lo"
     },
     {
       "id": "s1731059056",
@@ -3569,7 +3739,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s850873049",
@@ -3586,7 +3757,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/2934394?v=4"
     },
     {
       "id": "s2020389007",
@@ -3603,7 +3775,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": "https://avatars.githubusercontent.com/u/217365421?v=4"
     },
     {
       "id": "s1280093176",
@@ -3620,7 +3793,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s1055816195",
@@ -3637,7 +3811,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1549024537",
@@ -3654,7 +3829,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1016092484",
@@ -3671,7 +3847,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s2112363984",
@@ -3705,7 +3882,8 @@
         "#0EA5E9",
         "#A855F7"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": null
     },
     {
       "id": "s1070319020",
@@ -3722,7 +3900,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s273396677",
@@ -3739,7 +3918,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/8206008?v=4"
     },
     {
       "id": "s2115414241",
@@ -3756,7 +3936,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s597447144",
@@ -3773,7 +3954,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": "https://avatars.githubusercontent.com/u/272419121?v=4"
     },
     {
       "id": "s1083156793",
@@ -3790,7 +3972,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://avatars.githubusercontent.com/u/227670313?v=4"
     },
     {
       "id": "s585204160",
@@ -3807,7 +3990,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s1819845010",
@@ -3824,7 +4008,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "s342154022",
@@ -3858,7 +4043,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/07/iStock-2239372581.jpg?w=840"
     },
     {
       "id": "s1792973584",
@@ -3960,7 +4146,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/nv-blog-1280x680-1.jpg"
     },
     {
       "id": "s279826976",
@@ -3977,7 +4164,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://lh3.googleusercontent.com/I3SASQw4etgOOVbcWS0lr7J14HFqWcee_ln6M0TBOWlvVg2XYCi3kpz4eAi81cAkyq47YvgU1FLzAlaiCNMLcsx9sFA3ufURiSg76Yz8hVm1-u_fYEY=w528-h297-n-nu-rw-lo"
     },
     {
       "id": "s846295734",
@@ -3994,7 +4182,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": null
     },
     {
       "id": "s964945522",
@@ -4011,7 +4200,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1232925754",
@@ -4028,7 +4218,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/gfn-thursday-9-3-blog-1920x1080-logo.jpg"
     },
     {
       "id": "s1176521304",
@@ -4045,7 +4236,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s700504930",
@@ -4062,7 +4254,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s134848533",
@@ -4079,7 +4272,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2.png"
     },
     {
       "id": "s1810324288",
@@ -4096,7 +4290,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s432745625",
@@ -4164,7 +4359,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s1895766186",
@@ -4181,7 +4377,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": null
     },
     {
       "id": "s1413226408",
@@ -4198,7 +4395,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s941559981",
@@ -4215,7 +4413,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s45059313",
@@ -4266,7 +4465,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1968609994",
@@ -4283,7 +4483,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1111995674",
@@ -4351,7 +4552,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "eye"
+      "icon": "eye",
+      "image": null
     },
     {
       "id": "s813677458",
@@ -4385,7 +4587,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "s1385760126",
@@ -4402,7 +4605,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/crowdstrike-nvidia-stage-scaled.jpg"
     },
     {
       "id": "s1286721275",
@@ -4419,7 +4623,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s727808101",
@@ -4436,7 +4641,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1354874767",
@@ -4453,7 +4659,8 @@
         "#22C55E",
         "#0EA5E9"
       ],
-      "icon": "code"
+      "icon": "code",
+      "image": null
     },
     {
       "id": "s2076033096",
@@ -4470,7 +4677,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "s1939092086",
@@ -4487,7 +4695,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s119264682",
@@ -4504,7 +4713,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": null
     },
     {
       "id": "s1978888395",
@@ -4538,7 +4748,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s975047760",
@@ -4555,7 +4766,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s938682734",
@@ -4572,7 +4784,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": null
     },
     {
       "id": "s1763791398",
@@ -4589,7 +4802,8 @@
         "#0EA5E9",
         "#A855F7"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": null
     },
     {
       "id": "s82776726",
@@ -4606,7 +4820,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s210048558",
@@ -4623,7 +4838,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1384918756",
@@ -4640,7 +4856,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s586323524",
@@ -4691,7 +4908,8 @@
         "#0EA5E9",
         "#A855F7"
       ],
-      "icon": "rocket"
+      "icon": "rocket",
+      "image": "https://lh3.googleusercontent.com/fHN8sOK3p7BTKR4s-3lpYYnq5IEadmVKnqssJO4OmfL6remdC7E8voV-IEue8NPviKWUR7WtCtNTfsKZpld6y2jjwVhNAiqYL9-9EQzj5OURGXCCuug=w528-h297-n-nu-rw-lo"
     },
     {
       "id": "s827914844",
@@ -4708,7 +4926,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s178701760",
@@ -4725,7 +4944,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1627073973",
@@ -4759,7 +4979,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s236478684",
@@ -4776,7 +4997,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1314332793",
@@ -4793,7 +5015,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s73469697",
@@ -4810,7 +5033,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s106321147",
@@ -4827,7 +5051,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s62097216",
@@ -4844,7 +5069,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1158125671",
@@ -4878,7 +5104,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s990783322",
@@ -4895,7 +5122,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s117312523",
@@ -4912,7 +5140,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": null
     },
     {
       "id": "s1006550746",
@@ -4929,7 +5158,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "chip"
+      "icon": "chip",
+      "image": null
     },
     {
       "id": "s1301406993",
@@ -4946,7 +5176,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1222804986",
@@ -4963,7 +5194,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1658709422",
@@ -4980,7 +5212,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s524305372",
@@ -5014,7 +5247,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s715315204",
@@ -5031,7 +5265,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": "https://lh3.googleusercontent.com/ymmK0Dgovn-_MGlnQJffYxKdTe5LAnkAZr-GNnIjiFzsGOAAmOmUDuVACbNgIy-tqrJhGBdaQ_PaElc8EKRKRWtYg4eWx8HVcaVzdYy7hg7Q_8k=w528-h297-n-nu-rw-lo"
     },
     {
       "id": "s1175645618",
@@ -5048,7 +5283,8 @@
         "#6366F1",
         "#14B8A6"
       ],
-      "icon": "document"
+      "icon": "document",
+      "image": null
     },
     {
       "id": "s496559391",
@@ -5065,7 +5301,8 @@
         "#6366F1",
         "#14B8A6"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s1262927738",
@@ -5082,7 +5319,8 @@
         "#14B8A6",
         "#22D3EE"
       ],
-      "icon": "globe"
+      "icon": "globe",
+      "image": null
     },
     {
       "id": "s1428143866",
@@ -5099,7 +5337,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     },
     {
       "id": "s610316040",
@@ -5116,7 +5355,8 @@
         "#7C3AED",
         "#22D3EE"
       ],
-      "icon": "brain"
+      "icon": "brain",
+      "image": null
     },
     {
       "id": "s322541578",
@@ -5133,7 +5373,8 @@
         "#EF4444",
         "#7C3AED"
       ],
-      "icon": "shield"
+      "icon": "shield",
+      "image": null
     }
   ]
 }
