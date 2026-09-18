@@ -1,4 +1,4 @@
-# Code-Testing-
+# DRBenson.LLC
 
 Duke Benson's site — a personal home/portfolio, a daily-updated **AI Research Feed**, and a
 **Real Estate** market page.
@@ -118,7 +118,7 @@ the site.
    `node` and `npm` commands used below.
 2. **Get the code onto your computer** (one-time): if you don't already have a local copy,
    install [GitHub Desktop](https://desktop.github.com) and use it to clone
-   `Dbenson2323/Code-Testing-`, or run `git clone https://github.com/Dbenson2323/Code-Testing-.git`
+   `Dbenson2323/DRBENSON.LLC-`, or run `git clone https://github.com/Dbenson2323/DRBENSON.LLC-.git`
    in a terminal.
 3. **Open a terminal in that folder** and install dependencies (one-time per copy, or after code
    changes to `package.json`):

@@ -39,7 +39,7 @@ async function fetchWithTimeout(url, options = {}) {
       ...options,
       signal: controller.signal,
       headers: {
-        "User-Agent": "ai-research-feed-bot/1.0 (+https://github.com/Dbenson2323/Code-Testing-)",
+        "User-Agent": "ai-research-feed-bot/1.0 (+https://github.com/Dbenson2323/DRBENSON.LLC-)",
         ...options.headers,
       },
     });
@@ -386,6 +386,53 @@ const RSS_SOURCES = [
 // main
 // ---------------------------------------------------------------------------
 
+// Some sources (TechCrunch and others) don't expose an image in their RSS
+// item at all — the only way to get their real thumbnail is the article
+// page's own og:image tag. Only worth doing for freshly-fetched stories
+// that don't already have one, and only from sources likely to set it
+// (skips community/aggregator links, which are often not articles at all).
+const OG_IMAGE_ELIGIBLE_TYPES = new Set(["journalism", "official", "opensource"]);
+const OG_IMAGE_TIMEOUT_MS = 6000;
+const OG_IMAGE_BATCH_SIZE = 10;
+
+async function fetchOgImage(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), OG_IMAGE_TIMEOUT_MS);
+  try {
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: { "User-Agent": "ai-research-feed-bot/1.0 (+https://github.com/Dbenson2323/DRBENSON.LLC-)" },
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    const match =
+      html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i) ??
+      html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
+    return match?.[1] ?? null;
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function enrichWithOgImages(stories) {
+  const candidates = stories.filter((s) => !s.image && OG_IMAGE_ELIGIBLE_TYPES.has(s.sourceType));
+  let enriched = 0;
+  for (let i = 0; i < candidates.length; i += OG_IMAGE_BATCH_SIZE) {
+    const batch = candidates.slice(i, i + OG_IMAGE_BATCH_SIZE);
+    const images = await Promise.all(batch.map((s) => fetchOgImage(s.url)));
+    batch.forEach((story, j) => {
+      if (images[j]) {
+        story.image = images[j];
+        enriched++;
+      }
+    });
+  }
+  console.log(`[og:image] enriched ${enriched}/${candidates.length} candidate stories`);
+  return stories;
+}
+
 async function safe(label, fn) {
   try {
     const result = await fn();
@@ -409,6 +456,7 @@ async function main() {
   ];
 
   const results = (await Promise.all(jobs)).flat();
+  await enrichWithOgImages(results);
 
   let previous = [];
   try {

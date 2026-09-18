@@ -45,7 +45,7 @@ async function fetchWithTimeout(url, options = {}) {
       ...options,
       signal: controller.signal,
       headers: {
-        "User-Agent": "real-estate-feed-bot/1.0 (+https://github.com/Dbenson2323/Code-Testing-)",
+        "User-Agent": "real-estate-feed-bot/1.0 (+https://github.com/Dbenson2323/DRBENSON.LLC-)",
         ...options.headers,
       },
     });
