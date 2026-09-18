@@ -145,7 +145,7 @@ export default function AiResearchClient({ stories, generatedAt, capabilities })
             Hand-picked, genuinely new things AI agents can do right now — what it is, how it
             works, the real trade-offs, and where to try it yourself.
           </p>
-          <div className="grid sm:grid-cols-2 gap-5">
+          <div className="grid sm:grid-cols-2 gap-5 items-start">
             {capabilities.map((cap) => (
               <CapabilityCard key={cap.id} capability={cap} />
             ))}
