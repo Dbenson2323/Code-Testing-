@@ -59,7 +59,12 @@
       "tryIt": [
         { "label": "Anthropic: Dynamic Workflows", "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code" },
         { "label": "OpenAI Swarm (GitHub)", "url": "https://github.com/openai/swarm" }
-      ]
+      ],
+      "liveDemo": {
+        "provider": "Kimi",
+        "url": "https://excdvtcdshcu4.ok.kimi.link/?id=2077780187474403328&share_id=19f6b93e-16c2-8346-8000-0000ab11dd88",
+        "label": "Live swarm run replay"
+      }
     },
     {
       "id": "prebuilt-business-agents",

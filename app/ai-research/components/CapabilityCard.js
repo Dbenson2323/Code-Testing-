@@ -1,4 +1,5 @@
 import TechIcon from "./TechIcons";
+import LiveDemo from "./LiveDemo";
 
 export default function CapabilityCard({ capability }) {
   return (
@@ -32,6 +33,8 @@ export default function CapabilityCard({ capability }) {
           <p className="text-sm text-gray-700 leading-relaxed">{capability.howItWorks}</p>
         </div>
       </div>
+
+      <LiveDemo demo={capability.liveDemo} />
 
       <div className="grid sm:grid-cols-2 gap-4 mb-5">
         <div>
