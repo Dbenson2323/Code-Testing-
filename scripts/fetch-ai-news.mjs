@@ -54,6 +54,11 @@ function stripHtml(input = "") {
   return input
     .replace(/<[^>]*>/g, " ")
     .replace(/&nbsp;/g, " ")
+    .replace(/&#x?[0-9a-fA-F]+;/g, (entity) => {
+      const isHex = entity[2] === "x" || entity[2] === "X";
+      const code = parseInt(entity.slice(isHex ? 3 : 2, -1), isHex ? 16 : 10);
+      return Number.isFinite(code) ? String.fromCodePoint(code) : entity;
+    })
     .replace(/&amp;/g, "&")
     .replace(/&#39;|&apos;/g, "'")
     .replace(/&quot;/g, '"')
@@ -372,8 +377,17 @@ async function main() {
     // no existing file yet — first run
   }
 
+  // Re-clean previously-stored titles/blurbs too, so a stripHtml fix (e.g. new
+  // entity handling) heals old entries immediately instead of waiting for
+  // their source to be refetched.
+  const healedPrevious = previous.map((story) => ({
+    ...story,
+    title: stripHtml(story.title),
+    blurb: stripHtml(story.blurb),
+  }));
+
   const byUrl = new Map();
-  for (const story of [...previous, ...results]) {
+  for (const story of [...healedPrevious, ...results]) {
     byUrl.set(story.url, story);
   }
 

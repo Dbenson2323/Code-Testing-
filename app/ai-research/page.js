@@ -1,5 +1,6 @@
 import AiResearchClient from "./AiResearchClient";
 import storiesData from "../../data/ai-stories.json";
+import capabilitiesData from "../../data/ai-capabilities.json";
 
 export const metadata = {
   title: "AI Research Feed",
@@ -11,5 +12,11 @@ export default function AiResearchPage() {
     (a, b) => new Date(b.publishedAt) - new Date(a.publishedAt)
   );
 
-  return <AiResearchClient stories={stories} generatedAt={storiesData.generatedAt} />;
+  return (
+    <AiResearchClient
+      stories={stories}
+      generatedAt={storiesData.generatedAt}
+      capabilities={capabilitiesData.capabilities}
+    />
+  );
 }

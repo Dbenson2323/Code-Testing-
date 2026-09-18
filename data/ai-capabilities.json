@@ -1,0 +1,122 @@
+{
+  "_note": "Curated, hand-written (not auto-fetched) summaries of genuinely new AI agent capabilities, verified against real sources before writing — see each entry's tryIt links for the primary source.",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "capabilities": [
+    {
+      "id": "computer-use",
+      "title": "Computer & Browser Use Agents",
+      "tagline": "AI that operates a computer for you, not just gives advice",
+      "icon": "eye",
+      "whatItIs": "Instead of only answering questions or drafting text, these agents directly control a computer or browser — looking at the screen, moving a cursor, clicking buttons, and typing — to complete multi-step tasks on their own. OpenAI's GPT-6 Astra (released September 2026) is built specifically around this, and Anthropic's Claude has a dedicated \"computer use\" tool with the same idea.",
+      "howItWorks": "The model is given a screenshot of the current screen and a toolset (click, type, scroll, screenshot, etc.). It decides which action to take, the environment executes it and returns a new screenshot, and the loop repeats until the task is done or it needs your input — no custom API integration with the target app required.",
+      "pros": [
+        "Automates real GUI work — filling out forms, running frontend QA checks, data entry — in apps that have no API",
+        "Handles multi-step tasks (research, then draft, then submit) without you scripting each step"
+      ],
+      "cons": [
+        "Anthropic explicitly warns against using it for tasks needing perfect precision or sensitive data without human review",
+        "Mis-clicks and misreads of the screen still happen — it needs to be watched, not left fully unattended"
+      ],
+      "tryIt": [
+        { "label": "Claude computer use docs", "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool" },
+        { "label": "OpenAI GPT-6 Astra", "url": "https://openai.com/index/gpt-6-astra/" }
+      ]
+    },
+    {
+      "id": "persistent-memory",
+      "title": "Persistent Memory Across Sessions",
+      "tagline": "Assistants that remember you instead of starting from zero every time",
+      "icon": "brain",
+      "whatItIs": "AI assistants now carry facts, preferences, and context forward between separate conversations, instead of forgetting everything the moment a chat ends. Anthropic rolled persistent memory out to all Claude users (including free) in March 2026; ChatGPT has had memory since 2024 and added a background-curation feature called \"Dreaming\" in June 2026.",
+      "howItWorks": "Claude periodically extracts structured \"memory objects\" — stated preferences, important context, notable decisions — from a conversation and stores them, transparently and editably, for future sessions to reference. ChatGPT instead synthesizes memory automatically in the background without you saving anything.",
+      "pros": [
+        "No more re-explaining your role, preferences, or an ongoing project every single conversation",
+        "Claude's version is fully visible and editable — you can see and delete exactly what it stored"
+      ],
+      "cons": [
+        "Raises real data-retention and privacy questions — what's remembered, for how long, and who can see it",
+        "ChatGPT's automatic background synthesis is less visible and harder to audit than Claude's explicit memory objects"
+      ],
+      "tryIt": [
+        { "label": "Claude memory tool docs", "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool" }
+      ]
+    },
+    {
+      "id": "multi-agent-swarms",
+      "title": "Multi-Agent Orchestration (\"Swarms\")",
+      "tagline": "Many specialized agents working in parallel instead of one model doing it all",
+      "icon": "robot",
+      "whatItIs": "Rather than one model handling a task start to finish, a swarm splits the work across multiple agent instances that run in parallel or hand off to each other. OpenAI open-sourced an early, lightweight version of this called Swarm in 2024 (since archived in favor of the fuller OpenAI Agents SDK); Anthropic's Claude Code now ships \"Dynamic Workflows,\" where Claude writes its own orchestration script and spawns dozens to hundreds of parallel subagents in a single session.",
+      "howItWorks": "In Claude Code, Claude decomposes a goal, writes a small script that fans work out to independent subagents (each with its own context and tool permissions), runs a verification pass on their output, and reconciles the results — with progress surviving a restart. OpenAI's Swarm used a simpler model of stateless agents passing an explicit \"handoff\" to one another.",
+      "pros": [
+        "Parallelizes large or multi-part jobs — e.g. checking many files or running many tests at once — instead of doing them one at a time",
+        "Specialized subagents can be more reliable at a narrow task than one generalist model juggling everything"
+      ],
+      "cons": [
+        "More moving parts means more places for something to go wrong, and more to review",
+        "Cost scales with the number of agents spawned — a large swarm is not free just because each call is small"
+      ],
+      "tryIt": [
+        { "label": "Anthropic: Dynamic Workflows", "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code" },
+        { "label": "OpenAI Swarm (GitHub)", "url": "https://github.com/openai/swarm" }
+      ]
+    },
+    {
+      "id": "prebuilt-business-agents",
+      "title": "Ready-Made Business Agents",
+      "tagline": "Off-the-shelf agents instead of building your own from scratch",
+      "icon": "chip",
+      "whatItIs": "Companies are increasingly deploying pre-built, purpose-specific agents rather than custom-building one in-house. Salesforce's Agentforce is the clearest example — it ships named, ready-to-configure agents for specific jobs (sales, service, IT/HR, supply chain) that plug directly into a company's existing data.",
+      "howItWorks": "Agentforce provides templates — Service Agent, Employee Agent, Campaign Agent, Sales Development Rep, Sales Coach, Guided Shopping, Setup Agent — plus an \"AgentExchange\" marketplace with 100+ prebuilt actions and templates from partners like AWS, Box, Cisco, Google Cloud, and Stripe, so a company configures rather than builds an agent.",
+      "pros": [
+        "Far faster time-to-deploy than building and testing a custom agent from scratch",
+        "Comes pre-integrated with the company's existing CRM/business data"
+      ],
+      "cons": [
+        "Less flexible than a purpose-built custom agent — you work within the vendor's templates",
+        "Locks you into that vendor's platform and pricing model"
+      ],
+      "tryIt": [
+        { "label": "Salesforce Agentforce", "url": "https://www.salesforce.com/agentforce/" }
+      ]
+    },
+    {
+      "id": "safety-controls",
+      "title": "Stronger Safety Controls",
+      "tagline": "Real-time filters trained to catch jailbreaks before they work",
+      "icon": "shield",
+      "whatItIs": "As agents get more capable and more autonomous, labs are shipping dedicated safety layers around the model itself. Anthropic's \"Constitutional Classifiers\" are one concrete example — input/output filters trained specifically to catch and block jailbreak attempts in real time.",
+      "howItWorks": "The classifiers are trained against a written set of principles (a \"constitution\") to recognize and block harmful requests and outputs, screening both what goes into the model and what comes out — without a human having to hand-write a rule for every possible attack.",
+      "pros": [
+        "Measurably cuts down successful jailbreaks against frontier models compared to having no classifier layer",
+        "Doesn't require retraining the underlying model itself to add or update protections"
+      ],
+      "cons": [
+        "Not a solved problem: published research on \"refuse-then-comply\" attacks reports real success rates against current defenses (72% against Claude Haiku, 57% against GPT-4o, in controlled testing)",
+        "Adds an extra filtering step that can occasionally flag legitimate requests"
+      ],
+      "tryIt": [
+        { "label": "Anthropic: Constitutional Classifiers", "url": "https://www.anthropic.com/research/constitutional-classifiers" }
+      ]
+    },
+    {
+      "id": "model-wave-sept-2026",
+      "title": "The September 2026 Model Wave",
+      "tagline": "Three major labs shipped new flagship models in the same week",
+      "icon": "rocket",
+      "whatItIs": "Anthropic, OpenAI, and Google all released new flagship models within days of each other in early September 2026: Anthropic's Claude Fable 5.1 and Mythos 5.1 (September 1), Google's Gemini 3.8 Flash (September 2), and OpenAI's GPT-6 Astra (September 3) — OpenAI's most capable model yet, built around computer and browser use.",
+      "howItWorks": "Each lab ships on its own release cycle, but competitive pressure compresses the gaps between major releases — when one lab ships a step-change model, others tend to follow within the same window rather than waiting for a scheduled release date.",
+      "pros": [
+        "Rapid, broad improvement — whichever model you use, it's likely to keep getting meaningfully better on a short cycle",
+        "Competition between labs pushes price and performance in your favor as a user"
+      ],
+      "cons": [
+        "A fast-moving target if you're building on these models — one release in this wave shipped with breaking API changes",
+        "Hard to keep a stable, tested integration when the underlying model changes every few weeks"
+      ],
+      "tryIt": [
+        { "label": "OpenAI GPT-6 Astra", "url": "https://openai.com/index/gpt-6-astra/" }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,19 @@ const SOURCE_TYPE_LABEL = {
   community: "Community Discussion",
 };
 
+// A subtle tint per category for the icon tile — keeps the list scannable
+// without the heavy dark "hero image" every card used to carry.
+const CATEGORY_TINT = {
+  "AI News": "#EFF3FF",
+  "AI Safety & Policy": "#FFF1EE",
+  "Computer Vision": "#F1EEFF",
+  "Industry & Business": "#EEFBF3",
+  "LLMs & Chatbots": "#FFF8E5",
+  "Open Source & Tools": "#EAFBFA",
+  "Research Papers": "#F3F1EC",
+  Robotics: "#FDEFF6",
+};
+
 function timeAgo(iso) {
   const then = new Date(iso).getTime();
   if (!Number.isFinite(then)) return "";
@@ -22,55 +35,62 @@ function timeAgo(iso) {
   return `${days}d ago`;
 }
 
-export default function StoryCard({ story }) {
+export default function StoryCard({ story, featured = false }) {
+  const tint = CATEGORY_TINT[story.category] ?? "#F3F4F6";
+
   return (
-    <article className="rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-sm overflow-hidden hover:border-white/30 transition-colors">
-      <a href={story.url} target="_blank" rel="noopener noreferrer" className="block">
+    <article className="border-b border-gray-200 last:border-b-0">
+      <a
+        href={story.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`flex gap-4 py-5 group ${featured ? "sm:gap-6" : ""}`}
+      >
         <div
-          className="relative h-40 w-full flex items-center justify-center overflow-hidden"
-          style={{ background: "linear-gradient(135deg, #26282c, #0c0d0f)" }}
+          className={`shrink-0 rounded-lg flex items-center justify-center ${
+            featured ? "w-24 h-24 sm:w-28 sm:h-28" : "w-16 h-16"
+          }`}
+          style={{ backgroundColor: tint }}
         >
-          <div
-            className="absolute inset-0 opacity-25"
-            style={{
-              backgroundImage:
-                "linear-gradient(rgba(255,255,255,.4) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.4) 1px, transparent 1px)",
-              backgroundSize: "22px 22px",
-            }}
+          <TechIcon
+            name={story.icon}
+            className={`text-gray-700 ${featured ? "w-12 h-12 sm:w-14 sm:h-14" : "w-8 h-8"}`}
           />
-          <TechIcon name={story.icon} className="relative w-16 h-16 text-white/85 drop-shadow-md" />
-          <span className="absolute bottom-3 right-3 text-[11px] font-mono tracking-widest text-white/90 uppercase bg-black/30 px-3 py-1 rounded-full">
-            {story.category}
-          </span>
         </div>
 
-        <div className="p-4">
-          <div className="flex items-center gap-2 text-xs text-gray-400 mb-2">
-            <span className="font-semibold text-white">{story.sourceName}</span>
+        <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-gray-500 mb-1.5">
+            <span className="font-semibold text-gray-900">{story.sourceName}</span>
             <span>·</span>
             <span>{SOURCE_TYPE_LABEL[story.sourceType] ?? "Source"}</span>
             <span>·</span>
             <span>{timeAgo(story.publishedAt)}</span>
+            <span className="uppercase tracking-wide text-[10px] font-semibold text-gray-400 ml-1">
+              {story.category}
+            </span>
           </div>
 
-          <h2 className="text-lg font-serif font-bold text-white leading-snug mb-2">
+          <h2
+            className={`font-serif font-bold text-gray-900 leading-snug group-hover:underline decoration-1 underline-offset-2 ${
+              featured ? "text-2xl sm:text-3xl mb-2" : "text-lg mb-1"
+            }`}
+          >
             {story.title}
           </h2>
-          <p className="text-sm text-gray-300 leading-relaxed line-clamp-6">
+          <p
+            className={`text-gray-600 leading-relaxed ${
+              featured ? "text-base line-clamp-3" : "text-sm line-clamp-2"
+            }`}
+          >
             {story.blurb}
           </p>
+
+          <div className="flex flex-wrap gap-4 mt-3 max-w-sm">
+            <ScoreMeter label="Factual" value={story.factualScore} />
+            <ScoreMeter label="Quality" value={story.qualityScore} />
+          </div>
         </div>
       </a>
-
-      <div className="px-4 pb-4 pt-1 flex flex-wrap gap-4 border-t border-white/5 mt-1">
-        <ScoreMeter
-          label="Factual Accuracy"
-          value={story.factualScore}
-          fromLabel="Opinion"
-          toLabel="100% Factual"
-        />
-        <ScoreMeter label="Writing Quality" value={story.qualityScore} />
-      </div>
     </article>
   );
 }
