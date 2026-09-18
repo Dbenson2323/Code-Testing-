@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-09-18T17:55:33.340Z",
+  "generatedAt": "2026-09-18T18:00:42.630Z",
   "stories": [
+    {
+      "id": "s603960487",
+      "title": "Disney’s first CTO led an AI startup it once accused of copying its characters",
+      "blurb": "The former CEO of Character.AI, which Disney previously sent a cease-and-desist letter to, will serve as the company's first-ever chief technology officer.",
+      "url": "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/",
+      "sourceName": "TechCrunch AI",
+      "sourceType": "journalism",
+      "category": "AI News",
+      "publishedAt": "2026-09-18T17:59:53.000Z",
+      "factualScore": 78,
+      "qualityScore": 80,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/10/GettyImages-1387623215.jpg?resize=1200,900"
+    },
     {
       "id": "s1226198988",
       "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
@@ -17,7 +35,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/CC_hero.width-2200.format-webp.webp?resize=1200,675"
     },
     {
       "id": "s470312572",
@@ -35,7 +53,7 @@
         "#7C3AED"
       ],
       "icon": "shield",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294935494.jpg?resize=1200,800"
     },
     {
       "id": "s729558733",
@@ -53,7 +71,7 @@
         "#7C3AED"
       ],
       "icon": "shield",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800"
     },
     {
       "id": "s1389322915",
@@ -71,7 +89,7 @@
         "#A855F7"
       ],
       "icon": "rocket",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2278374931.jpg?w=1024"
     },
     {
       "id": "s1161243908",
@@ -89,7 +107,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/TCD26_Sykes-Khalil-16x9-Dark.png?resize=1200,675"
     },
     {
       "id": "s1872849029",
@@ -107,7 +125,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/download-1.webp?resize=1200,1159"
     },
     {
       "id": "s825214248",
@@ -125,7 +143,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/TCD26_Abhishek-Fatehpuria_1-Speaker-16x9-Dark.png?resize=1200,675"
     },
     {
       "id": "s1879142556",
@@ -143,7 +161,7 @@
         "#22D3EE"
       ],
       "icon": "document",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-1979406539.jpg?resize=1200,675"
     },
     {
       "id": "s338276084",
@@ -161,7 +179,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/29395589440_9fda12ac24_k.jpg?resize=1200,800"
     },
     {
       "id": "s1303798883",
@@ -179,7 +197,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/260917_RoundTable2.jpg?resize=1200,600"
     },
     {
       "id": "s1190712640",
@@ -215,7 +233,7 @@
         "#A855F7"
       ],
       "icon": "rocket",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/crusoe-ceo-getty.jpg?resize=1200,800"
     },
     {
       "id": "s1065935497",
@@ -233,7 +251,7 @@
         "#22D3EE"
       ],
       "icon": "document",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1481927442.jpg?resize=1200,800"
     },
     {
       "id": "s1169688997",
@@ -251,7 +269,7 @@
         "#22D3EE"
       ],
       "icon": "brain",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/LLMs-on-smartphones.png?resize=1200,600"
     },
     {
       "id": "s134804577",
@@ -269,7 +287,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2025/04/NYC_Archer_United_3.png?resize=1200,802"
     },
     {
       "id": "s81627582",
@@ -287,7 +305,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/ai-bots-agents-GettyImages-2230799616.jpg?resize=1200,800"
     },
     {
       "id": "s1673882503",
@@ -305,7 +323,7 @@
         "#22D3EE"
       ],
       "icon": "shield",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1014496212.jpg?resize=1200,600"
     },
     {
       "id": "s1195624306",
@@ -323,7 +341,7 @@
         "#7C3AED"
       ],
       "icon": "shield",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024"
     },
     {
       "id": "s62785020",
@@ -341,7 +359,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2196352264.jpg?w=1024"
     },
     {
       "id": "s1166577857",
@@ -359,7 +377,7 @@
         "#14B8A6"
       ],
       "icon": "document",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2023/11/GettyImages-1778706504.jpg?resize=1200,783"
     },
     {
       "id": "s1716647931",
@@ -917,7 +935,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/JONATHAN-BRADY.jpg?w=1024"
     },
     {
       "id": "s1717539739",
@@ -2176,7 +2194,7 @@
         "#22D3EE"
       ],
       "icon": "chip",
-      "image": null
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/Mike-Finelli-business-lab.png?resize=1200,600"
     },
     {
       "id": "s332109051",
@@ -2421,7 +2439,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/September.26_Roundtables-Assets-2.png?resize=1200,600"
     },
     {
       "id": "s1452230544",
@@ -2456,7 +2474,7 @@
         "#22D3EE"
       ],
       "icon": "brain",
-      "image": null
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-8_live___keyword__blog-social.width-1300.png"
     },
     {
       "id": "s1028052483",
@@ -2545,7 +2563,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/dI5J2sSc3TSprk9VB4EVJ.jpeg"
     },
     {
       "id": "s886011142",
@@ -2769,7 +2787,7 @@
         "#22D3EE"
       ],
       "icon": "brain",
-      "image": null
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/260911_AIAlgo.jpg?resize=1200,600"
     },
     {
       "id": "s980689421",
@@ -2838,7 +2856,7 @@
         "#7C3AED"
       ],
       "icon": "shield",
-      "image": null
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/260911_AIangentscheating.jpg?resize=1200,600"
     },
     {
       "id": "s1450635513",
@@ -3507,7 +3525,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://huggingface.co/blog/assets/asyncgrpo-lora-hfjobs/thumbnail.png"
     },
     {
       "id": "s1884480042",
@@ -3525,7 +3543,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://huggingface.co/blog/assets/gradio-workflow1111/thumbnail.png"
     },
     {
       "id": "seed10",
@@ -3650,7 +3668,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/math-2c.jpg?resize=1200,600"
     },
     {
       "id": "s268781729",
@@ -3704,7 +3722,7 @@
         "#7C3AED"
       ],
       "icon": "shield",
-      "image": null
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/HuauFbdznYW4fNQh8j4Tp.png"
     },
     {
       "id": "s1727918741",
@@ -3812,7 +3830,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/Danijar-0G6A8052-2.jpg?resize=1200,600"
     },
     {
       "id": "s1549024537",
@@ -4201,7 +4219,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6264f9655f6f2e14d6ac981c/GJ6FUbgFpq1x8RNOqzmz-.webp"
     },
     {
       "id": "s1232925754",
@@ -4378,7 +4396,7 @@
         "#22D3EE"
       ],
       "icon": "chip",
-      "image": null
+      "image": "https://huggingface.co/blog/assets/grpo-with-trl-ifstruct/thumbnail.png"
     },
     {
       "id": "s1413226408",
@@ -4396,7 +4414,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://huggingface.co/blog/assets/funes/thumbnail.jpg"
     },
     {
       "id": "s941559981",
@@ -4414,7 +4432,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://huggingface.co/blog/assets/train-to-paint-with-code/thumbnail.png"
     },
     {
       "id": "s45059313",
@@ -4466,7 +4484,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__blog__header__1.width-1300.png"
     },
     {
       "id": "s1968609994",
@@ -4484,7 +4502,7 @@
         "#22D3EE"
       ],
       "icon": "brain",
-      "image": null
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png"
     },
     {
       "id": "s1111995674",
@@ -4588,7 +4606,7 @@
         "#22D3EE"
       ],
       "icon": "document",
-      "image": null
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/c_Rnu4DRj6Djxk1IT0gKu.png"
     },
     {
       "id": "s1385760126",
@@ -4609,6 +4627,24 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/crowdstrike-nvidia-stage-scaled.jpg"
     },
     {
+      "id": "s79039139",
+      "title": "Responsible AI in 2026: How we are adapting for what’s ahead",
+      "blurb": "Microsoft's 2026 Responsible AI Transparency Report highlights the progress we’ve made in building and deploying AI responsibly, supporting our customers, and strengthening our responsible AI governance, tools, and practices. The post Responsible AI in 2026: How we are adapting for what’s ahead appeared first on The Microsoft Cloud Blog .",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/01/responsible-ai-in-2026-how-we-are-adapting-for-whats-ahead/",
+      "sourceName": "Microsoft AI Blog",
+      "sourceType": "official",
+      "category": "AI Safety & Policy",
+      "publishedAt": "2026-09-01T17:11:44.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#EF4444",
+        "#7C3AED"
+      ],
+      "icon": "shield",
+      "image": "https://blogs.microsoft.com/wp-content/uploads/sites/5/2026/08/MOI-blog-banner-1024x576.png"
+    },
+    {
       "id": "s1286721275",
       "title": "Introducing agentic video understanding with Gemini",
       "blurb": "Introducing agentic video understanding with Gemini",
@@ -4624,7 +4660,7 @@
         "#22D3EE"
       ],
       "icon": "brain",
-      "image": null
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video___keyword__blog-header.width-1300.png"
     },
     {
       "id": "s727808101",
@@ -4714,7 +4750,7 @@
         "#22D3EE"
       ],
       "icon": "chip",
-      "image": null
+      "image": "https://huggingface.co/blog/assets/webgpu-kernels/thumbnail.png"
     },
     {
       "id": "s1978888395",
@@ -4839,7 +4875,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://huggingface.co/blog/assets/open-asr-leaderboard-global-south/thumbnail.png"
     },
     {
       "id": "s1384918756",
@@ -4857,7 +4893,7 @@
         "#22D3EE"
       ],
       "icon": "brain",
-      "image": null
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Omni_1-1_Flash_hero.width-1300.png"
     },
     {
       "id": "s586323524",
@@ -4980,7 +5016,25 @@
         "#22D3EE"
       ],
       "icon": "brain",
-      "image": null
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-5_transcribe.width-1300.jpg"
+    },
+    {
+      "id": "s683531672",
+      "title": "Accelerating Frontier Transformation: Reinvent customer engagement",
+      "blurb": "Discover how organizations use AI to personalize engagement, strengthen relationships, and deliver more responsive experiences at scale. The post Accelerating Frontier Transformation: Reinvent customer engagement appeared first on The Microsoft Cloud Blog .",
+      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/08/26/accelerating-frontier-transformation-reinvent-customer-engagement/",
+      "sourceName": "Microsoft AI Blog",
+      "sourceType": "official",
+      "category": "AI News",
+      "publishedAt": "2026-08-26T15:00:00.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe",
+      "image": "https://www.microsoft.com/en-us/microsoft-cloud/blog/wp-content/uploads/2026/08/Accelerating-Frontier-customer-engagement-3.jpg"
     },
     {
       "id": "s236478684",
@@ -5070,7 +5124,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
     },
     {
       "id": "s1158125671",
@@ -5105,7 +5159,25 @@
         "#22D3EE"
       ],
       "icon": "brain",
-      "image": null
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/65cc2c288ebd392213e58899/XHWV2L_wZsFe3ekksCgvQ.webp"
+    },
+    {
+      "id": "s261560587",
+      "title": "Accelerating AI adoption with intelligent discovery in Microsoft Marketplace",
+      "blurb": "Discover how Microsoft Marketplace intelligent discovery helps organizations find, compare, and adopt AI solutions faster and with confidence. The post Accelerating AI adoption with intelligent discovery in Microsoft Marketplace appeared first on The Microsoft Cloud Blog .",
+      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/08/25/accelerating-ai-adoption-with-intelligent-discovery-in-microsoft-marketplace/",
+      "sourceName": "Microsoft AI Blog",
+      "sourceType": "official",
+      "category": "AI News",
+      "publishedAt": "2026-08-25T15:00:00.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#14B8A6",
+        "#22D3EE"
+      ],
+      "icon": "globe",
+      "image": "https://www.microsoft.com/en-us/microsoft-cloud/blog/wp-content/uploads/2026/08/Marketplace-AI-confidence_3-e1787259091537.jpg"
     },
     {
       "id": "s990783322",
@@ -5123,7 +5195,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/2DSE26PMq2hJqKqEDOLIn.png"
     },
     {
       "id": "s117312523",
@@ -5213,7 +5285,25 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://huggingface.co/blog/assets/gradio-workflow-guide/thumbnail.png"
+    },
+    {
+      "id": "s847196540",
+      "title": "5 signals of trusted AI: How organizations scale AI with security, governance, and observability",
+      "blurb": "Learn the five signals of trusted AI, from AI governance and security to observability and sovereignty, and discover how organizations scale AI with confidence. The post 5 signals of trusted AI: How organizations scale AI with security, governance, and observability appeared first on The Microsoft Cloud Blog .",
+      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/08/24/5-signals-of-trusted-ai-how-organizations-scale-ai-with-security-governance-and-observability/",
+      "sourceName": "Microsoft AI Blog",
+      "sourceType": "official",
+      "category": "AI Safety & Policy",
+      "publishedAt": "2026-08-24T16:00:00.000Z",
+      "factualScore": 90,
+      "qualityScore": 85,
+      "gradient": [
+        "#EF4444",
+        "#7C3AED"
+      ],
+      "icon": "shield",
+      "image": "https://www.microsoft.com/en-us/microsoft-cloud/blog/wp-content/themes/innovation/assets/images/patterns/bg-actionbar-light.png"
     },
     {
       "id": "s524305372",
@@ -5284,7 +5374,7 @@
         "#14B8A6"
       ],
       "icon": "document",
-      "image": null
+      "image": "https://huggingface.co/blog/assets/pwc-search/thumbnail.png"
     },
     {
       "id": "s496559391",
@@ -5302,7 +5392,7 @@
         "#14B8A6"
       ],
       "icon": "brain",
-      "image": null
+      "image": "https://huggingface.co/blog/assets/asr-benchmark-optimization/thumbnail.png"
     },
     {
       "id": "s1262927738",
@@ -5320,7 +5410,7 @@
         "#22D3EE"
       ],
       "icon": "globe",
-      "image": null
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/ZMoThfdqzAz8cbxweVQfO.gif"
     },
     {
       "id": "s1428143866",
