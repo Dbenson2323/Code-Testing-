@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-09-18T10:57:23.392Z",
+  "generatedAt": "2026-09-18T16:12:50.960Z",
   "news": [
+    {
+      "market": "denver",
+      "assetClass": "multifamily",
+      "title": "Thompson Thrift Opens 276-Unit Apartment Property in Colorado Springs",
+      "blurb": "COLORADO SPRINGS, COLO. —&#160;Thompson Thrift has opened Switch, a multifamily community in Colorado Springs. Thompson Thrift 2023 Multifamily Development L.P. provided equity for the development. Situated on 11 acres at the intersection of Voyager Parkway and North Gate Boulevard, Switch features 276 one-, two- and…",
+      "url": "https://rebusinessonline.com/thompson-thrift-opens-276-unit-apartment-property-in-colorado-springs/",
+      "sourceName": "REBusinessOnline",
+      "publishedAt": "2026-09-18T13:16:26.000Z"
+    },
+    {
+      "market": "chicago",
+      "assetClass": "industrial",
+      "title": "BWE Arranges $48M Refinancing for 978,000 SF Industrial Property in DeKalb, Illinois",
+      "blurb": "DEKALB, ILL. — BWE has arranged $48 million to refinance a 978,000-square-foot logistics facility occupied by 3M in DeKalb. Mike Guterman of BWE arranged the fixed-rate loan, which features a 55 percent loan-to-value ratio. Griffin Capital, a southern California-based real estate investment and management company,…",
+      "url": "https://rebusinessonline.com/bwe-arranges-48m-refinancing-for-978000-sf-industrial-property-in-dekalb-illinois/",
+      "sourceName": "REBusinessOnline",
+      "publishedAt": "2026-09-18T13:06:37.000Z"
+    },
+    {
+      "market": "chicago",
+      "assetClass": "industrial",
+      "title": "Cawley CRE Negotiates 577,422 SF Industrial Lease in Crest Hill, Illinois",
+      "blurb": "CREST HILL, ILL. — Cawley Commercial Real Estate has negotiated a lease for a newly constructed industrial facility totaling 577,422 square feet in Crest Hill on behalf of MWI Property Group. The tenant is a global logistics company. Situated on 37 acres within Crest Hill Business Park, the cross-docked warehouse…",
+      "url": "https://rebusinessonline.com/cawley-cre-negotiates-577422-sf-industrial-lease-in-crest-hill-illinois/",
+      "sourceName": "REBusinessOnline",
+      "publishedAt": "2026-09-18T13:06:02.000Z"
+    },
+    {
+      "market": "chicago",
+      "assetClass": "general",
+      "title": "Inland Acquires 859-Unit Self-Storage Facility in Joliet, Illinois",
+      "blurb": "JOLIET, ILL. — Inland Real Estate Acquisitions LLC has purchased an 859-unit self-storage facility in Joliet, about 40 miles southwest of Chicago. Mark Cosenza and Brett Smith completed the transaction on behalf of an Inland affiliate. Previously an ExtraSpace Self Storage property, the facility will be rebranded and…",
+      "url": "https://rebusinessonline.com/inland-acquires-859-unit-self-storage-facility-in-joliet-illinois/",
+      "sourceName": "REBusinessOnline",
+      "publishedAt": "2026-09-18T13:03:00.000Z"
+    },
     {
       "market": "chicago",
       "assetClass": "general",
