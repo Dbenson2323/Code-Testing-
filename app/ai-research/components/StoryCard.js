@@ -47,7 +47,7 @@ export default function StoryCard({ story, featured = false }) {
         className={`flex gap-4 py-5 group ${featured ? "sm:gap-6" : ""}`}
       >
         <div
-          className={`shrink-0 rounded-lg flex items-center justify-center ${
+          className={`relative shrink-0 rounded-lg flex items-center justify-center overflow-hidden ${
             featured ? "w-24 h-24 sm:w-28 sm:h-28" : "w-16 h-16"
           }`}
           style={{ backgroundColor: tint }}
@@ -56,6 +56,18 @@ export default function StoryCard({ story, featured = false }) {
             name={story.icon}
             className={`text-gray-700 ${featured ? "w-12 h-12 sm:w-14 sm:h-14" : "w-8 h-8"}`}
           />
+          {story.image && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={story.image}
+              alt=""
+              className="absolute inset-0 w-full h-full object-cover"
+              loading="lazy"
+              onError={(e) => {
+                e.currentTarget.style.display = "none";
+              }}
+            />
+          )}
         </div>
 
         <div className="min-w-0 flex-1">

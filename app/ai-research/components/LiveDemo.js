@@ -2,12 +2,12 @@
 
 import { useState } from "react";
 
-// Click-to-load embed for a third-party agent replay/demo. Loaded on click
-// rather than automatically, since it's an external page outside our
-// control — some sites refuse to be framed at all, so this also always
-// shows a direct link as a fallback rather than only a (possibly blank) frame.
+// Embed for a third-party agent replay/demo. Defaults open when
+// `demo.defaultExpanded` is set (it's already confirmed working), otherwise
+// loads on click. Either way it's outside our control, so a direct link is
+// always shown too in case a given viewer's browser won't let it be framed.
 export default function LiveDemo({ demo }) {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(Boolean(demo?.defaultExpanded));
 
   if (!demo) return null;
 
@@ -42,6 +42,11 @@ export default function LiveDemo({ demo }) {
             sandbox="allow-scripts allow-same-origin allow-popups"
             loading="lazy"
           />
+          {demo.caption && (
+            <p className="px-4 py-2.5 text-xs text-gray-600 bg-white border-t border-gray-100">
+              {demo.caption}
+            </p>
+          )}
           <div className="px-4 py-2 text-xs text-gray-500 bg-white border-t border-gray-100">
             Not loading? {" "}
             <a

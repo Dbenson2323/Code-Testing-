@@ -1,5 +1,6 @@
 import TechIcon from "./TechIcons";
 import LiveDemo from "./LiveDemo";
+import ShowcaseImage from "./ShowcaseImage";
 
 export default function CapabilityCard({ capability }) {
   return (
@@ -35,6 +36,7 @@ export default function CapabilityCard({ capability }) {
       </div>
 
       <LiveDemo demo={capability.liveDemo} />
+      <ShowcaseImage showcase={capability.showcase} />
 
       <div className="grid sm:grid-cols-2 gap-4 mb-5">
         <div>

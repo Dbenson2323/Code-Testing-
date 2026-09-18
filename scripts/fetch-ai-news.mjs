@@ -184,7 +184,7 @@ function detectIcon(title, summary, category) {
   return CATEGORY_ICON_FALLBACK[category] ?? "globe";
 }
 
-function buildStory({ title, url, summary, sourceName, sourceType, publishedAt }) {
+function buildStory({ title, url, summary, sourceName, sourceType, publishedAt, image }) {
   const category = detectCategory(title, summary);
   const { factualScore, qualityScore } = scoreStory({ title, summary, sourceType });
   return {
@@ -200,7 +200,35 @@ function buildStory({ title, url, summary, sourceName, sourceType, publishedAt }
     qualityScore,
     gradient: CATEGORY_GRADIENTS[category] ?? CATEGORY_GRADIENTS["AI News"],
     icon: detectIcon(title, summary, category),
+    // The article's own thumbnail, when the source provides one directly
+    // (RSS enclosure/media tags, a Reddit preview, a repo's avatar) — never
+    // fetched by scraping the article page itself. Falls back to the icon
+    // tile above when a source has no image field at all (Hacker News, arXiv).
+    image: image || null,
   };
+}
+
+// Pull an image straight from fields the source already provides — no
+// per-article page fetch, so this stays fast and never fetches HTML we'd
+// then have to parse for an og:image tag.
+function extractRssImage(item) {
+  const enclosure = item.enclosure;
+  if (enclosure?.["@_url"] && /^image\//.test(enclosure["@_type"] ?? "")) {
+    return enclosure["@_url"];
+  }
+  const media = item["media:content"];
+  const mediaList = Array.isArray(media) ? media : media ? [media] : [];
+  for (const m of mediaList) {
+    const type = m["@_type"] ?? "";
+    const medium = m["@_medium"] ?? "";
+    if (m["@_url"] && (type.startsWith("image/") || medium === "image")) return m["@_url"];
+  }
+  const thumb = item["media:thumbnail"];
+  if (thumb?.["@_url"]) return thumb["@_url"];
+  // Last resort: the first <img src="..."> inside the HTML body/description.
+  const html = item["content:encoded"] ?? item.description ?? "";
+  const match = typeof html === "string" ? html.match(/<img[^>]+src="([^"]+)"/i) : null;
+  return match?.[1] ?? null;
 }
 
 // ---------------------------------------------------------------------------
@@ -253,16 +281,26 @@ async function fetchReddit(subreddit) {
   return (json.data?.children ?? [])
     .map((c) => c.data)
     .filter((post) => post && !post.stickied && post.title)
-    .map((post) =>
-      buildStory({
+    .map((post) => {
+      // Reddit's own preview image, when it has one — `thumbnail` is often
+      // "self"/"default"/"nsfw" instead of a real URL, so only use it (or
+      // the higher-res preview) when it's actually an http(s) link.
+      const previewUrl = post.preview?.images?.[0]?.source?.url;
+      const image = previewUrl
+        ? previewUrl.replace(/&amp;/g, "&")
+        : post.thumbnail?.startsWith("http")
+        ? post.thumbnail
+        : null;
+      return buildStory({
         title: post.title,
         url: post.url?.startsWith("http") ? post.url : `https://www.reddit.com${post.permalink}`,
         summary: post.selftext || `Discussed on r/${subreddit} with ${post.score ?? 0} upvotes.`,
         sourceName: `Reddit r/${subreddit}`,
         sourceType: "community",
         publishedAt: new Date((post.created_utc ?? Date.now() / 1000) * 1000).toISOString(),
-      })
-    );
+        image,
+      });
+    });
 }
 
 async function fetchRss({ url, sourceName, sourceType }) {
@@ -282,6 +320,7 @@ async function fetchRss({ url, sourceName, sourceType }) {
         sourceName,
         sourceType,
         publishedAt: item.pubDate ?? new Date().toISOString(),
+        image: extractRssImage(item),
       })
     );
   }
@@ -298,6 +337,7 @@ async function fetchRss({ url, sourceName, sourceType }) {
         sourceName,
         sourceType,
         publishedAt: entry.updated ?? entry.published ?? new Date().toISOString(),
+        image: extractRssImage(entry),
       })
     );
   }
@@ -318,6 +358,7 @@ async function fetchGithubTrendingAI() {
       sourceName: "GitHub Trending",
       sourceType: "opensource",
       publishedAt: repo.created_at,
+      image: repo.owner?.avatar_url ?? null,
     })
   );
 }

@@ -20,7 +20,14 @@
       "tryIt": [
         { "label": "Claude computer use docs", "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool" },
         { "label": "OpenAI GPT-6 Astra", "url": "https://openai.com/index/gpt-6-astra/" }
-      ]
+      ],
+      "showcase": {
+        "src": "/ai-capabilities/gpt6-astra-excel-demo.webp",
+        "alt": "GPT-6 Astra operating Excel during a Financial Modeling World Cup challenge",
+        "caption": "From OpenAI's own GPT-6 Astra page: Astra completing a Financial Modeling World Cup Excel challenge about four times as fast as the winning human competitor — shown here as a real-time capture of it operating the spreadsheet directly.",
+        "sourceLabel": "OpenAI",
+        "sourceUrl": "https://openai.com/index/gpt-6-astra/"
+      }
     },
     {
       "id": "persistent-memory",
@@ -63,7 +70,9 @@
       "liveDemo": {
         "provider": "Kimi",
         "url": "https://excdvtcdshcu4.ok.kimi.link/?id=2077780187474403328&share_id=19f6b93e-16c2-8346-8000-0000ab11dd88",
-        "label": "Live swarm run replay"
+        "label": "Live swarm run replay",
+        "defaultExpanded": true,
+        "caption": "A real agent-built output, live and interactive (drag the camera, switch views, replay the run) — a black-hole raytracing simulation generated end-to-end by Kimi's agent from a single prompt, with no manual coding of the physics or camera work."
       }
     },
     {
