@@ -152,10 +152,12 @@ push. One-time setup in the GitHub UI (can't be done from a script):
 1. Repo → **Settings** → **Pages**
 2. Under "Build and deployment", set **Source** to **GitHub Actions**
 
-After that, every push rebuilds and redeploys automatically, and your public link will be:
+After that, every push rebuilds and redeploys automatically. The site is served from a custom
+domain (configured via `public/CNAME`, which GitHub Pages requires in every deploy to keep the
+custom domain active):
 
 ```
-https://dbenson2323.github.io/Code-Testing-/
+https://drbenson.xyz/
 ```
 
 That's the link you can open on your phone or send to anyone.

@@ -1,7 +1,5 @@
 import Image from "next/image";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-
 // A fixed, darker, more vivid background photo. Contrast for the text
 // comes from a dark radial vignette centered where the text sits — not a
 // white wash — so the photo stays vivid and visible toward the edges and
@@ -11,7 +9,7 @@ export default function PhotoBackdrop() {
   return (
     <div className="fixed inset-0 h-screen overflow-hidden bg-black">
       <Image
-        src={`${basePath}/glacier-national-park-river-falls-nature-landscapes-2627b2.jpg`}
+        src="/glacier-national-park-river-falls-nature-landscapes-2627b2.jpg"
         alt="Glacier National Park river falls"
         fill
         priority

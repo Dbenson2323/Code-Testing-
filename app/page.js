@@ -137,7 +137,7 @@ export default function HomePage() {
         <section className="mt-16 text-center">
           <p className="text-white/70 drop-shadow mb-4">Let&apos;s connect</p>
           <div className="flex flex-wrap justify-center gap-3">
-            <SocialLink href="mailto:dukerenobenson@gmail.com" icon={<MailIcon className="w-4 h-4" />} label="Email" />
+            <SocialLink href="mailto:info@drbenson.online" icon={<MailIcon className="w-4 h-4" />} label="Email" />
             <SocialLink href="https://www.linkedin.com/in/dukebenson/" icon={<LinkedInIcon className="w-4 h-4 rounded" />} label="LinkedIn" />
             <SocialLink href="https://www.instagram.com/dukebenson_/" icon={<InstagramIcon className="w-4 h-4" />} label="Instagram" />
             <SocialLink href={null} icon={<XIcon className="w-4 h-4" />} label="Twitter/X" />
